@@ -1,0 +1,14 @@
+﻿@{
+    var value = @TempData["CompanyName"];
+    TempData.Keep("CompanyName");
+}
+
+<h1> This is Test 1 page </h1>
+<h1> My Name is with view Data  @ViewData["Name"]</h1>
+<h1> My Occupation is with View Bag @ViewBag.Occupation</h1>
+<h1>
+    Company Name is =  @value
+</h1>
+<h1>
+    Role is = @TempData["Role"]
+</h1>

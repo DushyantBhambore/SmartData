@@ -1,0 +1,37 @@
+﻿@model List<StudentViewModel>
+
+@if(Model is not null && Model.Any())
+{
+    <table class="table table-hover table-info">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Student Name</th>
+                <th>Student Email</th>
+                <th>Date Of Birth </th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.StudentName</td>
+                    <td>@student.StudentEmail</td>
+                    <td>@student.DateOfBirth</td>
+                    <td>
+                        <form method="post" asp-action="Delete" asp-controller="Student" asp-route-id="@student.StudentId">
+                            <a asp-action="Update" asp-controller="Student" asp-route-id="@student.StudentId" class="btn btn-warning">Update</a>
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are You sure do you want to delete @student.StudentName')">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>No Record Found </h1>
+}

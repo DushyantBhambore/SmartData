@@ -1,0 +1,38 @@
+﻿@model List<StudentViewModel>
+
+@if(Model is not null && Model.Any())
+{
+    <form method="post">
+        <table class="table table-warning">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                 @for(int i=0;i<Model.Count;i++) 
+                {
+                    <tr>
+                        <td>
+                            <input asp-for="@Model[i].StuId" />
+                        </td>
+                        <td>
+                            <input asp-for="@Model[i].FirstName"/>
+                        </td>
+                        <td>
+                            <input asp-for="@Model[i].LastName" />
+                        </td>
+                        <td>
+                            <input asp-for="@Model[i].Email" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        
+        <input type="submit" value="Submit"  class="btn btn-outline-primary">
+    </form>
+}

@@ -1,0 +1,29 @@
+﻿@model CRUDViewModel
+
+
+    <form method="post">
+        <input hidden asp-for="Id"></input>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Name"></label>
+            <input class="form-control" asp-for="Name">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Age"></label>
+            <input class="form-control" asp-for="Age">
+            <span asp-validation-for="Age" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Gender"></label>
+            <input class="form-control" asp-for="Gender">
+            <span asp-validation-for="Gender" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Number"></label>
+            <input class="form-control" asp-for="Number">
+            <span asp-validation-for="Number" class="text-danger"></span>
+        </div>
+        <button class="btn btn-outline-primary" type="submit">Submit</button>
+        <div asp-validation-summary="All"></div>
+
+    </form>

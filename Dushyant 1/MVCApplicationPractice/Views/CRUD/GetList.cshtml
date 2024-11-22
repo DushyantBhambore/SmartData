@@ -1,0 +1,41 @@
+﻿@model List<CRUDViewModel>
+
+<a class=" btn btn-outline-primary" asp-action="Create" asp-controller="CRUD" >Add Member</a>
+@if(Model is not null && Model.Any())
+{
+    <table class="table table-secondary">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Number</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Age</td>
+                    <td>@item.Gender</td>
+                    <td>@item.Number</td>
+                    <td>
+                        <form method="post" asp-action="Delete" asp-controller="CRUD" asp-route-id="@item.Id">
+                            <a class="btn btn-warning" asp-action="Update" asp-controller="CRUD" asp-route-id="@item.Id">Update</a>
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Do you want to delete the @item.Name')"> Delete</button>
+                        </form>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h1> No Record Found </h1>
+}

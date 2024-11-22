@@ -1,0 +1,35 @@
+﻿@model List<StudentViewModel>
+
+@if(Model is not null && Model.Any())
+{
+
+    <table class="table table-success table-hover ">
+        <thead>
+            <tr >
+                <th >StuId</th>
+                <th >FirstName</th>
+                <th >LastName</th>
+                <th >Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr >
+                    <td>@item.StuId</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Email</td>
+                </tr>
+
+            }
+          
+        </tbody>
+    </table>
+    
+
+}
+else
+{
+    <h1> No Record Found </h1>
+}

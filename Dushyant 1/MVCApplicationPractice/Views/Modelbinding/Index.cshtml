@@ -1,0 +1,14 @@
+﻿@model StudentViewModel
+
+@if(Model is not null)
+{
+    <h1>Student Id is  @Model.StuId</h1>
+    <h1>Student FirstName is  @Model.FirstName</h1>
+    <h1>Student lastName is  @Model.LastName</h1>
+    <h1>Student Email is  @Model.Email</h1>
+
+}
+else
+{
+    <h1>No Record Found</h1>
+}

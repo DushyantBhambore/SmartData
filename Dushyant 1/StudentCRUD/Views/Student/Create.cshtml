@@ -1,0 +1,28 @@
+﻿@model StudentViewModel
+
+
+<form method="post">
+    <div class="mb-3">
+        <label  class="form-label" asp-for="StudentName"></label>
+        <input asp-for="StudentName" class="form-control">
+        <span asp-validation-for="StudentName"></span>
+
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="StudentEmail"></label>
+        <input asp-for="StudentEmail" class="form-control">
+        <span asp-validation-for="StudentEmail"></span>
+
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="DateOfBirth"></label>
+        <input asp-for="DateOfBirth"  class="form-control">
+        <span asp-validation-for="DateOfBirth"></span>
+
+    </div>
+
+    <div class="mb-3" asp-validation-summary="All">
+        <button type="submit" class="btn btn-primary">Submit </button>
+    </div>
+    
+</form>
