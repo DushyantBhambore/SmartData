@@ -1,0 +1,184 @@
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\appsettings.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\libman.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.exe
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.deps.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.runtimeconfig.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.pdb
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.csproj.AssemblyReference.cache
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.AssemblyInfoInputs.cache
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.AssemblyInfo.cs
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.csproj.CoreCompileInputs.cache
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.JwtWebApiDotNet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.build.JwtWebApiDotNet.props
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.JwtWebApiDotNet.props
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.JwtWebApiDotNet.props
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\scopedcss\bundle\JwtWebApiDotNet.styles.css
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebAp.0B4B819C.Up2Date
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\refint\JwtWebApiDotNet.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.pdb
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.genruntimeconfig.cache
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\ref\JwtWebApiDotNet.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rinkeshanjikar\source\repos\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\appsettings.Development.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\libman.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\appsettings.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.exe
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.deps.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.runtimeconfig.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.pdb
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.csproj.AssemblyReference.cache
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.GeneratedMSBuildEditorConfig.editorconfig
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.AssemblyInfoInputs.cache
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.AssemblyInfo.cs
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.csproj.CoreCompileInputs.cache
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.MvcApplicationPartsAssemblyInfo.cs
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.MvcApplicationPartsAssemblyInfo.cache
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.build.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.development.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.JwtWebApiDotNet.Microsoft.AspNetCore.StaticWebAssets.props
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.build.JwtWebApiDotNet.props
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.JwtWebApiDotNet.props
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.JwtWebApiDotNet.props
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.pack.json
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\scopedcss\bundle\JwtWebApiDotNet.styles.css
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebAp.0B4B819C.Up2Date
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\refint\JwtWebApiDotNet.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.pdb
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.genruntimeconfig.cache
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\ref\JwtWebApiDotNet.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Enums.NET.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Epoch.net.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\ColorTranslations.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\jose-jwt.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JWT.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\OpenTok.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\StandardSocketsHttpHandler.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\System.IO.Abstractions.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.Wrappers.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Vonage.dll
+E:\DOT NET\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Yoh.Text.Json.NamingPolicies.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\appsettings.Development.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\appsettings.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\libman.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.exe
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.deps.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.runtimeconfig.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JwtWebApiDotNet.pdb
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Enums.NET.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Epoch.net.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\ColorTranslations.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\jose-jwt.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\JWT.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\OpenTok.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\StandardSocketsHttpHandler.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\System.IO.Abstractions.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.Wrappers.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Vonage.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\bin\Debug\net8.0\Yoh.Text.Json.NamingPolicies.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.csproj.AssemblyReference.cache
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.AssemblyInfoInputs.cache
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.AssemblyInfo.cs
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.csproj.CoreCompileInputs.cache
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.MvcApplicationPartsAssemblyInfo.cs
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.MvcApplicationPartsAssemblyInfo.cache
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.build.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.development.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.JwtWebApiDotNet.Microsoft.AspNetCore.StaticWebAssets.props
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.build.JwtWebApiDotNet.props
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.JwtWebApiDotNet.props
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.JwtWebApiDotNet.props
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\staticwebassets.pack.json
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\scopedcss\bundle\JwtWebApiDotNet.styles.css
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebAp.0B4B819C.Up2Date
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\refint\JwtWebApiDotNet.dll
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.pdb
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\JwtWebApiDotNet.genruntimeconfig.cache
+D:\JWT2FA\JwtWebApiDotNet\JwtWebApiDotNet\obj\Debug\net8.0\ref\JwtWebApiDotNet.dll

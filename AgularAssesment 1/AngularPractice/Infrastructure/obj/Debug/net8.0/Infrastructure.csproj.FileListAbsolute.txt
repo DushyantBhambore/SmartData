@@ -1,0 +1,57 @@
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\App.core.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\App.core.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\App.core.dll
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\App.core.pdb
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+D:\Dushyant Dot Net\AngularPractice\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\App.core.dll
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\App.core.pdb
+D:\AgularAssesment 1\AngularPractice\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+D:\AgularAssesment 1\AngularPractice\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

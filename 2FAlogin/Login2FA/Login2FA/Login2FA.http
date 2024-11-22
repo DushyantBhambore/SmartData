@@ -1,0 +1,6 @@
+@Login2FA_HostAddress = http://localhost:5146
+
+GET {{Login2FA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

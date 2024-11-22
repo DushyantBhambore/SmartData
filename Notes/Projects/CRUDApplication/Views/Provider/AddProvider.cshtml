@@ -1,0 +1,38 @@
+﻿@using CRUDApplication.ViewModels
+@model ProviderViewModel
+
+
+<form method="post" asp-action="AddProvider" asp-controller="Provider">
+
+    <div class="mb-3">
+        <label class="form-label" asp-for="DoctorName"></label>
+        <input  class="form-control" asp-for="DoctorName"/>
+        <span asp-validation-for="DoctorName"></span>
+    </div>
+    <div class="mb-3">
+        <select class="form-select" asp-for="Treatment" >
+            <option selected>select Treatment</option>
+            <option value="Cold">Cold</option>
+            <option value="Fever">Fever</option>
+            <option value="Maleria">Maleria</option>
+            <option value="Chickengunia">Chickengunia</option>
+            <option value="Covid">Covid</option>
+        </select>
+        <span asp-validation-for="Treatment"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" asp-for="StartDate"></label>
+        <input class="form-control" asp-for="StartDate" />
+        <span asp-validation-for="StartDate"></span>
+
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="EndDate"></label>
+        <input class="form-control" asp-for="EndDate" />
+        <span asp-validation-for="EndDate"></span>
+    </div>
+    <div asp-validation-summary="All">
+        <button class="btn btn-primary" type="submit">Save </button>
+    </div>
+</form>

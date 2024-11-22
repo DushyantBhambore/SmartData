@@ -1,0 +1,16 @@
+<div class="parent">
+    
+    <nav>
+        <p class="text-dark">Agent DashBoard </p>
+        <ul>
+          <li><a routerLink="/patient">List Of  Patient</a></li>
+          <li><p class="text-dark">{{email}}</p></li>
+          <li><p class="text-dark">{{firstname}}</p></li>
+          <li><a href="#" (click)="onLogOut()">LogOff</a></li>
+    
+        </ul>
+      </nav>
+    </div>
+    <router-outlet></router-outlet>
+    
+    

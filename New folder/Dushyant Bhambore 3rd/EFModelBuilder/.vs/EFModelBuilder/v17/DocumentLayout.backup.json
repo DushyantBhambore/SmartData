@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98C61B23-276B-4685-848C-1371F74EECB9}|EFModelBuilder\\EFModelBuilder.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\efmodelbuilder\\controllers\\employeecqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC1B50A-8809-4BA1-85D2-25104952A196}|App.Core\\App.Core.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\app.core\\apps\\employee\\query\\getemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC1B50A-8809-4BA1-85D2-25104952A196}|App.Core\\App.Core.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\app.core\\apps\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC1B50A-8809-4BA1-85D2-25104952A196}|App.Core\\App.Core.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\app.core\\apps\\employee\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCABC1F-9354-40C6-A12A-61E504FD3951}|Infrastructure\\Infrastructure.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF99A58E-1CD0-4CC7-9609-64EC9849BCE5}|Domain\\Domain.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF99A58E-1CD0-4CC7-9609-64EC9849BCE5}|Domain\\Domain.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCABC1F-9354-40C6-A12A-61E504FD3951}|Infrastructure\\Infrastructure.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\submission\\thirdsubmission\\dotnet\\dushyant bhambore\\efmodelbuilder\\infrastructure\\migrations\\20240927111452_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeCQRSController.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\EFModelBuilder\\Controllers\\EmployeeCQRSController.cs",
+              "RelativeDocumentMoniker": "EFModelBuilder\\Controllers\\EmployeeCQRSController.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\EFModelBuilder\\Controllers\\EmployeeCQRSController.cs",
+              "RelativeToolTip": "EFModelBuilder\\Controllers\\EmployeeCQRSController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:24:58.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:15:15.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateEmployeeCommand.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Employee\\Command\\CreateEmployeeCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:15:15.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetEmployeeQuery.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\App.Core\\Apps\\Employee\\Query\\GetEmployeeQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Employee\\Query\\GetEmployeeQuery.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\App.Core\\Apps\\Employee\\Query\\GetEmployeeQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Employee\\Query\\GetEmployeeQuery.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:15:15.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240927111452_InitialMigration.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Infrastructure\\Migrations\\20240927111452_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240927111452_InitialMigration.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Infrastructure\\Migrations\\20240927111452_InitialMigration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240927111452_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:14:52.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:12:28.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Employee.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Domain\\Employee.cs",
+              "RelativeToolTip": "Domain\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:12:24.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Domain\\Department.cs",
+              "RelativeDocumentMoniker": "Domain\\Department.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Submission\\ThirdSubmission\\DotNet\\Dushyant Bhambore\\EFModelBuilder\\Domain\\Department.cs",
+              "RelativeToolTip": "Domain\\Department.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:12:22.233Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 382,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

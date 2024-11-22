@@ -1,0 +1,14 @@
+
+<div class="container">
+    <h1>Electronics Products</h1>
+    <div class="d-flex" *ngFor="let item of electronicproducts$|async" >
+        <button (click)="AddProduct(item)" class="btn btn-primary mx-3  mb-3">+</button>
+        <button (click)="SubProduct(item) " class="btn btn-danger mx-3 mb-3">-</button>
+        {{item.name}} - {{item.price}} 
+        
+    </div>
+</div>
+
+
+
+ <!-- <div *ngFor="let product of electronicproducts$ | async"> {{ product.name }} - {{ product.price }} </div> -->

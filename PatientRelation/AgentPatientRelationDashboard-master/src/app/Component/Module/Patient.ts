@@ -1,0 +1,21 @@
+export interface Patient{
+        id: number,
+        userId: number,
+        agentId: string,
+        dateOfBirth: Date,
+        firstName: string,
+        lastName: string,
+        email: string,
+        age: number,
+        gender: string,
+        bloodGroup: string,
+        addressLine1: string,
+        addressLine2: string,
+        country: number,
+        state: number,
+        city: number,
+        zipCode: string,
+        appoinmentDate: Date,
+        isActive: boolean,
+        isDelete: boolean
+}

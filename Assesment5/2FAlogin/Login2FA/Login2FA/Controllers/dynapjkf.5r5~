@@ -1,0 +1,50 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
+namespace Login2FA.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class ZoomController : ControllerBase
+    {
+        private readonly IConfiguration _configuration;
+
+        public ZoomController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        [HttpGet("GenerateToken")]
+        public IActionResult GetToken()
+        {
+            var sdkKey = _configuration["Zoom:SdkKey"];
+            var sdkSecret = _configuration["Zoom:SdkSecret"];
+            var payload = new[]
+            {
+                new Claim("app_key", sdkKey),
+                new Claim("iat", DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString()),
+                new Claim("exp", DateTimeOffset.UtcNow.AddMinutes(60).ToUnixTimeSeconds().ToString()),
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(sdkSecret));
+            var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var tokenDescriptor = new JwtSecurityToken(
+                claims: payload,
+                signingCredentials: credentials
+            );
+
+            var token = new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
+
+            return Ok(new { token });
+        }
+    }
+
+    }
+}

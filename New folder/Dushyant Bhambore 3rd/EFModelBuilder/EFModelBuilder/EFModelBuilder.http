@@ -1,0 +1,6 @@
+@EFModelBuilder_HostAddress = http://localhost:5070
+
+GET {{EFModelBuilder_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

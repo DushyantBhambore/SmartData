@@ -1,0 +1,58 @@
+﻿using App.Core.Dtos;
+using App.Core.Interface;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+namespace App.Core.Apps.User.Command
+{
+    public class ChangePasswodCommand : IRequest<string>
+    {
+        public ChangePassworddto ChangePassworddto { get; set; }
+    }
+    public class ChangePasswodCommandHandler : IRequestHandler<ChangePasswodCommand, string>
+    {
+        private readonly IAppDbContext _context;
+
+        public ChangePasswodCommandHandler(IAppDbContext context)
+        {
+            _context = context;
+        }
+        public async Task<string> Handle(ChangePasswodCommand request, CancellationToken cancellationToken)
+        {
+            var user = await _context.Set<Domain.User>()
+                 .FirstOrDefaultAsync(a => a.AgentId == request.ChangePassworddto.AgentId, cancellationToken);
+
+            if (user == null)
+            {
+                return JsonSerializer.Serialize("Old password does not match.");
+            }
+
+            
+            // Check if new password and confirm password match
+            if (request.ChangePassworddto.NewPassword != request.ChangePassworddto.NewCinfirmPassword)
+            {
+                return JsonSerializer.Serialize("New password and confirm password do not match.");
+            }
+
+            // Hash the new password and update the user record
+            var hashedNewPassword = BCrypt.Net.BCrypt.HashPassword(request.ChangePassworddto.NewPassword);
+            user.Password = hashedNewPassword;
+            user.ConfirmPassword = hashedNewPassword;
+
+            // Save changes to the database
+            await _context.SaveChangesAsync(cancellationToken);
+
+            return JsonSerializer.Serialize(new
+            {
+                message = "Password updated successfully"
+            });
+
+        }
+    }
+}

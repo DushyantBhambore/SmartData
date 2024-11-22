@@ -1,0 +1,6 @@
+<div>
+    <h1>Groceries</h1>
+    <div *ngFor="let item of grocerydata|async" class="display-flex">
+        <button (click)="Additem(item)">+</button> {{item.name}} <button (click)="Subitem(item)">-</button>
+    </div>
+</div>

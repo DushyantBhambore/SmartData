@@ -1,0 +1,21 @@
+<div class="login">
+    <div class="container">
+    <div class="header">
+      <h1><span class="l">L</span>OGIN</h1>
+    </div>
+    <form>
+      <label for="email">Username</label>
+      <input [(ngModel)]="userObj.email" type="text" class="inp"  name="email" required>
+
+
+      <label class="form-label">Password</label>
+      <input [(ngModel)]="userObj.password" class="form-control" type="password"  class="inp" name="password" required>
+      <button type="button" (click)="onLogin()">Submit </button>
+    </form>
+    <div class="signup">
+      <b>Don't have account?</b>
+      <a  routerLink="/register">Sign up</a>
+    </div>
+  </div>
+</div>
+

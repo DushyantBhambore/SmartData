@@ -1,0 +1,11 @@
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\dushyantbhambore\source\repos\EFModelBuilder\Domain\obj\Debug\net8.0\ref\Domain.dll

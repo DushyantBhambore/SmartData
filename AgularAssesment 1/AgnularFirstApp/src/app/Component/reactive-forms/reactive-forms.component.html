@@ -1,0 +1,37 @@
+<div class="container">
+    <h1 class="text-center">Reactive  Form </h1>
+    <form [formGroup]="studentForm">
+        <div class="mb-3">
+            <label  class="form-label">Name:</label>
+          <input type="text" formControlName="studentname" class="form-control"  placeholder="Enter name" required="">
+        </div>
+        <div class="mb-3">
+            <label  class="form-label">Email:</label>
+            <input type="email" class="form-control" formControlName="email" placeholder="Enter email" required="">
+        </div>
+        <div class="mb-3">
+            <label  class="form-label">Age:</label>
+            <input type="number" class="form-control" formControlName ="age" placeholder="Enter age" required="">
+        </div>
+        
+        <button type="submit" class="btn btn-primary" (click)="OnSubmit()">Submit</button>
+      </form>
+    
+      <div >
+        <h3>Form Data </h3>
+        <p><strong>Name : </strong>{{formdata.studentname}}</p>
+        <p><strong>Email :</strong> {{formdata.email}}</p>
+        <p><strong> Age :</strong>{{formdata.age}} </p>
+
+     
+      </div>
+      <div>
+       <h1> {{formdata |json}}</h1>
+
+       <h1>{{currentcomponent}}</h1>
+      </div>
+</div>
+
+
+
+

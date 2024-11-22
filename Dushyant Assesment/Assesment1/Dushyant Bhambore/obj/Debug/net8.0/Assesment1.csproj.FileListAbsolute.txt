@@ -1,0 +1,14 @@
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\Assesment1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\Assesment1.AssemblyInfoInputs.cache
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\Assesment1.AssemblyInfo.cs
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\Assesment1.csproj.CoreCompileInputs.cache
+D:\Dushyant Assesment\Assesment1\Assesment1\bin\Debug\net8.0\Assesment1.exe
+D:\Dushyant Assesment\Assesment1\Assesment1\bin\Debug\net8.0\Assesment1.deps.json
+D:\Dushyant Assesment\Assesment1\Assesment1\bin\Debug\net8.0\Assesment1.runtimeconfig.json
+D:\Dushyant Assesment\Assesment1\Assesment1\bin\Debug\net8.0\Assesment1.dll
+D:\Dushyant Assesment\Assesment1\Assesment1\bin\Debug\net8.0\Assesment1.pdb
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\Assesment1.dll
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\refint\Assesment1.dll
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\Assesment1.pdb
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\Assesment1.genruntimeconfig.cache
+D:\Dushyant Assesment\Assesment1\Assesment1\obj\Debug\net8.0\ref\Assesment1.dll

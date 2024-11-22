@@ -1,0 +1,251 @@
+
+<div class="container-fluid">
+
+    <h1 class="text-center  ">Customer Table</h1>
+   
+    <button class="btn btn-primary" (click)="OpenModal()">Add Customer</button>
+
+    <table class="table table-hover">
+      <thead>
+          <tr>
+              <th>customerID</th>
+              <th>FirstName</th>
+              <th>LastName</th>
+              <th>DateofBirth</th>
+              <th>Gender</th>
+              <th>PhoneNumber</th>
+              <!-- <th>EmailAddress</th>
+              <th>customerAddressLine1</th>
+              <th>customerAddressLine2</th>
+              <th>occupation</th>
+              <th>income</th>
+              <th>state</th>
+              <th>purchaseHistory</th>
+              <th>feedback</th>
+              <th>paymentMethod</th>
+              <th>Country</th>
+              <th>referralSource</th>
+              <th>companyName</th>
+              <th>city</th>
+              <th>creditScore</th>
+              <th>socialMediaHandle</th>
+              <th>lastLoginDate</th> -->
+              <th>isActive</th>
+              <th>Action</th>
+          </tr>
+      </thead>
+      <tbody>
+          @for(item of customerlist; track $index )
+          {
+            <tr>
+            <td>{{item.customerID}}</td>
+            <td>{{item.firstName}}</td>
+            <td>{{item.lastName}}</td>
+            <td>{{item.dateofBirth}}</td>
+            <td>{{item.gender}}</td>
+            <td>{{item.phoneNumber}}</td>
+            <!-- <td>{{item.customerAddressLine1}}</td>
+            <td>{{item.customerAddressLine2}}</td>
+            <td>{{item.customerEmail}}</td>
+            <td>{{item.occupation}}</td>
+            <td>{{item.income}}</td>
+            <td>{{item.state}}</td>
+            <td>{{item.purchaseHistory}}</td>
+            <td>{{item.feedback}}</td>
+            <td>{{item.paymentMethod}}</td>
+            <td>{{item.country}}</td>
+            <td>{{item.referralSource}}</td>
+            <td>{{item.companyName}}</td>
+            <td>{{item.city}}</td>
+            <td>{{item.creditScore}}</td>
+            <td>{{item.socialMediaHandle}}</td>
+            <td>{{item.lastLoginDate}}</td> -->
+            <td>{{item.isActive}}</td>
+              <td>
+               <button type="submit" class="btn btn-primary"   (click)="OnUpdateModal(item)" >Edit</button>   
+               <button type="submit"  class="btn btn-danger" (click)=" onDelete(item.customerID)">Delete</button>   
+              </td>
+          </tr>
+
+        }
+            
+      </tbody>
+
+  </table>
+
+</div>
+<div class="modal" id="customermodal" #customermodal>
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+
+          @if(customeform.value.customerID ==0){
+          <h4 class="modal-title">Add Customer</h4>
+
+          }@else {
+          <h4 class="modal-title">Update Customer</h4>
+
+          }
+       
+          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="Onclose()"></button>
+
+     
+
+        </div>
+  
+
+        <!-- Modal body -->
+
+       <form [formGroup]="customeform"  >  
+        <div class="modal-body">
+            <div class="row g-3">
+                <div class="col mb-3">
+                <label>   First Name</label>
+                  <input type="text" formControlName="firstName" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col mb-3">
+                <label>   Last Name</label>
+                  <input type="text" formControlName="lastName"  class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row g-3">
+              <div class="col mb-3">
+                <label>Select Date Of Birth</label>
+                <input type="datetime-local" formControlName="dateofBirth" class="form-control" placeholder="DateofBirth " aria-label="DateofBirth ">
+              </div>
+              <div class="col mb-3">
+                <label>Select Gender</label>
+                <select class="form-select" formControlName="gender" aria-label="Default select example">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+          </div>
+          <div class="row g-3">
+            <div class="col mb-3">
+              <label>   phone Number </label>
+              <input type="number" formControlName="phoneNumber" class="form-control" placeholder="PhoneNumber" aria-label="PhoneNumber">
+            </div>
+            <div class="col mb-3">
+              <label>   Email  </label>
+              <input type="text" formControlName="customerEmail"  class="form-control" placeholder="CustomerEmail" aria-label="CustomerEmail">
+            </div>
+        </div>
+        <div class="row g-3">
+          <div class="col mb-3">
+            <label>   Address Line 1 </label>
+            <input type="text" formControlName="customerAddressLine1" class="form-control" placeholder="CustomerAddressLine1" aria-label="CustomerAddressLine1">
+          </div>
+          <div class="col mb-3">
+            <label>   Address Line 2 </label>
+            <input type="text" formControlName="customerAddressLine2"  class="form-control" placeholder="CustomerAddressLine2" aria-label="CustomerAddressLine2">
+          </div>
+      </div>
+      <div class="row g-3">
+        <div class="col mb-3">
+          <label>   Occupation Type </label>
+          <input type="text" formControlName="occupation" class="form-control" placeholder="Occupation" aria-label="Occupation">
+        </div>
+        <div class="col mb-3">
+          <label>   Income  </label>
+          <input type="text" formControlName="income"  class="form-control" placeholder="Income" aria-label="Income">
+        </div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col mb-3">
+        <label>Select Country</label>
+        <select class="form-select"  formControlName="country" aria-label="Default select example">
+          <option value="Inida">Inida</option>
+          <option value="America">America</option>
+          <option value="Germany">Germany</option>
+        </select>
+      </div>
+    </div>
+    <div class="row g-3">
+      <div class="col mb-3">
+        <label>Select State</label>
+        <select class="form-select" formControlName="state" aria-label="Default select example">
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Goa">Goa</option>
+          <option value="Delhi">Delhi</option>
+        </select>
+      </div>
+      <div class="col mb-3">
+    <label>Select City</label>
+        <select class="form-select" formControlName="city"  aria-label="Default select">
+          <option value="Nagpur">Nagpur</option>
+          <option value="Noida">Noida</option>
+          <option value="Pune">Pune</option>
+        </select>
+      </div>
+  </div>
+  <div class="row g-3">
+    <div class="col mb-3">
+      <label>Select Purchase History</label>
+      <input type="date" formControlName="purchaseHistory" class="form-control" placeholder="PurchaseHistory" aria-label="PurchaseHistory">
+    </div>
+    <div class="col mb-3">
+      <label>   payment Method  </label>
+      <input type="text" formControlName="paymentMethod"  class="form-control" placeholder="PaymentMethod" aria-label="PaymentMethod">
+    </div>
+</div>
+<div class="row g-3">
+  <div class="col mb-3">
+    <label>   Social Media Handle  </label>
+    <input type="text" formControlName="socialMediaHandle"  class="form-control" placeholder="SocialMediaHandle" aria-label="SocialMediaHandle">
+  </div>
+</div>
+<div class="row g-3">
+  <div class="col mb-3">
+    <label>   Credit Score </label>
+    <input type="number" formControlName="creditScore" class="form-control" placeholder="CreditScore" aria-label="CreditScore">
+  </div>
+  <div class="col mb-3">
+    <label>   Referral Source  </label>
+    <input type="text" formControlName="referralSource"  class="form-control" placeholder="ReferralSource" aria-label="ReferralSource">
+  </div>
+</div>
+<div class="row g-3">
+  <div class="col mb-3">
+    <label>   Company Name  </label>
+    <input type="text" formControlName="companyName" class="form-control" placeholder="CompanyName" aria-label="CompanyName">
+  </div>
+  <div class="col mb-3">
+    <label>Select Last Logi nDate </label>
+    <input type="datetime-local" formControlName="lastLoginDate"  class="form-control" placeholder="LastLoginDate" aria-label="LastLoginDate">
+  </div>
+</div>
+<div class="form-group form-check">
+  <input type="checkbox" formControlName="isActive"   class="form-check-input"
+     >
+  <label> IsActive ? </label>
+</div>
+<div class="form-group form-check">
+  <input type="checkbox" formControlName="isDelete"   class="form-check-input"
+    >
+  <label> IsDelete ? </label>
+</div>
+</div>
+        <div class="modal-footer">
+          @if(customeform.value.customerID !=0)
+          {
+              <button type="submit" class="btn btn-primary"  (click)="OnUpdate()" >Submit</button>
+          
+          }@else {
+              <button type="submit" class="btn btn-success"    (click)="OnSubmit()">Submit</button>
+          }
+          <!-- <button type="submit" class="btn btn-primary"  (click)="OnSubmit()">Submit</button> -->
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="Onclose()">Close</button>
+      </div>
+  
+        <!-- Modal footer -->
+ </form> 
+   
+  
+      </div>
+    </div>
+  </div>   

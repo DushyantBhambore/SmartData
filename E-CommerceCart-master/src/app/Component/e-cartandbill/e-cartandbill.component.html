@@ -1,0 +1,17 @@
+<div class="container">
+  <h2>Your Cart</h2>
+  <div *ngFor="let item of cartItems$ | async">
+    <p>
+      {{ item.name }} - {{ item.price | currency }} x {{ item.quantity }} =
+      {{ item.price * item.quantity | currency }}
+    </p>
+    <button (click)="removeItem(item.id)">Remove</button>
+
+    <input
+      type="number"
+      [(ngModel)]="item.quantity"
+      (ngModelChange)="updateQuantity(item.id, $event)"
+    />
+  </div>
+  <h3>Total: {{ cartTotal$ | async | currency }}</h3>
+</div>

@@ -1,0 +1,226 @@
+<div class="container-fluid">
+    <div class="container">
+      <h1 class="text-center">Add Patient</h1>
+  
+      <form [formGroup]="pateintform" >
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault01">First name</label>
+            <input
+             formControlName="firstName"
+              type="text"
+              class="form-control"
+              placeholder="First name"
+              required
+            />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault02">Last name</label>
+            <input
+            formControlName="lastName"
+              type="text"
+              class="form-control"
+              placeholder="Last name"
+              required
+            />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefaultUsername">Date Of Birth</label>
+            <div class="input-group">
+              <input
+              formControlName="dateOfBirth"
+                type="datetime-local"
+                class="form-control"
+                id="validationDefaultUsername"
+                placeholder="Username"
+                aria-describedby="inputGroupPrepend2"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefaultUsername">Email</label>
+            <div class="input-group">
+              <input
+              formControlName="email"
+              name="email"
+                type="text"
+                class="form-control"
+                id="validationDefaultUsername"
+                placeholder="Username"
+                aria-describedby="inputGroupPrepend2"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+            <div class="col mb-3">
+                <label>Select Country</label>
+                <select class="form-select" formControlName="country" (change)="onCountryChange(pateintform.value.country)">
+                    <option *ngFor="let country of countries" [value]="country.countryId">{{ country.countryName }}</option>
+                  </select>
+            </div>
+
+            <div class="col mb-3">
+                <label>Select State</label>
+                <select class="form-select" formControlName="state" (change)="onStateChange(pateintform.value.state)">
+                    <option  *ngFor="let state of states" [value]="state.stateId">{{ state.stateName }}</option>
+                </select>
+            </div>
+            <div class="col mb-3">
+                <label>Select City</label>
+                <select class="form-select" formControlName="city">
+                    <option *ngFor="let city of cities" [value]="city.cityId">{{ city.cityName }}</option>
+                </select>
+            </div>
+        
+
+            <!-- state country city  -->
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault05">Zip</label>
+            <input
+            formControlName="zipCode"
+              type="text"
+              class="form-control"
+              id="validationDefault05"
+              placeholder="Zip"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault03"> Address Line 1 </label>
+            <input
+            formControlName="addressLine1"
+            name="addressLine1"
+              type="text"
+              class="form-control"
+              id="validationDefault03"
+              placeholder="addressLine1"
+              required
+            />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault04"> Address Line 2 </label>
+            <input
+            formControlName="addressLine2"
+            name="addressLine2"
+              type="text"
+              class="form-control"
+              id="validationDefault04"
+              placeholder="addressLine2"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault03"> Blood Group  </label>
+            <input
+            formControlName="bloodGroup"
+              type="text"
+              name ="bloodGroup"
+              class="form-control"
+              id="validationDefault03"
+              placeholder="City"
+              required
+            />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault04">Appointment Date </label>
+            <input
+            formControlName="appoinmentDate"
+            name="appoinmentDate"
+              type="datetime-local"
+              class="form-control"
+              id="validationDefault04"
+              placeholder="appoinmentDate"
+              required
+            />
+          </div>
+          <div class="col-md-3 ">
+            <label for="validationDefault05">Age</label>
+            <input
+            formControlName="age"
+              type="number"
+              class="form-control"
+              id="validationDefault05"
+              placeholder="Age"
+              required
+            />
+          </div>
+          <div class="col-md-3 mt-4">
+            <div class="form-check form-check-inline">
+              <input
+              formControlName="gender"
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+              />
+              <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                formControlName="gender"
+                type="radio"
+                name="gender"
+                id="female"
+                value="female"
+              />
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                formControlName="gender"
+                type="radio"
+                name="gender"
+                id="other"
+                value="other"
+              />
+              <label class="form-check-label" for="inlineRadio3">Other </label>
+            </div>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <div class="form-check">
+            <input
+            formControlName="isActive"
+            name="isActive"
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              required
+            />
+            <label class="form-check-label" for="invalidCheck2"> IsActive </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input
+            formControlName="isDelete"
+            name="isDelete"
+              class="form-check-input"
+              type="checkbox"
+              value="1"
+              id="isDelete"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck2"> IsDelete </label>
+          </div>
+        </div>
+        <!-- <button class="btn btn-primary mt-4" type="submit" (click)="onSubmit()">
+          {{ isEditMode ? 'Update Patient' : 'Add Patient' }}
+        </button> -->
+        <button class="btn btn-primary mt-4" type="submit" (click)="onSubmit()">Submit form</button>
+      </form>
+    </div>
+  </div>
+  

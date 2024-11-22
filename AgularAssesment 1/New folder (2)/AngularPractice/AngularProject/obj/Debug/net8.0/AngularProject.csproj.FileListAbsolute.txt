@@ -1,0 +1,608 @@
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.exe
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.deps.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.runtimeconfig.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.AssemblyReference.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfoInputs.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfo.cs
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.CoreCompileInputs.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.AngularProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.build.AngularProject.props
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AngularProject.props
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AngularProject.props
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\scopedcss\bundle\AngularProject.styles.css
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularP.5E45F9A5.Up2Date
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\refint\AngularProject.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.genruntimeconfig.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\obj\Debug\net8.0\ref\AngularProject.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Humanizer.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.Development.json
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.json
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.exe
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.deps.json
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.runtimeconfig.json
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.pdb
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Core.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Identity.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Humanizer.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.Core.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.pdb
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.pdb
+D:\Dushyant Dot Net\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.pdb
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.AssemblyReference.cache
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfoInputs.cache
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfo.cs
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.CoreCompileInputs.cache
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cs
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.AngularProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.build.AngularProject.props
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AngularProject.props
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AngularProject.props
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\scopedcss\bundle\AngularProject.styles.css
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularP.5E45F9A5.Up2Date
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\refint\AngularProject.dll
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.pdb
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.genruntimeconfig.cache
+D:\Dushyant Dot Net\AngularPractice\AngularProject\obj\Debug\net8.0\ref\AngularProject.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.AssemblyReference.cache
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfoInputs.cache
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfo.cs
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.CoreCompileInputs.cache
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cs
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cache
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.Development.json
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.json
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.exe
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.deps.json
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.runtimeconfig.json
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.pdb
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Core.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Identity.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Humanizer.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.Core.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.pdb
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.pdb
+D:\AgularAssesment 1\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.pdb
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.AngularProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.build.AngularProject.props
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AngularProject.props
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AngularProject.props
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\scopedcss\bundle\AngularProject.styles.css
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularP.5E45F9A5.Up2Date
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\refint\AngularProject.dll
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.pdb
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.genruntimeconfig.cache
+D:\AgularAssesment 1\AngularPractice\AngularProject\obj\Debug\net8.0\ref\AngularProject.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.Development.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\appsettings.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.exe
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.deps.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.runtimeconfig.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\AngularProject.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Core.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Azure.Identity.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Humanizer.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Mapster.Core.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Infrastructure.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\App.core.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\bin\Debug\net8.0\Domain.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.AssemblyReference.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfoInputs.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.AssemblyInfo.cs
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.csproj.CoreCompileInputs.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cs
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.MvcApplicationPartsAssemblyInfo.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.AngularProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.build.AngularProject.props
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AngularProject.props
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AngularProject.props
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\scopedcss\bundle\AngularProject.styles.css
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularP.5E45F9A5.Up2Date
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\refint\AngularProject.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\AngularProject.genruntimeconfig.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\AngularProject\obj\Debug\net8.0\ref\AngularProject.dll

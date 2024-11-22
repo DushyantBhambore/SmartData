@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AgentPateintDashboardApp.props" />
+</Project>

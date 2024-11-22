@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PaiteintDashboard\\Solution1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D73E637-88CD-4F52-92B6-2B20EDCDC460}|App.Core\\App.Core.csproj|d:\\paiteintdashboard\\solution1\\app.core\\app\\pateint\\command\\createpateintcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D73E637-88CD-4F52-92B6-2B20EDCDC460}|App.Core\\App.Core.csproj|solutionrelative:app.core\\app\\pateint\\command\\createpateintcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B332A0D-006B-4F02-9CD5-C481731BF806}|Domain\\Domain.csproj|d:\\paiteintdashboard\\solution1\\domain\\pateint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B332A0D-006B-4F02-9CD5-C481731BF806}|Domain\\Domain.csproj|solutionrelative:domain\\pateint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreatePateintCommand.cs",
+              "DocumentMoniker": "D:\\PaiteintDashboard\\Solution1\\App.Core\\App\\pateint\\Command\\CreatePateintCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\App\\pateint\\Command\\CreatePateintCommand.cs",
+              "ToolTip": "D:\\PaiteintDashboard\\Solution1\\App.Core\\App\\pateint\\Command\\CreatePateintCommand.cs",
+              "RelativeToolTip": "App.Core\\App\\pateint\\Command\\CreatePateintCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:38:08.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pateint.cs",
+              "DocumentMoniker": "D:\\PaiteintDashboard\\Solution1\\Domain\\Pateint.cs",
+              "RelativeDocumentMoniker": "Domain\\Pateint.cs",
+              "ToolTip": "D:\\PaiteintDashboard\\Solution1\\Domain\\Pateint.cs",
+              "RelativeToolTip": "Domain\\Pateint.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:32:35.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

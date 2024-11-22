@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AgularAssesment 1\\AngularPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|d:\\agularassesment 1\\angularpractice\\angularproject\\controllers\\pateintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|solutionrelative:angularproject\\controllers\\pateintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|d:\\agularassesment 1\\angularpractice\\angularproject\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|solutionrelative:angularproject\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|d:\\agularassesment 1\\angularpractice\\angularproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|solutionrelative:angularproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|d:\\agularassesment 1\\angularpractice\\angularproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57BCA5E-4305-4F8D-BD65-0854462EC960}|AngularProject\\AngularProject.csproj|solutionrelative:angularproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|d:\\agularassesment 1\\angularpractice\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PateintController.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Controllers\\PateintController.cs",
+              "RelativeDocumentMoniker": "AngularProject\\Controllers\\PateintController.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Controllers\\PateintController.cs",
+              "RelativeToolTip": "AngularProject\\Controllers\\PateintController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:29:56.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "AngularProject\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "AngularProject\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:29:37.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "AngularProject\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "AngularProject\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T06:53:45.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Program.cs",
+              "RelativeDocumentMoniker": "AngularProject\\Program.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\AngularProject\\Program.cs",
+              "RelativeToolTip": "AngularProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:46:20.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Customer.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Customer.cs",
+              "RelativeToolTip": "Domain\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:47:27.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

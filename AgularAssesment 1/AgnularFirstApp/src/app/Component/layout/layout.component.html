@@ -1,0 +1,24 @@
+<div class="parent">
+    
+    <nav>
+        <p class="text-dark">Agent DashBoard </p>
+        <ul>
+            <li><a routerLink="/child" >child</a></li>
+          <li><a routerLink="/databindng">databindng</a></li>
+          <li><a routerLink="/employee">employee</a></li>
+          <li><a routerLink="/reactiveform">reactiveform</a></li>
+          <li><a routerLink="/templateform">templateform</a></li>
+          <select [(ngModel)]="componentchange" name="componentchange" (ngModelChange)="onChange($event)">
+            <option value="">Select Options</option>
+            <option value="child">Child Component </option>
+            <option value="databindng">Data Binding</option>
+            <option value="employee">Employee</option>
+            <option value="reactiveform">Reactive Form</option>
+            <option value="templateform">Templateform</option>
+          </select>
+        </ul>
+      </nav>
+    </div>
+    <router-outlet></router-outlet>
+    
+    

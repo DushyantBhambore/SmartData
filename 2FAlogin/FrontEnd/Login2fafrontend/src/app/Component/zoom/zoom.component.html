@@ -1,0 +1,12 @@
+
+<div class="zoom-container">
+    <h2>Zoom Meeting</h2>
+  
+    <button *ngIf="!isMeetingCreated" (click)="createMeeting()">Create Meeting</button>
+  
+    <div *ngIf="isMeetingCreated">
+      <p>Meeting Created! Join URL: <a [href]="joinUrl" target="_blank">{{ joinUrl }}</a></p>
+      <button (click)="joinMeeting()">Join Meeting</button>
+    </div>
+  </div>
+  

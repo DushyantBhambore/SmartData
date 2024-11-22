@@ -1,0 +1,17 @@
+<div class="login">
+    <div class="container">
+    <div class="header">
+      <h1><span class="l">V</span>erify Token</h1>
+    </div>
+    <form>
+      <label for="email">Username</label>
+      <input [(ngModel)]="userObj.email" type="text" class="inp"  name="email" required>
+
+
+      <label class="form-label">OTP</label>
+      <input [(ngModel)]="userObj.otp" class="form-control" type="password"  class="inp" name="otp" required>
+      <button type="button" (click)="onVerify()">Verify </button>
+    </form>
+  </div>
+</div>
+

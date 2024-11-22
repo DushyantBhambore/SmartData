@@ -1,0 +1,56 @@
+﻿@using CRUDApplication.ViewModels
+@model List<ProviderViewModel>
+
+@{
+    ViewData["Title"] = "FinalResult";
+}
+
+
+<a class="btn btn-primary" asp-action="AddProvider" asp-controller="Provider"> Add Provider </a>
+<br />
+<br />
+
+@if(Model is not null && Model.Any())
+{
+    <table class="table table-hover table-info">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Doctor Name</th>
+                <th>Pateint Id</th>
+                <th>Pateint Name</th>
+                <th>Treatment</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var provider in Model)
+            {
+                <tr>
+                    <td>@provider.ProviderId</td>
+                    <td>@provider.DoctorName</td>
+                    <td>@provider.Treatment</td>
+                    <td>@provider.StartDate</td>
+                    <td>@provider.EndDate</td>
+                    <td>
+                        <form method="post" asp-action="DeleteProvider" asp-controller="Provider" asp-route-id="@provider.ProviderId">
+                            <a class="btn btn-warning" asp-action="UpdateProvider" asp-controller="Provider" asp-route-id="@provider.ProviderId">
+                                Update
+                            </a>
+                            <button class="btn btn-danger" onclick="return confirm('Are you sure you want delete @provider.ProviderId @provider.DoctorName')">
+                                Delete
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+else
+{
+    <h1>No Record Found</h1>
+}

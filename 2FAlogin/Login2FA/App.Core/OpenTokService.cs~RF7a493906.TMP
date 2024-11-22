@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System;
+using OpenTokSDK;
+namespace App.Core
+{
+    public class OpenTokService
+    {
+        private readonly OpenTok _openTok; // Change OpenTokSDK to OpenTok
+        //private const string ApiKey = "b669c86a"; // Your OpenTok API Key
+        private const string ApiKey = "b669c86a"; // Replace with a valid numeric API Key
+
+        private const string ApiSecret = "EmUl7En92bICAKul"; // Your OpenTok API Secret
+
+        //public OpenTokService()
+        //{
+
+        //        int parsedApiKey = int.Parse(ApiKey); // Ensure ApiKey is numeric
+        //        _openTok = new OpenTok(parsedApiKey, ApiSecret);
+
+        //    //_openTok = new OpenTok(int.Parse(ApiKey), ApiSecret); // Change OpenTokSDK to OpenTok
+        //}
+        public OpenTokService()
+        {
+            if (!int.TryParse(ApiKey, out int parsedApiKey))
+            {
+                throw new FormatException("ApiKey must be numeric. Please verify your API key.");
+            }
+            _openTok = new OpenTok(parsedApiKey, ApiSecret);
+        }
+
+        public string CreateSession()
+        {
+            var session = _openTok.CreateSession();
+            return session.Id;
+        }
+
+        public string GenerateToken(string sessionId)
+        {
+            return _openTok.GenerateToken(sessionId);
+        }
+
+        public Archive StartRecording(string sessionId)
+        {
+            return _openTok.StartArchive(sessionId, "Recording");
+        }
+
+        public void StopRecording(string archiveId)
+        {
+            _openTok.StopArchive(archiveId);
+        }
+    }
+}

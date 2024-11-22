@@ -1,0 +1,10 @@
+
+
+                              ********************************************************************
+                                                      DOT NET Assessment- 2
+                              ********************************************************************
+
+
+
+1. Task: Create a CRUD (Create, Read, Update, Delete) application for managing Employee records 
+   using interfaces and dependency injection.

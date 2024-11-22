@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assesment5\\2FAlogin\\Login2FA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\assesment5\\2falogin\\login2fa\\app.core\\opentokservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\opentokservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\assesment5\\2falogin\\login2fa\\login2fa\\controllers\\opentokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\controllers\\opentokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E14520-7748-4764-8DF4-B5D282561299}|Domain\\Domain.csproj|d:\\assesment5\\2falogin\\login2fa\\domain\\apikeyhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E14520-7748-4764-8DF4-B5D282561299}|Domain\\Domain.csproj|solutionrelative:domain\\apikeyhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|d:\\assesment5\\2falogin\\login2fa\\infreatsructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|solutionrelative:infreatsructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\assesment5\\2falogin\\login2fa\\login2fa\\controllers\\videocallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\controllers\\videocallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\assesment5\\2falogin\\login2fa\\login2fa\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiKeyHasher.cs",
+              "DocumentMoniker": "D:\\Assesment5\\2FAlogin\\Login2FA\\Domain\\ApiKeyHasher.cs",
+              "RelativeDocumentMoniker": "Domain\\ApiKeyHasher.cs",
+              "ToolTip": "D:\\Assesment5\\2FAlogin\\Login2FA\\Domain\\ApiKeyHasher.cs",
+              "RelativeToolTip": "Domain\\ApiKeyHasher.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T11:07:19.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Assesment5\\2FAlogin\\Login2FA\\Infreatsructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infreatsructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Assesment5\\2FAlogin\\Login2FA\\Infreatsructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infreatsructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:28:37.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenTokService.cs",
+              "DocumentMoniker": "D:\\Assesment5\\2FAlogin\\Login2FA\\App.Core\\OpenTokService.cs",
+              "RelativeDocumentMoniker": "App.Core\\OpenTokService.cs",
+              "ToolTip": "D:\\Assesment5\\2FAlogin\\Login2FA\\App.Core\\OpenTokService.cs",
+              "RelativeToolTip": "App.Core\\OpenTokService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:20:50.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VideoCallController.cs",
+              "DocumentMoniker": "D:\\Assesment5\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\VideoCallController.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Controllers\\VideoCallController.cs",
+              "ToolTip": "D:\\Assesment5\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\VideoCallController.cs",
+              "RelativeToolTip": "Login2FA\\Controllers\\VideoCallController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:20:24.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Assesment5\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Assesment5\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Login2FA\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:14:24.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OpenTokController.cs",
+              "DocumentMoniker": "D:\\Assesment5\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\OpenTokController.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Controllers\\OpenTokController.cs",
+              "ToolTip": "D:\\Assesment5\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\OpenTokController.cs",
+              "RelativeToolTip": "Login2FA\\Controllers\\OpenTokController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:14:24.776Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+
+<div class="container-fluid">
+
+    <h1 class="text-center">Pateint Table</h1>
+   
+    <button class="btn btn-primary" (click)="OpenModal()">Add Pateint</button>
+    
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>PateintId</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>DateofBirth</th>
+                <th>Gender</th>
+                <th>PhoneNumber</th>
+                <th>EmailAddress</th>
+                <!-- <th>AddressLine1</th>
+                <th>AddressLine2</th> -->
+                <!-- <th>Salary</th>
+                <th>EmergencyContactName</th>
+                <th>EmergencyContactNumber</th>
+                <th>MaritalStatus</th> -->
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <!-- <th>PostalCode</th>
+                <th>InsuranceProvider</th>
+                <th>InsurancePolicyNumber</th>
+                <th>PrimaryPhysician</th>
+                <th>Allergies</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>BloodPressure</th>
+                <th>BloodGroup</th>
+                <th>LastVisitDate</th>
+                <th>NextAppointmentDate</th>
+                <th>IsActive</th> -->
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(item of pateintlist; track $index)
+            {
+              <tr>
+              <td>{{item.pateintId}}</td>
+              <td>{{item.firstName}}</td>
+              <td>{{item.lastName}}</td>
+              <td>{{item.dateofBirth}}</td>
+              <td>{{item.gender}}</td>
+              <td>{{item.phoneNumber}}</td>
+              <td>{{item.emailAddress}}</td>
+              <!-- <td>{{item.addressLine1}}</td>
+              <td>{{item.addressLine2}}</td> -->
+              <td>{{item.salary}}</td>
+              <!-- <td>{{item.emergencyContactName}}</td>
+              <td>{{item.emergencyContactNumber}}</td>
+              <td>{{item.maritalStatus}}</td> -->
+              <td>{{item.city}}</td>
+              <td>{{item.state}}</td>
+              <td>{{item.country}}</td>
+              <!-- <td>{{item.postalCode}}</td>
+              <td>{{item.insuranceProvider}}</td>
+              <td>{{item.insurancePolicyNumber}}</td>
+              <th>{{item.primaryPhysician}}</th>
+              <td>{{item.allergies}}</td>
+              <td>{{item.height}}</td>
+              <td>{{item.weight}}</td>
+              <td>{{item.bloodPressure}}</td>
+              <td>{{item.bloodGroup}}</td>
+              <td>{{item.lastVisitDate}}</td>
+              <td>{{item.nextAppointmentDate}}</td>
+              <td>{{item.isActive}}</td> -->
+                <td>
+                 <button type="submit" class="btn btn-primary" (click)="OnUpdateModal(item)" >Edit</button>   
+                 <button type="submit"  class="btn btn-danger" (click)="onDelete(item.pateintId)" >Delete</button>   
+                </td>
+            </tr>
+
+          }
+              
+        </tbody>
+
+    </table>
+
+
+</div>
+
+
+<!-- Pop Up Modal begin -->
+
+<div class="modal" id="myModal" #myModal>
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+                <h4 class="modal-title">Add Pateint</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="Onclose()"></button>
+        </div>
+  
+
+        <!-- Modal body -->
+
+       <form [formGroup]="pateintform" >
+        <div class="modal-body">
+            <div class="row  ">
+                <div class="col mb-3">
+                  <input type="text" formControlName="firstName"  class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col mb-3">
+                  <input type="text" formControlName="lastName"   class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row  ">
+            <div class="col mb-3 ">
+              <label>Select Date Of Birth </label>
+                <input type="date" formControlName="dateofBirth"  class="form-control" placeholder="Date of Birth" aria-label="Date of Birth">
+                <!-- <input type="datetime" formControlName="dateofBirth"   class="form-control" placeholder=" " aria-label="Date of Birth"> -->
+              </div>
+              <div class="col mb-3 ">
+                <label>Select Blood gender </label>
+                <select class="form-select" formControlName="gender" aria-label="Default select example">
+                  <option selected>Open this select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+                <!-- <input type="text" formControlName="gender"   class="form-control" placeholder="Gender " aria-label="Gender"> -->
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3 ">
+                <input type="number" formControlName="phoneNumber"   class="form-control" placeholder="Phone Number " aria-label="Phone Number">
+              </div>
+              <div class="col mb-3  ">
+                <input type="email" formControlName="emailAddress"   class="form-control" placeholder="Email Address " aria-label="Email Address">
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <input type="text" formControlName="addressLine1"  class="form-control" placeholder="Address Line1 " aria-label="Address Line1">
+              </div>
+              <div class="col mb-3  ">
+                <input type="text" formControlName="addressLine2"   class="form-control" placeholder="Address Line2 " aria-label="Address Line2">
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <input type="number" formControlName="salary"  class="form-control" placeholder="salary " aria-label="Salary">
+            </div>
+              <div class="col mb-3  ">
+                <input type="text" formControlName="emergencyContactName"   class="form-control" placeholder="Emergency Contact Name " aria-label="Emergency Contact Name">
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <input type="number" formControlName="emergencyContactNumber"  class="form-control" placeholder="Emergency Contact Number " aria-label="Emergency Contact Number">
+              </div>
+              <div class="col mb-3  ">
+                <div class="  form-check">
+                  <input type="checkbox" formControlName="maritalStatus"   class="form-check-input">
+                  <label> maritalStatus ? </label>
+                </div>
+                <!-- <input type="" formControlName="maritalStatus"   class="form-control" placeholder="Marital Status " aria-label="Marital Status"> -->
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <label>Select Blood city </label>
+                <select class="form-select" formControlName="city"  aria-label="Default select">
+                  <option selected>Open this select city</option>
+                  <option value="Nagpur">Nagpur</option>
+                  <option value="Noida">Noida</option>
+                  <option value="Pune">Pune</option>
+                </select>
+                <!-- <input type="text" formControlName="city"  class="form-control" placeholder="City " aria-label="City"> -->
+              </div>
+              <div class="col mb-3  ">
+                <label>Select Blood state </label>
+                <select class="form-select" formControlName="state" aria-label="Default select example">
+                  <option selected>Open this select state</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Delhi">Delhi</option>
+                </select>
+                <!-- <input type="text" formControlName="state"   class="form-control" placeholder="State " aria-label="State"> -->
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <select class="form-select"  formControlName="country" aria-label="Default select example">
+                  <option selected>Open this select country</option>
+                  <option value="Inida">Inida</option>
+                  <option value="America">America</option>
+                  <option value="Germany">Germany</option>
+                </select>
+                <!-- <input type="text" formControlName="country"   class="form-control" placeholder="Country " aria-label="Country"> -->
+              </div>
+              <div class="col mb-3  ">
+                <input type="number" formControlName="postalCode"   class="form-control" placeholder="PostalCode " aria-label="PostalCode">
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <input type="text" formControlName="insuranceProvider"  class="form-control" placeholder="Insurance Provider " aria-label="Insurance Provider">
+              </div>
+              <div class="col mb-3  ">
+                <input type="text" formControlName="insurancePolicyNumber"  class="form-control" placeholder="Insurance PolicyNumber " aria-label="Insurance PolicyNumber">
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <input type="text" formControlName="primaryPhysician"  class="form-control" placeholder="Primary Physician " aria-label="Primary Physician">
+              </div>
+              <div class="col mb-3  ">
+                <input type="text" formControlName="allergies"   class="form-control" placeholder="Allergies " aria-label="Allergies">
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <input type="number" formControlName="height"   class="form-control" placeholder="Height " aria-label="Height">
+              </div>
+              <div class="col mb-3  ">
+                <input type="number" formControlName="weight"  class="form-control" placeholder="Weight " aria-label="Weight">
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                <input type="number" formControlName="bloodPressure"  class="form-control" placeholder="Blood Pressure " aria-label="Blood Pressure">
+              </div>
+              <div class="col mb-3  ">
+                <label>Select Blood Group </label>
+                <select class="form-select" formControlName="bloodGroup" aria-label="Default select example">
+                  <option selected>Open this select Blood Group</option>
+                  <option value="A+">A+</option>
+                  <option value="B+">B+</option>
+                  <option value="AB+">AB+</option>
+                  <option value="B-">B-</option>
+                  <option value="A-">A-</option>
+                  <option value="O+">O+</option>
+                  <option value="O-">O-</option>
+                </select>
+                <!-- <input type="text" formControlName="bloodGroup"  class="form-control" placeholder="Blood Group " aria-label="Blood Group"> -->
+              </div>
+            </div>
+            <div class="row  ">
+              <div class="col mb-3  ">
+                  <input type="date" formControlName="lastVisitDate"  class="form-control" placeholder="Last VisitDate" aria-label="Last VisitDate">
+                <!-- <input type="datetime" formControlName="lastVisitDate"   class="form-control" placeholder="Last VisitDate " aria-label="Last VisitDate"> -->
+              </div>
+              <div class="col mb-3  ">
+                  <input type="date" formControlName="nextAppointmentDate"  class="form-control" placeholder="Next Appointment Date" aria-label="Next Appointment Date">
+                <!-- <input type="datetime" formControlName="nextAppointmentDate"   class="form-control" placeholder=" " aria-label="Next Appointment Date"> -->
+              </div>
+            </div>
+            
+                  <div class="  form-check">
+                    <input type="checkbox" formControlName="isActive"   class="form-check-input"
+                        placeholder="Age">
+                    <label> Active ? </label>
+                  </div>
+
+        </div>
+        <div class="modal-footer">
+
+              @if(this.pateintform.value ==0){
+                <button type="submit" class="btn btn-primary" (click)="OnSubmit()">Submit</button>
+              }@else {
+                <button type="submit" class="btn btn-primary" (click)="OnUpdate()">Submit</button>
+
+              }
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="Onclose()">Close</button>
+            </div>
+       </form> 
+  
+        <!-- Modal footer -->
+   
+  
+      </div>
+    </div>
+  </div> 
+    <!--pop up modal end  -->

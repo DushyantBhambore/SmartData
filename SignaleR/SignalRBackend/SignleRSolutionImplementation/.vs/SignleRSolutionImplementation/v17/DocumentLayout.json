@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53441390-0125-4383-915A-605113C800AE}|SingleRProject\\SingleRProject.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\singlerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53441390-0125-4383-915A-605113C800AE}|SingleRProject\\SingleRProject.csproj|solutionrelative:singlerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53441390-0125-4383-915A-605113C800AE}|SingleRProject\\SingleRProject.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\singlerproject\\hub\\chathub .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53441390-0125-4383-915A-605113C800AE}|SingleRProject\\SingleRProject.csproj|solutionrelative:singlerproject\\hub\\chathub .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53441390-0125-4383-915A-605113C800AE}|SingleRProject\\SingleRProject.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\singlerproject\\singlerproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{53441390-0125-4383-915A-605113C800AE}|SingleRProject\\SingleRProject.csproj|solutionrelative:singlerproject\\singlerproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\app.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|solutionrelative:app.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD9C24A-F0F6-4B6C-9F5E-80FA81DD606C}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD9C24A-F0F6-4B6C-9F5E-80FA81DD606C}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SingleRProject\\Program.cs",
+              "RelativeDocumentMoniker": "SingleRProject\\Program.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SingleRProject\\Program.cs",
+              "RelativeToolTip": "SingleRProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:11:15.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub .cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SingleRProject\\Hub\\ChatHub .cs",
+              "RelativeDocumentMoniker": "SingleRProject\\Hub\\ChatHub .cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SingleRProject\\Hub\\ChatHub .cs",
+              "RelativeToolTip": "SingleRProject\\Hub\\ChatHub .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:05:21.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Infrastructure\\Class1.cs",
+              "RelativeToolTip": "Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:04:38.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SingleRProject",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SingleRProject\\SingleRProject.csproj",
+              "RelativeDocumentMoniker": "SingleRProject\\SingleRProject.csproj",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SingleRProject\\SingleRProject.csproj",
+              "RelativeToolTip": "SingleRProject\\SingleRProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T05:54:34.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "App.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Class1.cs",
+              "RelativeToolTip": "App.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T05:54:18.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T05:53:12.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

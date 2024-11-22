@@ -1,0 +1,21 @@
+
+
+                              ********************************************************************
+                                                      DOT NET Assessment 
+                              ********************************************************************
+
+
+
+1. Create function that takes item count as input and returns the list of first terms of Fibonacci series base on provided input value.
+
+
+2. Create list of Department (DepartmentId, DepartmentName) and Employee(EmployeeId, EmployeeName, DepartmentId) classes. 
+   Create list of 20 Employees and list of 5 Departments. Write a function that returns list of 
+   EmployeeDetails (EmployeeId, EmployeeName, DepartmentName) class by using these two lists.
+
+
+3. Create a function that takes list of numbers and returns list numbers with square of each number using Func.
+
+
+4. Create a function that takes list of numbers which applies filter of multiple of 3, order by number, and 
+returns list of string having "The number " + number. Ex. for 10 the string will be "The number 10".

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BXUDFGd8Kb/3P3ismwU/cMG0wKwU8OfHcdCHTOQIhIA=",
+  "Source": "Login2FA",
+  "BasePath": "_content/Login2FA",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

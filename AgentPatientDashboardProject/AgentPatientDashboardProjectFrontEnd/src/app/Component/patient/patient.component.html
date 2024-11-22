@@ -1,0 +1,422 @@
+<!-- {{pateintdata|json}} -->
+
+<!-- <h1>Add and Update Patient</h1> -->
+
+<div class="container-fluid">
+  <div class="container">
+    
+      <h1 class="text-center">Add Patient</h1>
+      
+   
+
+    <form [formGroup]="pateintform">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <label for="validationDefault01">First name</label>
+          <input
+            formControlName="firstName"
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            required
+          />
+          <div
+            *ngIf="
+              pateintform.controls['firstName'].invalid &&
+              pateintform.controls['firstName'].touched
+            "
+          >
+            <small class="text-danger">First name is required.</small>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationDefault02">Last name</label>
+          <input
+            formControlName="lastName"
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            required
+          />
+          <div
+            *ngIf="
+              pateintform.controls['lastName'].invalid &&
+              pateintform.controls['lastName'].touched
+            "
+          >
+            <small class="text-danger">last name is required.</small>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationDefaultUsername">Date Of Birth</label>
+          <div class="input-group">
+            <input
+              formControlName="dateofBirth"
+              type="datetime-local"
+              class="form-control"
+              id="validationDefaultUsername"
+              placeholder="Username"
+              max={{dob}}
+              aria-describedby="inputGroupPrepend2"
+              required
+            />
+            <div
+              *ngIf="
+                pateintform.controls['dateofBirth'].invalid &&
+                pateintform.controls['dateofBirth'].touched
+              "
+            >
+              <small class="text-danger">Date Of Birth is required.</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationDefaultUsername">Email</label>
+          <div class="input-group">
+            <input
+              formControlName="email"
+              name="email"
+              type="text"
+              class="form-control"
+              id="validationDefaultUsername"
+              placeholder="Username"
+              aria-describedby="inputGroupPrepend2"
+              required
+            />
+            <div
+              *ngIf="
+                pateintform.controls['email'].invalid &&
+                pateintform.controls['email'].touched
+              "
+            >
+              <small class="text-danger">email is required.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mb-3">
+          <label>Select Country</label>
+          <select
+            class="form-select"
+            formControlName="country"
+            (change)="onCountryChange(pateintform.value.country)"
+          >
+            <option
+              *ngFor="let country of countries"
+              [value]="country.countryId"
+            >
+              {{ country.countryName }}
+            </option>
+          </select>
+          <div
+            *ngIf="
+              pateintform.controls['country'].invalid &&
+              pateintform.controls['country'].touched
+            "
+          >
+            <small class="text-danger">country is required.</small>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <label>Select State</label>
+          <select class="form-select" formControlName="state">
+            <option *ngFor="let state of states" [value]="state.stateId">
+              {{ state.stateName }}
+            </option>
+          </select>
+          <div
+            *ngIf="
+              pateintform.controls['state'].invalid &&
+              pateintform.controls['state'].touched
+            "
+          >
+            <small class="text-danger">state is required.</small>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <label>Enter City</label>
+          <input
+            formControlName="city"
+            type="text"
+            class="form-control"
+            id="validationDefault05"
+            placeholder="city"
+            required
+          />
+          <div
+            *ngIf="
+              pateintform.controls['city'].invalid &&
+              pateintform.controls['city'].touched
+            "
+          >
+            <small class="text-danger">city is required.</small>
+          </div>
+        </div>
+
+        <!-- state country city  -->
+        <div class="col-md-3 mb-3">
+          <label for="validationDefault05">Zip</label>
+          <input
+            formControlName="zipCode"
+            type="text"
+            class="form-control"
+            id="validationDefault05"
+            placeholder="Zip"
+            required
+          />
+          <div
+            *ngIf="
+              pateintform.controls['zipCode'].invalid &&
+              pateintform.controls['zipCode'].touched
+            "
+          >
+            <small class="text-danger">zipCode is required.</small>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="phoneNumber"> Phone Number </label>
+          <input
+            formControlName="phoneNumber"
+            name="phoneNumber"
+            type="text"
+            class="form-control"
+            id="phoneNumber"
+            placeholder="phoneNumber"
+            required
+          />
+          <div
+            *ngIf="
+              pateintform.controls['phoneNumber'].invalid &&
+              pateintform.controls['phoneNumber'].touched
+            "
+          >
+            <small class="text-danger">phoneNumber is required.</small>
+          </div>
+        </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault03"> Address Line 1 </label>
+            <input
+              formControlName="addressLine1"
+              name="addressLine1"
+              type="text"
+              class="form-control"
+              id="validationDefault03"
+              placeholder="addressLine1"
+              required
+            />
+            <div
+              *ngIf="
+                pateintform.controls['addressLine1'].invalid &&
+                pateintform.controls['addressLine1'].touched
+              "
+            >
+              <small class="text-danger">addressLine1 is required.</small>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04"> Address Line 2 </label>
+            <input
+              formControlName="addressLine2"
+              name="addressLine2"
+              type="text"
+              class="form-control"
+              id="validationDefault04"
+              placeholder="addressLine2"
+              required
+            />
+            <div
+              *ngIf="
+                pateintform.controls['addressLine2'].invalid &&
+                pateintform.controls['addressLine2'].touched
+              "
+            >
+              <small class="text-danger">addressLine2 is required.</small>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault04">Appointment Date </label>
+            <input
+              formControlName="appoinentmentDate"
+              type="datetime-local"
+              class="form-control"
+              id="validationDefault04"
+              placeholder="appoinentmentDate"
+              [min]="today"
+              required
+            />
+            <div
+              *ngIf="
+                pateintform.controls['appoinentmentDate'].invalid &&
+                pateintform.controls['appoinentmentDate'].touched
+              "
+            >
+              <small class="text-danger">appoinentmentDate is required.</small>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault05">Age</label>
+            <input
+              formControlName="age"
+              type="number"
+              class="form-control"
+              id="validationDefault05"
+              placeholder="Age"
+              required
+            />
+            <div
+              *ngIf="
+                pateintform.controls['age'].invalid &&
+                pateintform.controls['age'].touched
+              "
+            >
+              <small class="text-danger">age is required.</small>
+            </div>
+          </div>
+          <div class="col-md-3 mt-4">
+            <div class="form-check form-check-inline">
+              <input
+                formControlName="gender"
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+              />
+              <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                formControlName="gender"
+                type="radio"
+                name="gender"
+                id="female"
+                value="female"
+              />
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                formControlName="gender"
+                type="radio"
+                name="gender"
+                id="other"
+                value="other"
+              />
+              <label class="form-check-label" for="inlineRadio3">Other </label>
+            </div>
+            <div
+              *ngIf="
+                pateintform.controls['gender'].invalid &&
+                pateintform.controls['gender'].touched
+              "
+            >
+              <small class="text-danger">Gender is required.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input
+              formControlName="isActive"
+              name="isActive"
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              required
+            />
+            <label class="form-check-label" for="invalidCheck2">
+              IsActive
+            </label>
+            <div
+              *ngIf="
+                pateintform.controls['isActive'].invalid &&
+                pateintform.controls['isActive'].touched
+              "
+            >
+              <small class="text-danger">isActive is required.</small>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input
+              formControlName="isDelete"
+              name="isDelete"
+              class="form-check-input"
+              type="checkbox"
+              value="1"
+              id="isDelete"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck2">
+              IsDelete
+            </label>
+           
+          </div>
+        </div>
+    </form>
+    
+        <!-- <button class="btn btn-primary mt-4" type="submit" (click)="onSubmit()">
+            {{ isEditMode ? 'Update Patient' : 'Add Patient' }}
+          </button> -->
+          @if(pateintform.value.pId != 0){
+            <button class="btn btn-warning mt-4" type="submit" (click)="onSubmit()"><i class="bi bi-person-plus-fill"></i> Update Patient</button>
+          }@else {
+            <button class="btn btn-success mt-4" type="submit" (click)="onSubmit()"><i class="bi bi-person-plus-fill"></i> Add Patient</button>
+          }
+        <button class="btn btn-info mt-4 mx-3" type="reset" (click)="onReset()" > Reset Form</button>
+  </div>
+
+  <br />
+  <hr />
+
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>AgentId</th>
+          <th>PatientId</th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Email Id</th>
+          <th>Date Of Birth</th>
+          <th>Appointment Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of pateintdata; track $index) {
+        <tr>
+          <td>{{ $index + 1 }}</td>
+          <td>{{ item.agentId }}</td>
+          <td>{{ item.patientId }}</td>
+          <td>{{ item.firstName }}</td>
+          <td>{{ item.lastName }}</td>
+          <td>{{ item.email }}</td>
+          <td>{{ item.dateofBirth | date : "dd-MM-yyyy" }}</td>
+          <td>{{ item.appoinentmentDate | date : "dd-MM-yyyy" }}</td>
+          <td>
+            <button class="btn btn-warning mx-3" (click)="onUpdate(item)">
+              <i class="bi bi-pencil-square"></i>
+            </button>
+            <button class="btn btn-danger" (click)="ondelete(item.pId)">
+              <i class="bi bi-trash3"></i>
+            </button>
+          </td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

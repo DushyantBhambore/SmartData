@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\JWT2FA\\JwtWebApiDotNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\models\\apikeyhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\models\\apikeyhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|d:\\jwt2fa\\jwtwebapidotnet\\jwtwebapidotnet\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BADE637-48B2-4218-B8C8-5E880BA5A966}|JwtWebApiDotNet\\JwtWebApiDotNet.csproj|solutionrelative:jwtwebapidotnet\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiKeyHasher.cs",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Models\\ApiKeyHasher.cs",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\Models\\ApiKeyHasher.cs",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Models\\ApiKeyHasher.cs",
+              "RelativeToolTip": "JwtWebApiDotNet\\Models\\ApiKeyHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:14:12.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JwtWebApiDotNet\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:40:37.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\appsettings.json",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\appsettings.json",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\appsettings.json",
+              "RelativeToolTip": "JwtWebApiDotNet\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T06:03:05.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "JwtWebApiDotNet\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:51:08.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\Data\\AuthDbContext.cs",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "JwtWebApiDotNet\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:15:41.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Program.cs",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\Program.cs",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Program.cs",
+              "RelativeToolTip": "JwtWebApiDotNet\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:10:44.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\Models\\UserDto.cs",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Models\\UserDto.cs",
+              "RelativeToolTip": "JwtWebApiDotNet\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:39:39.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Models\\User.cs",
+              "RelativeDocumentMoniker": "JwtWebApiDotNet\\Models\\User.cs",
+              "ToolTip": "D:\\JWT2FA\\JwtWebApiDotNet\\JwtWebApiDotNet\\Models\\User.cs",
+              "RelativeToolTip": "JwtWebApiDotNet\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:38:34.594Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

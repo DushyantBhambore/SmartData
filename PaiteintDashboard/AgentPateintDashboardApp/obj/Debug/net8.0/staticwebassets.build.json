@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3IKcsvCGMM0vIZu2afyccFiLSsvg2Y5RaGsdSgwHhXY=",
+  "Source": "AgentPateintDashboardApp",
+  "BasePath": "_content/AgentPateintDashboardApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

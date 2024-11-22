@@ -1,0 +1,496 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AgularAssesment 1\\AngularPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|d:\\agularassesment 1\\angularpractice\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|solutionrelative:domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|d:\\agularassesment 1\\angularpractice\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\customer\\query\\getcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\customer\\query\\getcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\country\\command\\createcountryrcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\country\\command\\createcountryrcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\city\\query\\getcityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\city\\query\\getcityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\state\\query\\getstatequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\state\\query\\getstatequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\country\\query\\getcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\country\\query\\getcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022065525_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241022065525_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E54D7D0-DC96-4FD0-9CCC-D475EFF88011}|Infrastructure\\Infrastructure.csproj|d:\\agularassesment 1\\angularpractice\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E54D7D0-DC96-4FD0-9CCC-D475EFF88011}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\pateint\\command\\updatepateintcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\pateint\\command\\updatepateintcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\employee\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\customer\\command\\updatecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\customer\\command\\updatecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\country\\command\\updatecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\country\\command\\updatecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\dto\\statedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\dto\\statedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\dto\\pateintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\dto\\pateintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\dto\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\dto\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\dto\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\dto\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|d:\\agularassesment 1\\angularpractice\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|solutionrelative:domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|d:\\agularassesment 1\\angularpractice\\domain\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|solutionrelative:domain\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|d:\\agularassesment 1\\angularpractice\\domain\\pateints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|solutionrelative:domain\\pateints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|d:\\agularassesment 1\\angularpractice\\domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D54FF93-91FC-4964-823C-0BB06AC31178}|Domain\\Domain.csproj|solutionrelative:domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022063645_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241022063645_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\customer\\command\\deletecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\customer\\command\\deletecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022062447_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241022062447_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\country\\command\\deletecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\country\\command\\deletecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|d:\\agularassesment 1\\angularpractice\\app.core\\app\\state\\command\\updatestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E398260B-2B1C-4157-BF39-4EAF5A12F7F2}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\state\\command\\updatestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetCustomerQuery.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Customer\\Query\\GetCustomerQuery.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Customer\\Query\\GetCustomerQuery.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Customer\\Query\\GetCustomerQuery.cs",
+              "RelativeToolTip": "App.core\\App\\Customer\\Query\\GetCustomerQuery.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T10:45:18.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetCityQuery.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\City\\Query\\GetCityQuery.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\City\\Query\\GetCityQuery.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\City\\Query\\GetCityQuery.cs",
+              "RelativeToolTip": "App.core\\App\\City\\Query\\GetCityQuery.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:00:29.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetStateQuery.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\State\\Query\\GetStateQuery.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\State\\Query\\GetStateQuery.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\State\\Query\\GetStateQuery.cs",
+              "RelativeToolTip": "App.core\\App\\State\\Query\\GetStateQuery.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:59:57.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetCountryQuery.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Query\\GetCountryQuery.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Country\\Query\\GetCountryQuery.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Query\\GetCountryQuery.cs",
+              "RelativeToolTip": "App.core\\App\\Country\\Query\\GetCountryQuery.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:57:21.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241022065525_Initial Migration.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022065525_Initial Migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241022065525_Initial Migration.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022065525_Initial Migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241022065525_Initial Migration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:55:25.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20241022063645_Initial Migration.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022063645_Initial Migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241022063645_Initial Migration.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022063645_Initial Migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241022063645_Initial Migration.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:36:45.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:26:55.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241022062447_Initial Migration.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022062447_Initial Migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241022062447_Initial Migration.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Infrastructure\\Migrations\\20241022062447_Initial Migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241022062447_Initial Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:24:47.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteCountryCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Command\\DeleteCountryCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Country\\Command\\DeleteCountryCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Command\\DeleteCountryCommand.cs",
+              "RelativeToolTip": "App.core\\App\\Country\\Command\\DeleteCountryCommand.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAywCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:24:09.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateCountryrCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Command\\CreateCountryrCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Country\\Command\\CreateCountryrCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Command\\CreateCountryrCommand.cs",
+              "RelativeToolTip": "App.core\\App\\Country\\Command\\CreateCountryrCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:23:53.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateCountryCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Command\\UpdateCountryCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Country\\Command\\UpdateCountryCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Country\\Command\\UpdateCountryCommand.cs",
+              "RelativeToolTip": "App.core\\App\\Country\\Command\\UpdateCountryCommand.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:23:07.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeToolTip": "App.core\\App\\Employee\\Command\\UpdateEmployeeCommand.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwCUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:22:59.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateCustomerCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Customer\\Command\\UpdateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Customer\\Command\\UpdateCustomerCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Customer\\Command\\UpdateCustomerCommand.cs",
+              "RelativeToolTip": "App.core\\App\\Customer\\Command\\UpdateCustomerCommand.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:22:45.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeleteCustomerCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Customer\\Command\\DeleteCustomerCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Customer\\Command\\DeleteCustomerCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Customer\\Command\\DeleteCustomerCommand.cs",
+              "RelativeToolTip": "App.core\\App\\Customer\\Command\\DeleteCustomerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:22:43.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdatePateintCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Pateint\\Command\\UpdatePateintCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\Pateint\\Command\\UpdatePateintCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\Pateint\\Command\\UpdatePateintCommand.cs",
+              "RelativeToolTip": "App.core\\App\\Pateint\\Command\\UpdatePateintCommand.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:22:22.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateStateCommand.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\State\\Command\\UpdateStateCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\State\\Command\\UpdateStateCommand.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\App\\State\\Command\\UpdateStateCommand.cs",
+              "RelativeToolTip": "App.core\\App\\State\\Command\\UpdateStateCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:22:12.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StateDto.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\StateDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Dto\\StateDto.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\StateDto.cs",
+              "RelativeToolTip": "App.core\\Dto\\StateDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:22:00.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PateintDto.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\PateintDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Dto\\PateintDto.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\PateintDto.cs",
+              "RelativeToolTip": "App.core\\Dto\\PateintDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:55.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Dto\\EmployeeDto.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\EmployeeDto.cs",
+              "RelativeToolTip": "App.core\\Dto\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:48.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Dto\\CustomerDto.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\CustomerDto.cs",
+              "RelativeToolTip": "App.core\\Dto\\CustomerDto.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwBAAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:41.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CountryDto.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\CountryDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Dto\\CountryDto.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\CountryDto.cs",
+              "RelativeToolTip": "App.core\\Dto\\CountryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:37.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CityDto.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\CityDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Dto\\CityDto.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\App.core\\Dto\\CityDto.cs",
+              "RelativeToolTip": "App.core\\Dto\\CityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:34.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Employee.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Employee.cs",
+              "RelativeToolTip": "Domain\\Employee.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA6wBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:19.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pateints.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Pateints.cs",
+              "RelativeDocumentMoniker": "Domain\\Pateints.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Pateints.cs",
+              "RelativeToolTip": "Domain\\Pateints.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA9wC0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:12.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "State.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\State.cs",
+              "RelativeDocumentMoniker": "Domain\\State.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\State.cs",
+              "RelativeToolTip": "Domain\\State.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:07.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Country.cs",
+              "RelativeDocumentMoniker": "Domain\\Country.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Country.cs",
+              "RelativeToolTip": "Domain\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:19:59.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\City.cs",
+              "RelativeDocumentMoniker": "Domain\\City.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\City.cs",
+              "RelativeToolTip": "Domain\\City.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:19:58.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Customer.cs",
+              "ToolTip": "D:\\AgularAssesment 1\\AngularPractice\\Domain\\Customer.cs",
+              "RelativeToolTip": "Domain\\Customer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA6wCMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:18:37.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

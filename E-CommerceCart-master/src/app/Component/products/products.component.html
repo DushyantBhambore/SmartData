@@ -1,0 +1,16 @@
+<!-- <div class="container">
+    <div *ngFor="let category of categories">
+        <h2>{{ category}}</h2>
+        <div *ngFor="let product of productsByCategory[category] | async">
+          <p>{{ product.name }} - {{ product.price | currency }}</p>
+        
+          <button class="btn btn-primary" (click)="addProductToCart(product)">Add to Cart</button>
+          <button class="btn btn-danger" (click)="removeProductFromCart(product)">Remove from Cart</button>
+        </div>
+      </div>
+</div> -->
+
+<div *ngFor="let category of productsDetails|async">
+  h
+<p>{{category}}</p>
+</div>

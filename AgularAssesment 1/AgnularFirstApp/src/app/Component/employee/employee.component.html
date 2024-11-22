@@ -1,0 +1,109 @@
+<p>employee works!</p>
+
+<div class="container-fluid">
+
+    <h1 class="text-center">Employee Table</h1>
+   
+    <button class="btn btn-primary" (click)="OpenModal()">Add Employee</button>
+
+    
+    
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of employeelist; track $index) {
+            <tr>
+                <td>{{item.id}}</td>
+                <td>{{item.firstName}}</td>
+                <td>{{item.lastName}}</td>
+                <td>{{item.salary}}</td>
+                <td>
+                 <button type="submit" class="btn btn-primary" (click)="OnUpdateModal(item)" >Edit</button>   
+                 <button type="submit"  class="btn btn-danger" (click)="onDelete(item.id)">Delete</button>   
+                </td>
+            </tr>
+        }
+        </tbody>
+
+    </table>
+
+
+</div>
+
+<!-- Modal  -->
+
+<!-- #myModal is close the modal using the viewchild  -->
+<!-- The Modal -->
+<div class="modal" id="myModal" #myModal>
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+
+        <div class="modal-header bg-info">
+            @if(employeeform.value.id != 0)
+            {
+            <h4 class="modal-title">Update Employee</h4>
+            }@else {
+            <h4 class="modal-title">Add Employee</h4>
+            }
+            <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="Onclose()"></button>
+
+        </div>
+
+<!-- 
+        <div class="modal-header">
+            @if(this.employeeform.value.id !=null)
+            {
+                <h4 class="modal-title">Update Employee</h4>
+        
+            }@else{
+                <h4 class="modal-title">Add Employee</h4>
+            }
+          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="Onclose()"></button>
+
+        </div> -->
+  
+
+        <!-- Modal body -->
+
+       <form [formGroup]="employeeform">
+        <div class="modal-body">
+            <div class="row g-3">
+                <div class="col mb-3">
+                  <input type="text" formControlName="firstName" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col mb-3">
+                  <input type="text" formControlName="lastName"  class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="col mb-3">
+                <input type="number" formControlName="salary"  class="form-control" placeholder="Salary " aria-label="Salary">
+              </div>
+        </div>
+        <div class="modal-footer">
+
+            @if (employeeform.value.id == 0) {
+                <button type="submit" [disabled]="this.employeeform.invalid" class="btn btn-primary"
+                    data-bs-dismiss="modal">Save</button>
+                }@else {
+                <button type="submit" [disabled]="this.employeeform.invalid" class="btn btn-success"
+                    data-bs-dismiss="modal">Update</button>
+                }
+            </div>
+       </form> 
+  
+        <!-- Modal footer -->
+   
+  
+      </div>
+    </div>
+</div>

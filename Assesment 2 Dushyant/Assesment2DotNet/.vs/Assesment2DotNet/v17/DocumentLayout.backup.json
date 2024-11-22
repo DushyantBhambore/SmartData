@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\services\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\services\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\interface\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\interface\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\migrations\\20240920091753_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\migrations\\20240920091753_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dushyantbhambore\\source\\repos\\Assesment2DotNet\\Assesment2DotNet\\Migrations\\20240920091320_Initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|d:\\assesment 2 dushyant\\assesment2dotnet\\assesment2dotnet\\assesment2dotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FCA05D1-B127-49C8-9055-A2BBEE0777E0}|Assesment2DotNet\\Assesment2DotNet.csproj|solutionrelative:assesment2dotnet\\assesment2dotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeServices.cs",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Services\\EmployeeServices.cs",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Services\\EmployeeServices.cs",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Services\\EmployeeServices.cs",
+              "RelativeToolTip": "Assesment2DotNet\\Services\\EmployeeServices.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAewEgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:54:01.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240920091753_Initialmigration.cs",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Migrations\\20240920091753_Initialmigration.cs",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Migrations\\20240920091753_Initialmigration.cs",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Migrations\\20240920091753_Initialmigration.cs",
+              "RelativeToolTip": "Assesment2DotNet\\Migrations\\20240920091753_Initialmigration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:17:54.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Assesment2DotNet\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:57:58.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Interface\\IEmployee.cs",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Interface\\IEmployee.cs",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Interface\\IEmployee.cs",
+              "RelativeToolTip": "Assesment2DotNet\\Interface\\IEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:57:18.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Model\\Employee.cs",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Model\\Employee.cs",
+              "RelativeToolTip": "Assesment2DotNet\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:57:29.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Assesment2DotNet\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:07:28.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Program.cs",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Program.cs",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Program.cs",
+              "RelativeToolTip": "Assesment2DotNet\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:56:19.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\appsettings.Development.json",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\appsettings.Development.json",
+              "RelativeToolTip": "Assesment2DotNet\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T09:15:01.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240920091320_Initialmigration.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\source\\repos\\Assesment2DotNet\\Assesment2DotNet\\Migrations\\20240920091320_Initialmigration.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\source\\repos\\Assesment2DotNet\\Assesment2DotNet\\Migrations\\20240920091320_Initialmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:13:21.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Assesment2DotNet.csproj",
+              "DocumentMoniker": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Assesment2DotNet.csproj",
+              "RelativeDocumentMoniker": "Assesment2DotNet\\Assesment2DotNet.csproj",
+              "ToolTip": "D:\\Assesment 2 Dushyant\\Assesment2DotNet\\Assesment2DotNet\\Assesment2DotNet.csproj",
+              "RelativeToolTip": "Assesment2DotNet\\Assesment2DotNet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T08:54:01.632Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

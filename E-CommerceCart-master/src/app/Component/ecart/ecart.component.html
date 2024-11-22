@@ -1,0 +1,7 @@
+
+<div class="container">
+    <h1>Cart</h1>
+    <div class="d-flex" *ngFor="let item of ecartdata$|async ">
+        {{item.name}} x {{item.quantity}}
+    </div>
+</div>

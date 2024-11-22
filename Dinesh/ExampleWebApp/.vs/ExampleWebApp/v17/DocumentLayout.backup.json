@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\dinesh\\examplewebapp\\infrastructure\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\dinesh\\examplewebapp\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\dinesh\\examplewebapp\\infrastructure\\empdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D84C7-1D92-43CB-BB07-DC0CCE997DA5}|Infrastructure\\Infrastructure.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\dinesh\\examplewebapp\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DEE3C-304C-44F1-AC85-40E85AF6095E}|ExampleWebApp\\ExampleWebApp.csproj|\\\\172.10.1.3\\commondata_new\\sdirect24-25\\dinesh\\examplewebapp\\examplewebapp\\controllers\\studentscqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpDbContext.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\EmpDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EmpDbContext.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\EmpDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\EmpDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T04:12:11.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T04:10:44.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\StudentService.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\Services\\StudentService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T04:09:24.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:49:54.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsCQRSController.cs",
+              "DocumentMoniker": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "RelativeDocumentMoniker": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "ToolTip": "\\\\172.10.1.3\\commondata_new\\sdirect24-25\\Dinesh\\ExampleWebApp\\ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "RelativeToolTip": "ExampleWebApp\\Controllers\\StudentsCQRSController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwEAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:49:51.037Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

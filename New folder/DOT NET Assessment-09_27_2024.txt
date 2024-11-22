@@ -1,0 +1,8 @@
+                              ********************************************************************
+                                                      DOT NET Assessment- 3
+                              ********************************************************************
+
+
+
+1. Create a program to perform CRUD operation on Employee(Eid, FirstName, LastName, Salary, DeptId) and 
+   Department(DeptId, Name) table using EF Core, MadiatR clean architecture.

@@ -1,0 +1,60 @@
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\bin\Debug\net8.0\App.core.deps.json
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\bin\Debug\net8.0\App.core.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\bin\Debug\net8.0\App.core.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\bin\Debug\net8.0\Domain.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\bin\Debug\net8.0\Domain.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.AssemblyReference.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfoInputs.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfo.cs
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.CoreCompileInputs.cache
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.Up2Date
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\refint\App.core.dll
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\App.core.pdb
+C:\Users\dushyantbhambore\source\repos\AngularPractice\App.core\obj\Debug\net8.0\ref\App.core.dll
+D:\Dushyant Dot Net\AngularPractice\App.core\bin\Debug\net8.0\App.core.deps.json
+D:\Dushyant Dot Net\AngularPractice\App.core\bin\Debug\net8.0\App.core.dll
+D:\Dushyant Dot Net\AngularPractice\App.core\bin\Debug\net8.0\App.core.pdb
+D:\Dushyant Dot Net\AngularPractice\App.core\bin\Debug\net8.0\Domain.dll
+D:\Dushyant Dot Net\AngularPractice\App.core\bin\Debug\net8.0\Domain.pdb
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.AssemblyReference.cache
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfoInputs.cache
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfo.cs
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.CoreCompileInputs.cache
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.Up2Date
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.dll
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\refint\App.core.dll
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\App.core.pdb
+D:\Dushyant Dot Net\AngularPractice\App.core\obj\Debug\net8.0\ref\App.core.dll
+D:\AgularAssesment 1\AngularPractice\App.core\bin\Debug\net8.0\App.core.deps.json
+D:\AgularAssesment 1\AngularPractice\App.core\bin\Debug\net8.0\App.core.dll
+D:\AgularAssesment 1\AngularPractice\App.core\bin\Debug\net8.0\App.core.pdb
+D:\AgularAssesment 1\AngularPractice\App.core\bin\Debug\net8.0\Domain.dll
+D:\AgularAssesment 1\AngularPractice\App.core\bin\Debug\net8.0\Domain.pdb
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.AssemblyReference.cache
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfoInputs.cache
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfo.cs
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.CoreCompileInputs.cache
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.Up2Date
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.dll
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\refint\App.core.dll
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\App.core.pdb
+D:\AgularAssesment 1\AngularPractice\App.core\obj\Debug\net8.0\ref\App.core.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\bin\Debug\net8.0\App.core.deps.json
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\bin\Debug\net8.0\App.core.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\bin\Debug\net8.0\App.core.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\bin\Debug\net8.0\Domain.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\bin\Debug\net8.0\Domain.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.AssemblyReference.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfoInputs.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.AssemblyInfo.cs
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.CoreCompileInputs.cache
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.csproj.Up2Date
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\refint\App.core.dll
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\App.core.pdb
+D:\AgularAssesment 1\New folder (2)\AngularPractice\App.core\obj\Debug\net8.0\ref\App.core.dll

@@ -1,0 +1,470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\opentokservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\opentokservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\login2fa\\controllers\\videocallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\controllers\\videocallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\login2fa\\controllers\\opentokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\controllers\\opentokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\infreatsructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|solutionrelative:infreatsructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\login2fa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\login2fa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\infreatsructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|solutionrelative:infreatsructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\login2fa\\login2fa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\login2fa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\login2fa\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\apps\\command\\verifyotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\command\\verifyotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\apps\\command\\userregistercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\command\\userregistercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\apps\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\login2fa\\login2fa.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1C0D375E-958B-4C31-B2DD-85DCC064E359}|Login2FA\\Login2FA.csproj|solutionrelative:login2fa\\login2fa.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E14520-7748-4764-8DF4-B5D282561299}|Domain\\Domain.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E14520-7748-4764-8DF4-B5D282561299}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E14520-7748-4764-8DF4-B5D282561299}|Domain\\Domain.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\domain\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E14520-7748-4764-8DF4-B5D282561299}|Domain\\Domain.csproj|solutionrelative:domain\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\infreatsructure\\migrations\\20241116182114_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|solutionrelative:infreatsructure\\migrations\\20241116182114_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\dtos\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dtos\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dushyantbhambore\\source\\repos\\Login2FA\\Infreatsructure\\Migrations\\20241115062629_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\app.core\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF96F72-2424-43BE-BFA7-AB1A4121D421}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\infreatsructure\\infreatsructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|solutionrelative:infreatsructure\\infreatsructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|d:\\sdfolder\\sdpractice\\2falogin\\login2fa\\infreatsructure\\migrations\\20241116174934_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B066BC1-376C-431D-921F-926889A93D0B}|Infreatsructure\\Infreatsructure.csproj|solutionrelative:infreatsructure\\migrations\\20241116174934_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\ZoomController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Login2FA\\Controllers\\ZoomController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Domain\\TokenOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\TokenOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infreatsructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infreatsructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:01:49.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoCallController.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\VideoCallController.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Controllers\\VideoCallController.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\VideoCallController.cs",
+              "RelativeToolTip": "Login2FA\\Controllers\\VideoCallController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:32:09.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infreatsructure\\AppDbContext.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infreatsructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:49:26.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Program.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Program.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Program.cs",
+              "RelativeToolTip": "Login2FA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:03:08.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\appsettings.json",
+              "RelativeDocumentMoniker": "Login2FA\\appsettings.json",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\appsettings.json",
+              "RelativeToolTip": "Login2FA\\appsettings.json",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T05:57:03.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenTokService.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\OpenTokService.cs",
+              "RelativeDocumentMoniker": "App.Core\\OpenTokService.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\OpenTokService.cs",
+              "RelativeToolTip": "App.Core\\OpenTokService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:54:55.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OpenTokController.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\OpenTokController.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Controllers\\OpenTokController.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\OpenTokController.cs",
+              "RelativeToolTip": "Login2FA\\Controllers\\OpenTokController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:59:34.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login2FA.csproj",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.csproj",
+              "RelativeDocumentMoniker": "Login2FA\\Login2FA.csproj",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.csproj",
+              "RelativeToolTip": "Login2FA\\Login2FA.csproj",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T10:46:17.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\EmailService.cs",
+              "RelativeDocumentMoniker": "App.Core\\EmailService.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\EmailService.cs",
+              "RelativeToolTip": "App.Core\\EmailService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:42:32.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Login2FA\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:27:00.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRegisterCommand.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Apps\\Command\\UserRegisterCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Command\\UserRegisterCommand.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Apps\\Command\\UserRegisterCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Command\\UserRegisterCommand.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:08:06.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ZoomController.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\ZoomController.cs",
+              "RelativeDocumentMoniker": "Login2FA\\Controllers\\ZoomController.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Controllers\\ZoomController.cs",
+              "RelativeToolTip": "Login2FA\\Controllers\\ZoomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T08:36:45.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login2FA.http",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.http",
+              "RelativeDocumentMoniker": "Login2FA\\Login2FA.http",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.http",
+              "RelativeToolTip": "Login2FA\\Login2FA.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-15T06:21:59.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserLoginCommand.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Apps\\Command\\UserLoginCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Command\\UserLoginCommand.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Apps\\Command\\UserLoginCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Command\\UserLoginCommand.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:15:31.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VerifyOtpCommand.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Apps\\Command\\VerifyOtpCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Command\\VerifyOtpCommand.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Apps\\Command\\VerifyOtpCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Command\\VerifyOtpCommand.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswDcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:55:10.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TokenOptions.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Domain\\TokenOptions.cs",
+              "RelativeDocumentMoniker": "Domain\\TokenOptions.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Domain\\TokenOptions.cs",
+              "RelativeToolTip": "Domain\\TokenOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:00:15.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VerifyOtpDto.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Dtos\\VerifyOtpDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dtos\\VerifyOtpDto.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Dtos\\VerifyOtpDto.cs",
+              "RelativeToolTip": "App.Core\\Dtos\\VerifyOtpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:56:01.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Otp.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Domain\\Otp.cs",
+              "RelativeDocumentMoniker": "Domain\\Otp.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Domain\\Otp.cs",
+              "RelativeToolTip": "Domain\\Otp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:45:48.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241116182114_FirstMigration.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Migrations\\20241116182114_FirstMigration.cs",
+              "RelativeDocumentMoniker": "Infreatsructure\\Migrations\\20241116182114_FirstMigration.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Migrations\\20241116182114_FirstMigration.cs",
+              "RelativeToolTip": "Infreatsructure\\Migrations\\20241116182114_FirstMigration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:21:15.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:48:25.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241115062629_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\source\\repos\\Login2FA\\Infreatsructure\\Migrations\\20241115062629_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\source\\repos\\Login2FA\\Infreatsructure\\Migrations\\20241115062629_InitialMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:26:29.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IEmailService.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:41:44.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241116174934_InitialMigration.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Migrations\\20241116174934_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Infreatsructure\\Migrations\\20241116174934_InitialMigration.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Migrations\\20241116174934_InitialMigration.cs",
+              "RelativeToolTip": "Infreatsructure\\Migrations\\20241116174934_InitialMigration.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:49:35.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dtos\\LoginDto.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "App.Core\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:06:59.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dtos\\RegisterDto.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "App.Core\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:06:23.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAppDbcontext.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Interface\\IAppDbcontext.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IAppDbcontext.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\Interface\\IAppDbcontext.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IAppDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:02:45.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Infreatsructure.csproj",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Infreatsructure.csproj",
+              "RelativeDocumentMoniker": "Infreatsructure\\Infreatsructure.csproj",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Infreatsructure.csproj",
+              "RelativeToolTip": "Infreatsructure\\Infreatsructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T05:58:54.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
+              "ToolTip": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:48:40.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

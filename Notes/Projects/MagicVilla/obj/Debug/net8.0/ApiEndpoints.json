@@ -1,0 +1,103 @@
+[
+  {
+    "ContainingType": "MagicVilla.Controllers.VillaController",
+    "Method": "GetVillas",
+    "RelativePath": "api/Villa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MagicVilla.Controllers.VillaController",
+    "Method": "CreateVillas",
+    "RelativePath": "api/Villa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "villadto",
+        "Type": "MagicVilla.Model.Dto.Villadto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MagicVilla.Controllers.VillaController",
+    "Method": "Update",
+    "RelativePath": "api/Villa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "villadto",
+        "Type": "MagicVilla.Model.Dto.Villadto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Update"
+  },
+  {
+    "ContainingType": "MagicVilla.Controllers.VillaController",
+    "Method": "GetVilla",
+    "RelativePath": "api/Villa/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MagicVilla.Controllers.VillaController",
+    "Method": "DeleteVilla",
+    "RelativePath": "api/Villa/id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MagicVilla.Controllers.VillaController",
+    "Method": "UpdateExitingdata",
+    "RelativePath": "api/Villa/Name = Upate Extisting data ",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "patchdto",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

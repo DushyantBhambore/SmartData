@@ -1,0 +1,49 @@
+﻿@using CRUDApplication.ViewModels
+@model List<PateintViewModel>
+
+<a class="btn btn-primary" asp-action="AddPateint" asp-controller="Pateint"> Add Pateint </a>
+<br />
+<br />
+
+@if (Model is not null && Model.Any())
+{
+    <table class="table table-hover table-info">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Pateint First  Name</th>
+                <th>Pateint Last Name</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.PateintId</td>
+                    <td>@item.PateintfirstName</td>
+                    <td>@item.PateintlastName</td>
+                    <td>@item.StartDate</td>
+                    <td>@item.EndDate</td>
+                    <td>
+                        <form method="post" asp-action="DeletePateint" asp-controller="Pateint" asp-route-id="@item.PateintId">
+                            <a class="btn btn-warning" asp-action="UpdatePateint" asp-controller=" Pateint" asp-route-id="@item.PateintId">
+                                Update
+                            </a>
+                            <button class="btn btn-danger" onclick="return confirm('Are you sure you want delete @item.PateintfirstName @item.PateintlastName')">
+                                Delete
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+else
+{
+    <h1>No Record Found</h1>
+}

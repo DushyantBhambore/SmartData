@@ -1,0 +1,32 @@
+﻿@using CRUDApplication.ViewModels
+@model PateintViewModel
+
+
+<form method="post" asp-action="UpdatePateint" asp-controller="Pateint">
+    <input  hidden asp-for="PateintId"/>
+    <div class="mb-3">
+        <label class="form-label" asp-for="PateintfirstName"></label>
+        <input class="form-control" asp-for="PateintfirstName" />
+        <span asp-validation-for="PateintfirstName"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="PateintlastName"></label>
+        <input class="form-control" asp-for="PateintlastName" />
+        <span asp-validation-for="PateintlastName"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" asp-for="StartDate"></label>
+        <input class="form-control" asp-for="StartDate" />
+        <span asp-validation-for="StartDate"></span>
+
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="EndDate"></label>
+        <input class="form-control" asp-for="EndDate" />
+        <span asp-validation-for="EndDate"></span>
+    </div>
+    <div asp-validation-summary="All">
+        <button class="btn btn-primary" type="submit">Save </button>
+    </div>
+</form>

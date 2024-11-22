@@ -1,0 +1,86 @@
+
+<p>databinding works!</p>
+
+<div >
+
+    <h1> One Way  Data Binding </h1>
+    <div class="div ">
+            <div class="row">
+                <div class="col-4 bg-primary">
+                    .ts to .html
+                    databinding using interpolation 
+                    <h4>{{coursename}}</h4>
+                    <h1>{{isactive}}</h1>
+                    <div >{{inputype}}</div>
+                    <!--databind in type -->    
+                </div> 
+                <div class="bg-success col-4" > 
+                    <input type={{inputype}}  class="bg-secondary">
+                    <input type={{inputtext}} value={{rollnumber}} class="bg-secondary" >
+                </div>
+            </div>
+    
+                    
+    </div>
+    
+    
+    <div class="col-6">
+        <div class=" row">
+            .ts to .html
+            <h4 >Property Binding </h4>
+            <br>
+            <div [class]="bgcolor"> Danger </div>
+            <br>
+            <input [type]="inputtext"  [class]="bgcolor" [value]="CurrentDate">
+            <br>
+    
+        </div>
+    
+    </div>
+    
+    
+    <div>
+        <div class="row col-2">
+            <h3>.html to .ts</h3>
+            <h4>Event Binding </h4>
+            <button class="btn btn-primary" (click)="showalert('The Event is on button  ')"> Click me </button>
+            <br>
+            <h5 (click)="showalert('The Event is on Heading Tag ')"> Heading Tag</h5>
+    
+            <button class="btn btn-success" (click)="changeActivestatus()">Status</button>
+    
+        </div>
+    </div>
+    
+        
+</div>
+
+
+<div>
+    <h1>Two way data Binding </h1>
+    <input type="text" [(ngModel)]="coursename"> couse Name is Change 
+
+<input type="checkbox" [(ngModel)]="isactive" >
+
+
+    <select [(ngModel)]="City">
+        <option value="select">select</option>
+        <option value="Nagpur">Nagpur</option>
+        <option value="Amravti">Amravti</option>
+        <option value="Akola">Akola</option>
+        <option value="pune">pune</option>
+    </select>
+
+</div>
+
+
+<div>
+    <h1>Using Signal Binding </h1>
+    <h3>{{firstname()}}</h3>
+    <!-- Signal Binding using the input value -->
+    <div>
+        <!-- <input type="text" [ngModel]="inputval()" (ngModelChange)="inputval.set($event)"> -->
+         <input >
+        <p>{{inputval()}}</p>
+    </div>
+</div>

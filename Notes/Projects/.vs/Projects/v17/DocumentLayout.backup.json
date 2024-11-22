@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Notes\\Projects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\model\\pateintsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\model\\pateintsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\controllers\\pateintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\controllers\\pateintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\services\\pateintservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\services\\pateintservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\studentservices\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\studentservices\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|d:\\notes\\projects\\studentproject\\interface\\ipateints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925BC4CD-08AB-4588-9B72-43819C6D9983}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\interface\\ipateints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\controllers\\studentbyasynccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\controllers\\studentbyasynccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\studentservices\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\studentservices\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\studentservices\\istudentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\studentservices\\istudentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|d:\\notes\\projects\\student_without_interface\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF06F238-6D1A-4D6F-95E4-0C4B672436AE}|Student_without_interface\\Student_without_interface.csproj|solutionrelative:student_without_interface\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PateintsModel.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\Model\\PateintsModel.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Model\\PateintsModel.cs",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\Model\\PateintsModel.cs",
+              "RelativeToolTip": "StudentProject\\Model\\PateintsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T06:52:56.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "StudentProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T06:52:39.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\Program.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Program.cs",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\Program.cs",
+              "RelativeToolTip": "StudentProject\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:57:14.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PateintsController.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\Controllers\\PateintsController.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Controllers\\PateintsController.cs",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\Controllers\\PateintsController.cs",
+              "RelativeToolTip": "StudentProject\\Controllers\\PateintsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:33:32.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PateintServices.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\Services\\PateintServices.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Services\\PateintServices.cs",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\Services\\PateintServices.cs",
+              "RelativeToolTip": "StudentProject\\Services\\PateintServices.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:29:39.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\StudentServices\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Student_without_interface\\StudentServices\\StudentRepository.cs",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\StudentServices\\StudentRepository.cs",
+              "RelativeToolTip": "Student_without_interface\\StudentServices\\StudentRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:19:45.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StudentProject\\appsettings.Development.json",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\appsettings.Development.json",
+              "RelativeToolTip": "StudentProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T08:57:22.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPateints.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\Interface\\IPateints.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Interface\\IPateints.cs",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\Interface\\IPateints.cs",
+              "RelativeToolTip": "StudentProject\\Interface\\IPateints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:41:11.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Notes\\Projects\\StudentProject\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentProject\\appsettings.json",
+              "ToolTip": "D:\\Notes\\Projects\\StudentProject\\appsettings.json",
+              "RelativeToolTip": "StudentProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T08:57:17.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentByAsyncController.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\Controllers\\StudentByAsyncController.cs",
+              "RelativeDocumentMoniker": "Student_without_interface\\Controllers\\StudentByAsyncController.cs",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\Controllers\\StudentByAsyncController.cs",
+              "RelativeToolTip": "Student_without_interface\\Controllers\\StudentByAsyncController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:17:34.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IStudentServices.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\StudentServices\\IStudentServices.cs",
+              "RelativeDocumentMoniker": "Student_without_interface\\StudentServices\\IStudentServices.cs",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\StudentServices\\IStudentServices.cs",
+              "RelativeToolTip": "Student_without_interface\\StudentServices\\IStudentServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:59:35.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\StudentServices\\StudentServices.cs",
+              "RelativeDocumentMoniker": "Student_without_interface\\StudentServices\\StudentServices.cs",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\StudentServices\\StudentServices.cs",
+              "RelativeToolTip": "Student_without_interface\\StudentServices\\StudentServices.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwGIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:24:05.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Student_without_interface\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Student_without_interface\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:55:44.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Student_without_interface\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Student_without_interface\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:24:34.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Student_without_interface\\Model\\Student.cs",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\Model\\Student.cs",
+              "RelativeToolTip": "Student_without_interface\\Model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:22:58.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Notes\\Projects\\Student_without_interface\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Student_without_interface\\appsettings.Development.json",
+              "ToolTip": "D:\\Notes\\Projects\\Student_without_interface\\appsettings.Development.json",
+              "RelativeToolTip": "Student_without_interface\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T04:22:07.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
