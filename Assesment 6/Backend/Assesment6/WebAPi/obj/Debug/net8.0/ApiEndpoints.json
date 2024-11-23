@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "WebAPi.Controllers.AuthenticateController",
+    "Method": "Login",
+    "RelativePath": "api/Authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "App.Core.Dto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPi.Controllers.AuthenticateController",
+    "Method": "Register",
+    "RelativePath": "api/Authenticate/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "App.Core.Dto.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

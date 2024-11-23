@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\webapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|solutionrelative:webapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\apps\\query\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\query\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\apps\\query\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\query\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\apps\\command\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\command\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\apps\\command\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\command\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\apps\\command\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\command\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\apps\\command\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\command\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A953D07F-6725-475D-8698-9028727F80B9}|Infrestructure\\Infrestructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\infrestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A953D07F-6725-475D-8698-9028727F80B9}|Infrestructure\\Infrestructure.csproj|solutionrelative:infrestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A953D07F-6725-475D-8698-9028727F80B9}|Infrestructure\\Infrestructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\infrestructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A953D07F-6725-475D-8698-9028727F80B9}|Infrestructure\\Infrestructure.csproj|solutionrelative:infrestructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\webapi\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|solutionrelative:webapi\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CEF92E6-2C62-4D5F-A682-AD4CCB3D9BE8}|WebAPi\\WebAPi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5A39D4-112E-4C53-ABAC-ECD6EF2CA543}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5A39D4-112E-4C53-ABAC-ECD6EF2CA543}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73636F59-2A68-4E1C-B869-2D607B80A762}|App.Core\\App.Core.csproj|solutionrelative:app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A953D07F-6725-475D-8698-9028727F80B9}|Infrestructure\\Infrestructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\assesment 6\\backend\\assesment6\\infrestructure\\migrations\\20241123113005_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A953D07F-6725-475D-8698-9028727F80B9}|Infrestructure\\Infrestructure.csproj|solutionrelative:infrestructure\\migrations\\20241123113005_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebAPi\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebAPi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:56:31.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Query\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Query\\GetUserByIdQuery.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Query\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Query\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:37:02.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Query\\GetAllUserQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Query\\GetAllUserQuery.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Query\\GetAllUserQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Query\\GetAllUserQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:32:39.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\DeleteUserCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Command\\DeleteUserCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\DeleteUserCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Command\\DeleteUserCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvx0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:25:46.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvw8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:16:29.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241123113005_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Infrestructure\\Migrations\\20241123113005_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Migrations\\20241123113005_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Infrestructure\\Migrations\\20241123113005_InitialMigration.cs",
+              "RelativeToolTip": "Infrestructure\\Migrations\\20241123113005_InitialMigration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:30:05.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "WebAPi\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "WebAPi\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAtwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:15:55.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Command\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\LoginCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Command\\LoginCommand.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:20:33.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Dto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dto\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Dto\\LoginDto.cs",
+              "RelativeToolTip": "App.Core\\Dto\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:07:05.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Dto\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dto\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Dto\\RegisterDto.cs",
+              "RelativeToolTip": "App.Core\\Dto\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:06:28.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Apps\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Command\\RegisterUserCommand.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:05:49.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Dto\\UserDto.cs",
+              "RelativeToolTip": "App.Core\\Dto\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:04:43.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPi\\appsettings.json",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\appsettings.json",
+              "RelativeToolTip": "WebAPi\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-23T08:55:44.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPi\\Program.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\WebAPi\\Program.cs",
+              "RelativeToolTip": "WebAPi\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:55:41.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T08:55:03.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Infrestructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Infrestructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrestructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:52:58.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:52:11.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Infrestructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Infrestructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrestructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:44:31.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\App.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:44:18.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Assesment 6\\Backend\\Assesment6\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:44:06.753Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
