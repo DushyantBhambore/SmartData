@@ -1,0 +1,34 @@
+<div class="chat-container">
+  <ng-container *ngIf="isUserLoggedIn">
+    <div class="chat-box card">
+      <div class="card-header bg-primary text-white text-center">
+        <h5>Welcome, {{ userName }}</h5>
+      </div>
+      <div class="card-body">
+        <ul class="list-group chat-messages">
+          <li *ngFor="let msg of messages" class="list-group-item">
+            {{ msg }}
+          </li>
+        </ul>
+      </div>
+      <div class="card-footer">
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="message"
+            placeholder="Type a message..."
+          />
+          <button
+            class="btn btn-primary"
+            type="button"
+            (click)="onMessageSent()"
+            [disabled]="!message.trim()"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

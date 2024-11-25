@@ -1,0 +1,32 @@
+
+ <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Email Id</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of userlist; track $index) {
+        <tr>
+          <td>{{ $index + 1 }}</td>
+          <td>{{ item.firstName }}</td>
+          <td>{{ item.lastName }}</td>
+          <td>{{ item.email }}</td>
+          <td>
+            <button class="btn btn-warning mx-3" (click)="onEdit(item.userId)">
+                <i class="bi bi-pencil-square"></i>
+            </button>
+            <button class="btn btn-danger" (click)="ondelete(item.userId)">
+                <i class="bi bi-trash3"></i>
+            </button>
+          </td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div> 

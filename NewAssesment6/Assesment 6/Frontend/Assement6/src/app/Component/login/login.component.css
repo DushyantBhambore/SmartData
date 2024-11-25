@@ -1,0 +1,149 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Parent container styles */
+  .parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  
+  /* Login container */
+  .container {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Title styling */
+  .container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .container .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  
+  /* Form user-details section */
+  .content form .user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0 12px 0;
+  }
+  
+  /* Input box styling */
+  form .user-details .input-box {
+    width: 100%;
+  }
+  
+  form .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .user-details .input-box input,
+  .user-details .input-box select {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Focus and valid state for inputs */
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid,
+  .user-details .input-box select:focus,
+  .user-details .input-box select:valid {
+    border-color: #9b59b6;
+  }
+  
+  /* Button styling */
+  form .button {
+    height: 45px;
+    margin: 20px 0;
+  }
+  
+  form .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  
+  form .button input:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  }
+  
+  /* Animation for fade-in and slide-up */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to the container */
+.container.animate {
+  animation: fadeSlideIn 0.8s ease-in-out both;
+}
+
+/* Optional: Add animation delay to child elements for a cascading effect */
+.container.animate .content .user-details .input-box {
+  animation: fadeSlideIn 0.8s ease-in-out both;
+}
+
+.container.animate .button {
+  animation: fadeSlideIn 1s ease-in-out both;
+}
+
+  /* Responsive styling for mobile devices */
+  @media(max-width: 584px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  @media(max-width: 459px) {
+    .container .content .user-details {
+      gap: 10px;
+    }
+  }
+  

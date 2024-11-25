@@ -1,0 +1,63 @@
+/* Center the chatbox at the middle of the page */
+.chat-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 500px;
+    z-index: 1000;
+  }
+  
+  /* Chatbox Styling */
+  .chat-box {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  /* Chat Messages Styling */
+  .chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  /* Smooth Scroll for Chat Messages */
+  .chat-messages::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .chat-messages::-webkit-scrollbar-thumb {
+    background: #9b59b6;
+    border-radius: 4px;
+  }
+  
+  .chat-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Message Item */
+  .list-group-item {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Input Group Styling */
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-group .form-control {
+    border-radius: 20px;
+  }
+  
+  .input-group .btn {
+    border-radius: 20px;
+  }
+  

@@ -1,0 +1,58 @@
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.deps.json
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.runtimeconfig.json
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.dll
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.pdb
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Domain.dll
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.csproj.AssemblyReference.cache
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.AssemblyInfoInputs.cache
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.AssemblyInfo.cs
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.csproj.CoreCompileInputs.cache
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.sourcelink.json
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestr.15B85F12.Up2Date
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.dll
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\refint\Infrestructure.dll
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.pdb
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.genruntimeconfig.cache
+C:\Users\dushyantbhambore\Desktop\smartData\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\ref\Infrestructure.dll
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.deps.json
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.runtimeconfig.json
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.dll
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.pdb
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\App.Core.dll
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Domain.dll
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\App.Core.pdb
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Domain.pdb
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.csproj.AssemblyReference.cache
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.AssemblyInfoInputs.cache
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.AssemblyInfo.cs
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.csproj.CoreCompileInputs.cache
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestr.15B85F12.Up2Date
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.dll
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\refint\Infrestructure.dll
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.pdb
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.genruntimeconfig.cache
+D:\Sdfolder\SdPractice\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\ref\Infrestructure.dll
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.deps.json
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.runtimeconfig.json
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.dll
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Infrestructure.pdb
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Domain.dll
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.csproj.AssemblyReference.cache
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.AssemblyInfoInputs.cache
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.AssemblyInfo.cs
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.csproj.CoreCompileInputs.cache
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestr.15B85F12.Up2Date
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.dll
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\refint\Infrestructure.dll
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.pdb
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\Infrestructure.genruntimeconfig.cache
+C:\Users\dushyantbhambore\Downloads\Assesment 6\Assesment 6\Backend\Assesment6\Infrestructure\obj\Debug\net8.0\ref\Infrestructure.dll

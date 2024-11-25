@@ -1,0 +1,55 @@
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <!-- Profile Details -->
+    <div class="col-md-8">
+      <div class="card border-0 shadow-lg">
+        <div class="card-header bg-primary text-white">
+          <h2 class="text-center">Profile Details</h2>
+        </div>
+        <div class="card-body">
+          <form>
+            <!-- Full Name -->
+            <div class="mb-3 row">
+              <label for="fullName" class="col-sm-3 col-form-label text-secondary">Full Name:</label>
+              <div class="col-sm-9">
+                <label for="fullName" class="form-label text-primary">{{userdata.FirstName}} {{userdata.LastName}}</label>
+              </div>
+            </div>
+
+            <!-- User Name -->
+            <div class="mb-3 row">
+              <label for="userName" class="col-sm-3 col-form-label text-secondary">User Name:</label>
+              <div class="col-sm-9">
+                <label for="userName" class="form-label text-primary">{{userdata.UserName}}</label>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3 row">
+              <label for="email" class="col-sm-3 col-form-label text-secondary">Email:</label>
+              <div class="col-sm-9">
+                <label for="email" class="form-label text-primary">{{userdata.Email}}</label>
+              </div>
+            </div>
+
+            <!-- Role -->
+            <div class="mb-3 row">
+              <label for="role" class="col-sm-3 col-form-label text-secondary">Role:</label>
+              <div class="col-sm-9">
+                <label for="role" class="form-label text-primary">{{userdata.Role}}</label>
+              </div>
+            </div>
+
+            <!-- Status -->
+            <div class="mb-3 row">
+              <label for="status" class="col-sm-3 col-form-label text-secondary">Status:</label>
+              <div class="col-sm-9">
+                <label for="status" class="form-label text-primary">{{userdata.IsActive ? 'Active' : 'Inactive'}}</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

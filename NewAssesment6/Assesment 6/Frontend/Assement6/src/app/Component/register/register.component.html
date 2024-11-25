@@ -1,0 +1,199 @@
+<div class="parent">
+  <div class="container">
+    <!-- Title Section -->
+    <div class="title">
+      <h2 class="text-center">
+        {{ userObj.userId > 0 ? "Update User" : "Register User" }}
+      </h2>
+    </div>
+    <div class="content">
+      <!-- Registration Form -->
+      <form #userForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+        <div class="user-details">
+          <!-- Full Name -->
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input
+              type="text"
+              [(ngModel)]="userObj.firstName"
+              name="firstName"
+              placeholder="Enter your first name"
+              #firstName="ngModel"
+              required
+              minlength="3"
+            />
+            <small *ngIf="firstName.touched && firstName.invalid" class="text-danger">
+              Full Name is required (min. 3 characters).
+            </small>
+          </div>
+      
+          <!-- Last Name -->
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input
+              type="text"
+              [(ngModel)]="userObj.lastName"
+              name="lastName"
+              placeholder="Enter your last name"
+              #lastName="ngModel"
+              required
+              minlength="3"
+            />
+            <small *ngIf="lastName.touched && lastName.invalid" class="text-danger">
+              Last Name is required (min. 3 characters).
+            </small>
+          </div>
+      
+          <!-- Email -->
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input
+              type="email"
+              [(ngModel)]="userObj.email"
+              name="email"
+              placeholder="Enter your email"
+              #email="ngModel"
+              required
+            />
+            <small *ngIf="email.touched && email.invalid" class="text-danger">
+              Enter a valid email address.
+            </small>
+          </div>
+      
+          <!-- Username -->
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input
+              type="text"
+              [(ngModel)]="userObj.userName"
+              name="userName"
+              placeholder="Enter your username"
+              #userName="ngModel"
+              required
+              minlength="5"
+            />
+            <small *ngIf="userName.touched && userName.invalid" class="text-danger">
+              Username is required (min. 5 characters).
+            </small>
+          </div>
+      
+          <!-- Country -->
+          <div class="input-box">
+            <span class="details">Country</span>
+            <input
+              type="text"
+              [(ngModel)]="userObj.country"
+              name="country"
+              placeholder="Enter your country"
+              #country="ngModel"
+              required
+            />
+            <small *ngIf="country.touched && country.invalid" class="text-danger">
+              Country is required.
+            </small>
+          </div>
+      
+          <!-- State -->
+          <div class="input-box">
+            <span class="details">State</span>
+            <input
+              type="text"
+              [(ngModel)]="userObj.state"
+              name="state"
+              placeholder="Enter your state"
+              #state="ngModel"
+              required
+            />
+            <small *ngIf="state.touched && state.invalid" class="text-danger">
+              State is required.
+            </small>
+          </div>
+      
+          <!-- City -->
+          <div class="input-box">
+            <span class="details">City</span>
+            <input
+              type="text"
+              [(ngModel)]="userObj.city"
+              name="city"
+              placeholder="Enter your city"
+              #city="ngModel"
+              required
+            />
+            <small *ngIf="city.touched && city.invalid" class="text-danger">
+              City is required.
+            </small>
+          </div>
+      
+          <!-- Select Role -->
+          <div class="input-box">
+            <span class="details">Role</span>
+            <select
+              [(ngModel)]="userObj.role"
+              name="role"
+              #role="ngModel"
+              required
+            >
+              <option value="" disabled selected hidden>Select Role</option>
+              <option value="Admin">Admin</option>
+              <option value="Patient">Patient</option>
+              <option value="User">User</option>
+            </select>
+            <small *ngIf="role.touched && role.invalid" class="text-danger">
+              Role selection is required.
+            </small>
+          </div>
+      
+          <!-- Password -->
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input
+              type="password"
+              [(ngModel)]="userObj.password"
+              name="password"
+              placeholder="Enter your password"
+              #password="ngModel"
+              required
+              minlength="8"
+            />
+            <small *ngIf="password.touched && password.invalid" class="text-danger">
+              Password is required (min. 8 characters).
+            </small>
+          </div>
+        </div>
+      
+        <!-- Select the Status -->
+        <div class="form-check">
+          <input
+            class="form-check-input mx-3"
+            [(ngModel)]="userObj.isActive"
+            name="isActive"
+            type="checkbox"
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">IsActive</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input mx-3"
+            type="checkbox"
+            [(ngModel)]="userObj.isDelete"
+            name="isDelete"
+            id="flexCheckChecked"
+          />
+          <label class="form-check-label" for="flexCheckChecked">IsDelete</label>
+        </div>
+      
+        <!-- Submit Button -->
+        <button
+          class="button btn btn-primary"
+          type="submit"
+          [disabled]="!userForm.valid"
+        >
+          {{ userObj.userId > 0 ? "Update User" : "Register User" }}
+        </button>
+        
+      </form>
+    </div>
+  </div>
+</div>

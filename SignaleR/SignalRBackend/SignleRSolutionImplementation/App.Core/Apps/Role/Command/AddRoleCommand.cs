@@ -30,19 +30,19 @@ namespace App.Core.Apps.Role.Command
             var checkroleid = await _appDbContext.Set<Domain.Roles>().Where(x => x.RoleId == request.RoleDto.RoleId).FirstOrDefaultAsync();
 
 
-            if (checkroleid.RoleId >0 && checkroleid.IsActive== true)
-            {
-                checkroleid.RoleId = request.RoleDto.RoleId;
-                checkroleid.RoleName= request.RoleDto.RoleName;
-                checkroleid.CreatedBy = request.RoleDto.CreatedBy;
-                checkroleid.CreatedOn = DateTime.Now;
-                checkroleid.UpdateBy = request.RoleDto.UpdateBy;
-                checkroleid.UpdatedOn = DateTime.Now;
-                checkroleid.IsDeletd = request.RoleDto.IsDeletd;
-                checkroleid.IsActive = request.RoleDto.IsActive;
+            //if (checkroleid.RoleId !null && checkroleid.IsActive == true)
+            //{
+            //    checkroleid.RoleId = request.RoleDto.RoleId;
+            //    checkroleid.RoleName = request.RoleDto.RoleName;
+            //    checkroleid.CreatedBy = request.RoleDto.CreatedBy;
+            //    checkroleid.CreatedOn = DateTime.Now;
+            //    checkroleid.UpdateBy = request.RoleDto.UpdateBy;
+            //    checkroleid.UpdatedOn = DateTime.Now;
+            //    checkroleid.IsDeletd = request.RoleDto.IsDeletd;
+            //    checkroleid.IsActive = request.RoleDto.IsActive;
 
-               await _appDbContext.SaveChangesAsync(cancellationToken);
-            }
+            //    await _appDbContext.SaveChangesAsync(cancellationToken);
+            //}
 
             var newrole = new Domain.Roles
             {
@@ -52,6 +52,8 @@ namespace App.Core.Apps.Role.Command
                 CreatedOn = DateTime.Now,
                 UpdateBy = request.RoleDto.UpdateBy,
                 UpdatedOn = DateTime.Now,
+                DeletedBy = request.RoleDto.DeletedBy,
+                DeletedOn = DateTime.Now,
                 IsActive = request.RoleDto.IsActive,
                 IsDeletd = request.RoleDto.IsDeletd,
             };
