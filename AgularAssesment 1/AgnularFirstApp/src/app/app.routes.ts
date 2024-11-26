@@ -5,6 +5,7 @@ import { DatabindingComponent } from './Component/databinding/databinding.compon
 import { EmployeeComponent } from './Component/employee/employee.component';
 import { ReactiveFormsComponent } from './Component/reactive-forms/reactive-forms.component';
 import { TemplateFormsComponent } from './Component/template-forms/template-forms.component';
+import { SVGComponent } from './Component/svg/svg.component';
 
 export const routes: Routes = [
     {
@@ -30,6 +31,10 @@ export const routes: Routes = [
             {
                 path:'templateform',
                 component:TemplateFormsComponent
+            },
+            {
+                path:'svg',
+                component:SVGComponent
             }
         ]
     },

@@ -14,8 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Apps\Patient\Command\" />
-    <Folder Include="Apps\Patient\Query\" />
     <Folder Include="Apps\User\Command\" />
     <Folder Include="Apps\User\Query\" />
   </ItemGroup>

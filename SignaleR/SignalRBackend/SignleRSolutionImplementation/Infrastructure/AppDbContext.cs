@@ -17,5 +17,7 @@ namespace Infrastructure
 
         public DbSet<User> User { get; set; }
         public DbSet<Roles> Roles { get; set; }
+        public DbSet<Patient> Patient { get; set; }
+
     }
 }

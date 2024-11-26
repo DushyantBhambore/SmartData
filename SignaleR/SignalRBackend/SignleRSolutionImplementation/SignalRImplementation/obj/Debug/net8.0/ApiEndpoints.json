@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "SignalRImplementation.Controllers.PatientController",
+    "Method": "AddPatient",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientDto",
+        "Type": "App.Core.Dto.PatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRImplementation.Controllers.RoleController",
     "Method": "AddRole",
     "RelativePath": "api/Role/AddRole",
