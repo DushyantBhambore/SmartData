@@ -6,13 +6,14 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
 import { provideStore } from '@ngrx/store';
 import { provideToastr } from 'ngx-toastr';
 import { provideAnimations } from '@angular/platform-browser/animations';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes),
     provideHttpClient(withFetch()), 
     provideStore(),
     provideToastr(),
-    provideAnimations()
+    provideAnimations(), provideAnimationsAsync()
   
   ]
 };

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Infreatsructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588d04a721bc1acbc74b472525195bf783cd4f39")]
 [assembly: System.Reflection.AssemblyProductAttribute("Infreatsructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Infreatsructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,11 +14,11 @@ namespace App.Core.Apps.Patient.Query
     public class GetAllPatient : IRequest<List<PatientDto>>
     {
     }
-    public class GetAllPatientQuery : IRequestHandler<GetAllPatient , List<PatientDto>>
+    public class GetAllPatientHandller : IRequestHandler<GetAllPatient, List<PatientDto>>
     {
         private readonly IAppDbContext _appDbContext;
 
-        public GetAllPatientQuery(IAppDbContext appDbContext)
+        public GetAllPatientHandller(IAppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }

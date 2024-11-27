@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
   public count :number =0;
 
   // initilize the childModel property to variable 
-  // Passing the input paraeter to the ChildModel
+  // Passing the input paraeter to the ChildModel 
   public obj : ChildModel= {id :12,name :'arun'}
 
   // create a function on button press the button the count will increase 

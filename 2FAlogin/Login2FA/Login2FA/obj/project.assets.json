@@ -7976,19 +7976,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\91997\\.nuget\\packages\\": {}
+    "C:\\Users\\dushyantbhambore\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.csproj",
+      "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.csproj",
       "projectName": "Login2FA",
-      "projectPath": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.csproj",
-      "packagesPath": "C:\\Users\\91997\\.nuget\\packages\\",
-      "outputPath": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Login2FA\\obj\\",
+      "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\2FAlogin\\Login2FA\\Login2FA\\Login2FA.csproj",
+      "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\2FAlogin\\Login2FA\\Login2FA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\91997\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8003,11 +8003,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\App.Core.csproj": {
-              "projectPath": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\App.Core\\App.Core.csproj"
+            "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\2FAlogin\\Login2FA\\App.Core\\App.Core.csproj": {
+              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\2FAlogin\\Login2FA\\App.Core\\App.Core.csproj"
             },
-            "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Infreatsructure.csproj": {
-              "projectPath": "D:\\Sdfolder\\SdPractice\\2FAlogin\\Login2FA\\Infreatsructure\\Infreatsructure.csproj"
+            "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\2FAlogin\\Login2FA\\Infreatsructure\\Infreatsructure.csproj": {
+              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\2FAlogin\\Login2FA\\Infreatsructure\\Infreatsructure.csproj"
             }
           }
         }

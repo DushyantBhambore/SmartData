@@ -28,10 +28,10 @@ namespace App.Core.Apps.Role.Command
         {
 
             var checkroleid = await _appDbContext.Set<Domain.Roles>()
-                .Where(x=>x.RoleId==request.RoleDto.RoleId).
+                .Where(x => x.RoleId == request.RoleDto.RoleId).
                 FirstOrDefaultAsync();
-            
-            if(checkroleid == null )
+
+            if (checkroleid == null)
             {
                 var newrole = new Domain.Roles
                 {
@@ -46,7 +46,7 @@ namespace App.Core.Apps.Role.Command
                 await _appDbContext.SaveChangesAsync(cancellationToken);
             }
 
-            else if (checkroleid.RoleId>0 && checkroleid.IsActive == true)
+            else if (checkroleid.RoleId > 0 && checkroleid.IsActive == true)
             {
                 checkroleid.RoleId = request.RoleDto.RoleId;
                 checkroleid.RoleName = request.RoleDto.RoleName;
@@ -58,9 +58,9 @@ namespace App.Core.Apps.Role.Command
                 return JsonSerializer.Serialize(new { message = "Role is Updated  " });
             }
 
-           
-            return JsonSerializer.Serialize(new { message = "Role is created "});
-           
+
+            return JsonSerializer.Serialize(new { message = "Role is created " });
+
         }
     }
 }

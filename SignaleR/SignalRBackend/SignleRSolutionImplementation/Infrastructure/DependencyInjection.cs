@@ -1,4 +1,5 @@
-﻿using App.Core.Interface;
+﻿using App.Core;
+using App.Core.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,7 +12,7 @@ namespace Infrastructure
         {
 
             services.AddScoped<IAppDbContext, AppDbContext>();
-
+            services.AddScoped<IEmailService, EmailService>();
             services.AddDbContext<AppDbContext>((provide, options) =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));

@@ -1,7 +1,33 @@
 [
   {
+    "ContainingType": "SignalRImplementation.Controllers.AgentController",
+    "Method": "AddorUpdate",
+    "RelativePath": "api/Agent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentDto",
+        "Type": "App.Core.Dto.AgentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRImplementation.Controllers.AgentController",
+    "Method": "GetAllAgent",
+    "RelativePath": "api/Agent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRImplementation.Controllers.PatientController",
-    "Method": "AddPatient",
+    "Method": "AddorUpdate",
     "RelativePath": "api/Patient",
     "HttpMethod": "POST",
     "IsController": true,
@@ -13,6 +39,42 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRImplementation.Controllers.PatientController",
+    "Method": "GetALlPatient",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRImplementation.Controllers.PractitionerController",
+    "Method": "AddorUpdate",
+    "RelativePath": "api/Practitioner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "practitionerDto",
+        "Type": "App.Core.Dto.PractitionerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRImplementation.Controllers.PractitionerController",
+    "Method": "GetAllPractitioner",
+    "RelativePath": "api/Practitioner/GetAllPractitioner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -52,6 +114,38 @@
       {
         "Name": "roleDto",
         "Type": "App.Core.Dto.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRImplementation.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "App.Core.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRImplementation.Controllers.UserController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/User/VerifyOtp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verifyOtpDto",
+        "Type": "App.Core.Dto.VerifyOTPDto",
         "IsRequired": true
       }
     ],

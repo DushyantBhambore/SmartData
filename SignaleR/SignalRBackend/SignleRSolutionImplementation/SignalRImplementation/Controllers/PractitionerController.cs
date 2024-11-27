@@ -1,5 +1,6 @@
 ﻿using App.Core.Apps.Patient.Command;
 using App.Core.Apps.Practitioner.Command;
+using App.Core.Apps.Practitioner.Query;
 using App.Core.Dto;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -22,6 +23,13 @@ namespace SignalRImplementation.Controllers
         public async Task<IActionResult> AddorUpdate(PractitionerDto practitionerDto)
         {
             var result = await _mediator.Send(new AddPractitionerCommand { PractitionerDto = practitionerDto });
+            return Ok(result);
+        }
+
+        [HttpGet("GetAllPractitioner")]
+        public async Task<IActionResult>  GetAllPractitioner()
+        {
+            var result = await _mediator.Send(new GetAllPractitionerQuery());
             return Ok(result);
         }
     }

@@ -1,18 +1,36 @@
 using App.Core;
 using Infrastructure;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using SignalRImplementation.SignaleR;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-var configure = builder.Configuration;
+var configuration = builder.Configuration;
 
 // Add services to the container.
 
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure(configure);
+builder.Services.AddInfrastructure(configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddSignalR();
 
+// JWt Authentication 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidIssuer = configuration["Jwt:Issuer"],
+        ValidAudience = configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
+    };
+});
+// CORES POlicies
 builder.Services.AddCors(optios =>
 {
     optios.AddPolicy("Test",
