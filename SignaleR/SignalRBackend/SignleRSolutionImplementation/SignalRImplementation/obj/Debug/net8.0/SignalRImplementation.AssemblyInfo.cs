@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalRImplementation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588d04a721bc1acbc74b472525195bf783cd4f39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ff958e89a18383d8f2dad74f9272305fb4dfb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalRImplementation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalRImplementation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

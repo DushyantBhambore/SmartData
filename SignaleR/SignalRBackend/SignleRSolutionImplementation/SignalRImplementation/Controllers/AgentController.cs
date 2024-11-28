@@ -3,6 +3,7 @@ using App.Core.Apps.Agent.Query;
 using App.Core.Apps.Patient.Command;
 using App.Core.Dto;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,7 @@ namespace SignalRImplementation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AgentController : ControllerBase
     {
         private readonly IMediator _mediator;

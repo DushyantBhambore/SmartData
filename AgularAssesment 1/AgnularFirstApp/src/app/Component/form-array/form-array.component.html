@@ -1,0 +1,20 @@
+<div [formGroup]="stuentForm">
+    <div formArrayName="forms">
+      <div *ngFor="let form of stuentForm.get('forms').controls; index as i">
+        <div [formGroupName]="i">
+          <label for="">{{ formNames[i] }}</label>
+          <input type="text" formControlName="name">
+          <div formArrayName="phones">
+            <div *ngFor="let phone of form.get('phones').controls; index as j">
+              <input type="number" [formControlName]="j">
+              <button (click)="removePhone(i, j)">Remove Phone</button>
+            </div>
+            <button (click)="addPhone(i)">Add Phone</button>
+          </div>
+        </div>
+        <button (click)="removeForm(i)">Remove Form</button>
+      </div>
+    </div>
+    <button (click)="addForm()">Add Form</button>
+    <button type="submit" (click)="submit()" class="btn btn-primary">Submit</button>
+  </div>

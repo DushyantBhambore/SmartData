@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\signalrimplementation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|solutionrelative:signalrimplementation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\app.core\\apps\\user\\query\\verifyotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\query\\verifyotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\app.core\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\signalrimplementation\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|solutionrelative:signalrimplementation\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\signalrimplementation\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|solutionrelative:signalrimplementation\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\signalrimplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|solutionrelative:signalrimplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\app.core\\apps\\user\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\signalrimplementation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|solutionrelative:signalrimplementation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\app.core\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\app.core\\apps\\patient\\command\\addpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Infrastructure\\Migrations\\20241127115210_FinalMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241127115210_FinalMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,16 +71,16 @@
       "RelativeMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|solutionrelative:signalrimplementation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\signalrimplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E49CF29-B8AA-40AB-82B1-EC35F81536DB}|SignalRImplementation\\SignalRImplementation.csproj|solutionrelative:signalrimplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\app.core\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90B91384-047E-4B4B-B187-9811001C757F}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\signaler\\signalrbackend\\signlersolutionimplementation\\infrastructure\\migrations\\20241127115210_finalmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B79974-1325-49EB-B90B-E9F05C4821BF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241127115210_finalmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,11 +90,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "SignalRImplementation\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "SignalRImplementation\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:39:39.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "SignalRImplementation\\Controllers\\AgentController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Controllers\\AgentController.cs",
+              "RelativeToolTip": "SignalRImplementation\\Controllers\\AgentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:39:30.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AgentCommad.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\Agent\\Command\\AgentCommad.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Agent\\Command\\AgentCommad.cs",
@@ -99,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "AgentDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Dto\\AgentDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dto\\AgentDto.cs",
@@ -107,12 +141,11 @@
               "RelativeToolTip": "App.Core\\Dto\\AgentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:00:13.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T12:00:13.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AddPractitionerCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\Practitioner\\Command\\AddPractitionerCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Practitioner\\Command\\AddPractitionerCommand.cs",
@@ -125,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AddPatientCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\Patient\\Command\\AddPatientCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Patient\\Command\\AddPatientCommand.cs",
@@ -138,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "20241127115210_FinalMigration.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Infrastructure\\Migrations\\20241127115210_FinalMigration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241127115210_FinalMigration.cs",
@@ -146,12 +179,11 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\20241127115210_FinalMigration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:52:10.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:52:10.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\EmailService.cs",
               "RelativeDocumentMoniker": "App.Core\\EmailService.cs",
@@ -159,12 +191,11 @@
               "RelativeToolTip": "App.Core\\EmailService.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAIAwwEsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:49:52.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:49:52.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\appsettings.json",
               "RelativeDocumentMoniker": "SignalRImplementation\\appsettings.json",
@@ -172,12 +203,11 @@
               "RelativeToolTip": "SignalRImplementation\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-27T11:47:43.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:47:43.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -185,12 +215,11 @@
               "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:40:07.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:40:07.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "PatientDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Dto\\PatientDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dto\\PatientDto.cs",
@@ -198,12 +227,11 @@
               "RelativeToolTip": "App.Core\\Dto\\PatientDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:40:00.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:40:00.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PractitionerDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Dto\\PractitionerDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dto\\PractitionerDto.cs",
@@ -211,12 +239,11 @@
               "RelativeToolTip": "App.Core\\Dto\\PractitionerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:39:59.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:39:59.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "RoleDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Dto\\RoleDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dto\\RoleDto.cs",
@@ -224,12 +251,11 @@
               "RelativeToolTip": "App.Core\\Dto\\RoleDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:39:58.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:39:58.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Dto\\UserDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dto\\UserDto.cs",
@@ -237,12 +263,11 @@
               "RelativeToolTip": "App.Core\\Dto\\UserDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:39:57.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:39:57.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "VerifyOTPDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Dto\\VerifyOTPDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dto\\VerifyOTPDto.cs",
@@ -250,64 +275,63 @@
               "RelativeToolTip": "App.Core\\Dto\\VerifyOTPDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:39:55.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:39:55.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SignalRImplementation\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Controllers\\UserController.cs",
               "RelativeToolTip": "SignalRImplementation\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:38:28.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VerifyotpQuery.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\User\\Query\\VerifyotpQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Query\\VerifyotpQuery.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\User\\Query\\VerifyotpQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\User\\Query\\VerifyotpQuery.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:37:50.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Program.cs",
               "RelativeDocumentMoniker": "SignalRImplementation\\Program.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\SignalRImplementation\\Program.cs",
               "RelativeToolTip": "SignalRImplementation\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:35:30.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserLoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:34:03.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
@@ -315,8 +339,7 @@
               "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:33:54.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:33:54.569Z"
             }
           ]
         }

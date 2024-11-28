@@ -27,7 +27,6 @@ namespace App.Core.Apps.User.Command
             _configuration = configuration;
             _emailService = emailService;
         }
-
         public async Task<string> Handle(UserLoginCommand request, CancellationToken cancellationToken)
         {
             var findemail = await _appDbContext.Set<Domain.User>().FirstOrDefaultAsync(a => a.Email == request.UserDto.Email && a.Password == request.UserDto.Password);
