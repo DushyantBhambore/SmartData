@@ -1,0 +1,10 @@
+FormArray : it is  a classs that tracks the value and validity state  of array of FormControl , FormGroup and FormArray .
+FormArray aggregates the values of each child FormControl into an array 
+
+Form array allow you to create new form control dynamically .
+
+setValue() and PatchValue() are also the methods of FormArrays Class
+
+setValue() : Sets the value of the FormArray . We need to pass an array that must match the structure of the control . If our array does not match the structure of the control , setValue() will throw error 
+
+patchValue(): Patches the valu of FormArray . We need to pass to an array that should match the structure of the control . If the array that wee pass ,does not match the structure of the control completely then patchValue () will patch only those fields which are matching with the structure of the control and rest will be as it is .

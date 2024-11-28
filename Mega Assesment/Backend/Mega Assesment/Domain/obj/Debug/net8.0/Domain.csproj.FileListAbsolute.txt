@@ -1,0 +1,12 @@
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\bin\Debug\net8.0\Domain.dll
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\Domain.dll
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Sdfolder\SmartData\SmartData\Mega Assesment\Backend\Mega Assesment\Domain\obj\Debug\net8.0\ref\Domain.dll
