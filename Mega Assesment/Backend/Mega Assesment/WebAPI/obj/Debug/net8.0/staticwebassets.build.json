@@ -1,12 +1,58 @@
 {
   "Version": 1,
-  "Hash": "tDqGxdq0A4zT6y/tDdlw1NRTJSa30/3YTmJbD0pRBwc=",
+  "Hash": "GBxqJBhmHJl+E95G9c0jA5UN+88/1QkYTZ40FXITY10=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\wwwroot\\Uploads\\009252db-2c21-4304-bb41-aea0e4fb8d5b.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/009252db-2c21-4304-bb41-aea0e4fb8d5b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\009252db-2c21-4304-bb41-aea0e4fb8d5b.png"
+    },
+    {
+      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\wwwroot\\Uploads\\edd5d5b4-fed7-44d2-be7e-c9eb4b7cbe73.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/edd5d5b4-fed7-44d2-be7e-c9eb4b7cbe73.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\edd5d5b4-fed7-44d2-be7e-c9eb4b7cbe73.png"
+    }
+  ]
 }

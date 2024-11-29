@@ -12,9 +12,7 @@ namespace Infrastructure
 
         public DbSet<User> User { get; set; }
         public DbSet<Country> Country { get; set; }
-
         public DbSet<State> State { get; set; }
-
         public DbSet<Card> Card { get; set; } // Add the Card entity>
         public DbSet<CartDetail> CartDetail { get; set; }
         public DbSet<CartMaster> CartMaster { get; set; } // Add the CartMaster entity>
@@ -22,5 +20,6 @@ namespace Infrastructure
         public DbSet<SalesDetail> SalesDetail { get; set; }
         public DbSet<Product> Product { get; set; } // Add the Product entity>
         public DbSet<Otp> Otp { get; set; }
+        public DbSet<Role> Role { get; set; }
     }
 }

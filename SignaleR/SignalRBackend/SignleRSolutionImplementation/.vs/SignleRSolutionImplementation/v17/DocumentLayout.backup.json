@@ -102,8 +102,7 @@
               "RelativeToolTip": "SignalRImplementation\\Controllers\\PatientController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T08:39:39.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T08:39:39.651Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "SignalRImplementation\\Controllers\\AgentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T08:39:30.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T08:39:30.623Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Agent\\Command\\AgentCommad.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAIAwwH0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:05:51.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T12:05:51.079Z"
             },
             {
               "$type": "Document",
@@ -153,8 +150,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Practitioner\\Command\\AddPractitionerCommand.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAIAwwHoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:56:10.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:56:10.706Z"
             },
             {
               "$type": "Document",
@@ -166,8 +162,7 @@
               "RelativeToolTip": "App.Core\\Apps\\Patient\\Command\\AddPatientCommand.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAIwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:46:24.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:46:24.183Z"
             },
             {
               "$type": "Document",
@@ -287,8 +282,7 @@
               "RelativeToolTip": "SignalRImplementation\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:38:28.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:38:28.554Z"
             },
             {
               "$type": "Document",
@@ -298,7 +292,7 @@
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Query\\VerifyotpQuery.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\SignaleR\\SignalRBackend\\SignleRSolutionImplementation\\App.Core\\Apps\\User\\Query\\VerifyotpQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\User\\Query\\VerifyotpQuery.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAiwEIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwDMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:37:50.978Z",
               "EditorCaption": ""
@@ -313,8 +307,7 @@
               "RelativeToolTip": "SignalRImplementation\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:35:30.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:35:30.579Z"
             },
             {
               "$type": "Document",
@@ -326,8 +319,7 @@
               "RelativeToolTip": "App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowB0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:34:03.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:34:03.546Z"
             },
             {
               "$type": "Document",

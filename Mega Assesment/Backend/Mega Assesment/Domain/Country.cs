@@ -14,5 +14,10 @@ namespace Domain
 
         [Required, MaxLength(50)]
         public string CountryName { get; set; }
+
+        [Required, MaxLength(50)]
+        public string sortname { get; set; }
+        [Required, MaxLength(50)]
+        public int phonecode { get; set; }
     }
 }

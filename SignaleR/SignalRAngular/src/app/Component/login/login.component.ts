@@ -29,14 +29,9 @@ export class LoginComponent implements OnInit {
       password: ['',[Validators.required]]
     })
   }
-
-
   onSubmit()
   {
     this.service.onlogin(this.userform.value)
 
   }
-
-
-
 }

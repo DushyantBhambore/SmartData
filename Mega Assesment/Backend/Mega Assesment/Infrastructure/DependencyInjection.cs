@@ -12,6 +12,7 @@ namespace Infrastructure
         {
             services.AddScoped<IAppDbContext, AppDbContext>();
             services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IFileService, FileService>();
 
             services.AddDbContext<AppDbContext>((provide, options) =>
             {

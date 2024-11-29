@@ -35,7 +35,9 @@ namespace App.Core.Apps.Role.Command
 
             var role = new Domain.Role
             {
-                RoleName = request.RoleDto.RoleName
+                RoleName = request.RoleDto.RoleName,
+                IsActive =true,
+                IsDeleted= false,
                 
             };
             await _appDbContext.Set<Domain.Role>().AddAsync(role);

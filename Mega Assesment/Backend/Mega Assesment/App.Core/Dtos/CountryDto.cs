@@ -10,7 +10,8 @@ namespace App.Core.Dtos
     public class CountryDto
     {
         public int Id { get; set; }
-
         public string CountryName { get; set; }
+        public string sortname { get; set; }
+        public int phonecode { get; set; }
     }
 }

@@ -12,7 +12,7 @@ namespace Domain
     public class State
     {
             [Key]
-            public int Id { get; set; }
+            public int StateId { get; set; }
 
             [Required, MaxLength(50)]
             public string StateName { get; set; }

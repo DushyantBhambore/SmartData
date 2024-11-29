@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -18,14 +19,14 @@ namespace App.Core.Dtos
 
         public string Email { get; set; }
 
-
         public string Mobile { get; set; }
 
         public DateTime DOB { get; set; }
 
-        public int UserTypeId { get; set; }
+        public int RoleId { get; set; }
 
-        public string ProfileImage { get; set; }
+        public string? ProductImage { get; set; }
+        public string ImageFile { get; set; }
 
         public string Address { get; set; }
 
@@ -35,9 +36,6 @@ namespace App.Core.Dtos
 
         public int CountryId { get; set; }
 
-        public bool IsActive { get; set; }
-
-        public bool IsDeleted { get; set; }
 
 
     }

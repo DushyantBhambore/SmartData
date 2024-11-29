@@ -30,27 +30,27 @@ namespace App.Core.Apps.User.Command
         {
 
             // Encrypt the provided username and password for comparison
-            string encryptedUsername = Encrypt(request.LoginDto.Username);
+            string encryptedUsername = request.LoginDto.Username;
             string encryptedPassword = Encrypt(request.LoginDto.Password);
 
-            // Check for matching user
-            var checkuser = await _appDbContext.Set<Domain.User>().Where(x => x.Username == encryptedUsername && x.Password == encryptedPassword).FirstOrDefaultAsync();
-
+              //var encryptedPassword = BCrypt.Net.BCrypt.Verify(encryptedUsername, request.LoginDto.Password);
+            var checkuser = await _appDbContext.Set<Domain.User>().Where(x => x.Username == encryptedUsername && x.Password == encryptedPassword ).FirstOrDefaultAsync();
             if (checkuser == null)
             {
                 return new { message = "Invalid username or password" };
             }
 
+          
+            
+
             // Generate OTP
             var otp = new Random().Next(100000, 999999).ToString();
             // Store OTP in database or cache with expiration time
-            await _appDbContext.Set<Domain.Otp>().AddAsync(new Domain.Otp { Email = checkuser.Email, Code = otp, Expiration = DateTime.Now.AddMinutes(5) });
+            await _appDbContext.Set<Domain.Otp>().AddAsync(new Domain.Otp {Email= checkuser.Email, Username = checkuser.Username, Code = otp, Expiration = DateTime.Now.AddMinutes(5) });
             await _appDbContext.SaveChangesAsync();
-
             // Send OTP to user's email
             await _emailService.SendEmailAsync(checkuser.Email, "Your OTP Code", $"Your OTP code is {otp}");
-
-            return JsonSerializer.Serialize(new { message = "Otp send to your valid email" });
+            return new  { message = "Otp send to your valid email" };
 
         }
         private string Encrypt(string input)

@@ -156,6 +156,23 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "compile": {
@@ -1282,7 +1299,7 @@
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
@@ -1631,6 +1648,9 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -1836,6 +1856,25 @@
         "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -4375,24 +4414,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\91997\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dushyantbhambore\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sdfolder\\SmartData\\SmartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\Sdfolder\\SmartData\\SmartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\91997\\.nuget\\packages\\",
-      "outputPath": "D:\\Sdfolder\\SmartData\\SmartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\91997\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4400,17 +4434,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Sdfolder\\SmartData\\SmartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\App.Core.csproj": {
-              "projectPath": "D:\\Sdfolder\\SmartData\\SmartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\App.Core.csproj"
+            "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\App.Core.csproj": {
+              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\App.Core.csproj"
             },
-            "D:\\Sdfolder\\SmartData\\SmartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Sdfolder\\SmartData\\SmartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -4423,9 +4458,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -4481,7 +4515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,7 +13,7 @@ namespace App.Core.Apps.State.Query
 {
     public class GetRoleByIdQuery : IRequest<List<StateDto>>
     {
-        public int Id { get; set; }
+        public int id { get; set; }
     }
     public class GetRoleByIdQueryHandler : IRequestHandler<GetRoleByIdQuery, List<StateDto>>
     {
@@ -26,7 +26,7 @@ namespace App.Core.Apps.State.Query
 
         public async Task<List<StateDto>> Handle(GetRoleByIdQuery request, CancellationToken cancellationToken)
         {
-            var list = await _appDbContext.Set<Domain.State>().Where(x => x.Id == request.Id).AsTracking().ToListAsync();
+            var list = await _appDbContext.Set<Domain.State>().Where(x => x.CountryId == request.id).AsTracking().ToListAsync();
             return list.Adapt<List<StateDto>>();
         }
     }   

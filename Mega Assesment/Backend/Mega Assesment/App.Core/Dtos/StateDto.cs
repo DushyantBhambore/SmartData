@@ -11,7 +11,7 @@ namespace App.Core.Dtos
 {
     public class StateDto
     {
-        public int Id { get; set; }
+        public int StateId { get; set; }
 
         public string StateName { get; set; }
 

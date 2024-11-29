@@ -14,7 +14,7 @@ namespace App.Core.Apps.User.Command
 {
     public class VerifyOtpCommand : IRequest<object>
     {
-        public VerifyOtp VerifyOtp { get; set; }
+        public VerifyOtpDto VerifyOtp { get; set; }
     }
     public class verifyOtpCommandHandler : IRequestHandler<VerifyOtpCommand, object>
     {
@@ -39,11 +39,13 @@ namespace App.Core.Apps.User.Command
                 return "Invalid OTP";
             }
             var userExist = await _context.Set<Domain.User>().FirstOrDefaultAsync(x => x.Username == encryptedUsername);
+            var selectrole = _context.Set<Domain.Role>().FirstOrDefault(a => a.RoleId == userExist.RoleId);
             var claim = new[]
              {
                 new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
-                new Claim("UserId", userExist.Id.ToString()),
+                new Claim("UserId", userExist.UserId.ToString()),
                 new Claim("Email", userExist.Email),
+                new Claim(ClaimTypes.Role,selectrole.RoleName)
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

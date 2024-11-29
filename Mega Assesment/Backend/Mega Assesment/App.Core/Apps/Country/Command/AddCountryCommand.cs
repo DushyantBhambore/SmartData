@@ -35,7 +35,9 @@ namespace App.Core.Apps.Country.Command
 
             var country = new Domain.Country()
             {
-                CountryName = request.CountryDto.CountryName
+                CountryName = request.CountryDto.CountryName,
+                sortname= request.CountryDto.sortname,
+                phonecode= request.CountryDto.phonecode,
             };
 
             await _appDbContext.Set<Domain.Country>().AddAsync(country);
