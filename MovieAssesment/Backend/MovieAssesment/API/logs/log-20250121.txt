@@ -1,0 +1,865 @@
+2025-01-21 14:25:52.942 +05:30 [INF] Executed DbCommand (465ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [MovieAssesment];
+2025-01-21 14:25:53.132 +05:30 [INF] Executed DbCommand (144ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [MovieAssesment] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-21 14:25:53.149 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 14:25:53.258 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-01-21 14:25:53.260 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 14:25:53.278 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 14:25:53.296 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-21 14:25:53.316 +05:30 [INF] Applying migration '20250121085533_Init'.
+2025-01-21 14:25:53.364 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MovieDetails] (
+    [id] int NOT NULL IDENTITY,
+    [MovieId] int NOT NULL,
+    [MoviTitle] nvarchar(max) NOT NULL,
+    [ReleaseDate] int NOT NULL,
+    [Posterimage] nvarchar(max) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] nvarchar(max) NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [UpdatedBy] nvarchar(max) NOT NULL,
+    [UdatedOn] datetime2 NOT NULL,
+    CONSTRAINT [PK_MovieDetails] PRIMARY KEY ([id])
+);
+2025-01-21 14:25:53.367 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Role] (
+    [RoleId] int NOT NULL IDENTITY,
+    [RoleName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Role] PRIMARY KEY ([RoleId])
+);
+2025-01-21 14:25:53.370 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [UserId] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [UserName] nvarchar(max) NOT NULL,
+    [RoleId] int NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [id] int NOT NULL,
+    [IsActive] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] nvarchar(max) NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [UpdatedBy] nvarchar(max) NOT NULL,
+    [UdatedOn] datetime2 NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([UserId])
+);
+2025-01-21 14:25:53.374 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121085533_Init', N'8.0.12');
+2025-01-21 14:42:14.151 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 14:42:14.249 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 14:42:14.252 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 14:42:14.253 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 14:42:14.285 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-21 14:42:14.302 +05:30 [INF] Applying migration '20250121091204_Init1'.
+2025-01-21 14:42:14.351 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [User] ADD [DateOfBirth] datetime2 NOT NULL DEFAULT '0001-01-01T00:00:00.0000000';
+2025-01-21 14:42:14.354 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121091204_Init1', N'8.0.12');
+2025-01-21 16:05:34.875 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 16:05:34.930 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 16:05:34.932 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 16:05:34.932 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 16:05:34.954 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-21 16:05:34.965 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-01-21 16:05:57.543 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 16:05:57.609 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 16:05:57.611 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 16:05:57.612 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 16:05:57.639 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-21 16:05:57.656 +05:30 [INF] Applying migration '20250121103546_Init3'.
+2025-01-21 16:05:57.694 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [MovieDetails] ADD [UserId] int NOT NULL DEFAULT 0;
+2025-01-21 16:05:57.699 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121103546_Init3', N'8.0.12');
+2025-01-21 17:08:14.591 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 17:08:14.678 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 17:08:14.766 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:08:14.767 +05:30 [INF] Hosting environment: Development
+2025-01-21 17:08:14.769 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 17:08:17.398 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger - null null
+2025-01-21 17:08:17.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger - 301 0 null 237.31ms
+2025-01-21 17:08:17.636 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 17:08:17.709 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 73.0111ms
+2025-01-21 17:08:17.718 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/swagger-ui.css - null null
+2025-01-21 17:08:17.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-21 17:08:17.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/swagger-ui-bundle.js - null null
+2025-01-21 17:08:17.768 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-21 17:08:17.768 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-21 17:08:17.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 53.3142ms
+2025-01-21 17:08:17.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/swagger-ui.css - 200 143943 text/css 53.624ms
+2025-01-21 17:08:17.781 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-21 17:08:17.783 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 64.6118ms
+2025-01-21 17:08:17.824 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 17:08:17.827 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 17:08:17.833 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 9.4974ms
+2025-01-21 17:08:18.723 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 896.7424ms
+2025-01-21 17:08:18.791 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 17:08:18.821 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/favicon-32x32.png - null null
+2025-01-21 17:08:18.825 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-21 17:08:18.827 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/favicon-32x32.png - 200 628 image/png 5.5919ms
+2025-01-21 17:08:18.901 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.3609ms
+2025-01-21 17:41:37.230 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 17:41:37.271 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 17:41:37.331 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:41:37.332 +05:30 [INF] Hosting environment: Development
+2025-01-21 17:41:37.333 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 17:41:38.615 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 17:41:38.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 252.791ms
+2025-01-21 17:41:38.877 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 17:41:38.885 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 8.0831ms
+2025-01-21 17:41:38.947 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 17:41:38.996 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.7471ms
+2025-01-21 17:41:39.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 17:41:39.326 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - API.Controllers.UserController.AddUser (API),API.Controllers.UserController.ChangePassword (API),API.Controllers.UserController.ForgotPassword (API),API.Controllers.UserController.LoginUser (API),API.Controllers.UserController.VerifyOTP (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 17:41:39.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 137.5917ms
+2025-01-21 17:42:58.910 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 17:42:58.962 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 17:42:59.032 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:42:59.034 +05:30 [INF] Hosting environment: Development
+2025-01-21 17:42:59.035 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 17:43:00.137 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 17:43:00.359 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 225.9822ms
+2025-01-21 17:43:00.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 17:43:00.378 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 11.0305ms
+2025-01-21 17:43:00.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 17:43:00.643 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 131.0392ms
+2025-01-21 17:43:00.748 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 17:43:00.940 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 191.7728ms
+2025-01-21 17:43:13.781 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/Role - application/json 39
+2025-01-21 17:43:13.797 +05:30 [INF] Executing endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 17:43:13.833 +05:30 [INF] Route matched with {action = "AddRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRole(App.Core.Dto.RoleDto) on controller API.Controllers.RoleController (API).
+2025-01-21 17:43:15.866 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[@__request_RoleDto_RoleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[RoleId] = @__request_RoleDto_RoleId_0
+2025-01-21 17:43:16.028 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Role] ([RoleName])
+OUTPUT INSERTED.[RoleId]
+VALUES (@p0);
+2025-01-21 17:43:16.056 +05:30 [INF] Role Added successfully
+2025-01-21 17:43:16.065 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 17:43:16.082 +05:30 [INF] Executed action API.Controllers.RoleController.AddRole (API) in 2234.8551ms
+2025-01-21 17:43:16.085 +05:30 [INF] Executed endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 17:43:16.093 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/Role - 200 null application/json; charset=utf-8 2312.5258ms
+2025-01-21 17:43:24.948 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/api/Role - null null
+2025-01-21 17:43:24.952 +05:30 [INF] Executing endpoint 'API.Controllers.RoleController.GetAllRole (API)'
+2025-01-21 17:43:24.960 +05:30 [INF] Route matched with {action = "GetAllRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRole() on controller API.Controllers.RoleController (API).
+2025-01-21 17:43:25.024 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+2025-01-21 17:43:25.031 +05:30 [INF] Get All Roles
+2025-01-21 17:43:25.033 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 17:43:25.037 +05:30 [INF] Executed action API.Controllers.RoleController.GetAllRole (API) in 73.3191ms
+2025-01-21 17:43:25.039 +05:30 [INF] Executed endpoint 'API.Controllers.RoleController.GetAllRole (API)'
+2025-01-21 17:43:25.041 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/api/Role - 200 null application/json; charset=utf-8 93.7196ms
+2025-01-21 17:43:34.583 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/Role - application/json 40
+2025-01-21 17:43:34.595 +05:30 [INF] Executing endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 17:43:34.596 +05:30 [INF] Route matched with {action = "AddRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRole(App.Core.Dto.RoleDto) on controller API.Controllers.RoleController (API).
+2025-01-21 17:43:34.623 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_RoleDto_RoleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[RoleId] = @__request_RoleDto_RoleId_0
+2025-01-21 17:43:34.632 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Role] ([RoleName])
+OUTPUT INSERTED.[RoleId]
+VALUES (@p0);
+2025-01-21 17:43:34.636 +05:30 [INF] Role Added successfully
+2025-01-21 17:43:34.637 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 17:43:34.638 +05:30 [INF] Executed action API.Controllers.RoleController.AddRole (API) in 36.1701ms
+2025-01-21 17:43:34.640 +05:30 [INF] Executed endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 17:43:34.641 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/Role - 200 null application/json; charset=utf-8 58.7328ms
+2025-01-21 17:43:40.559 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/api/Role - null null
+2025-01-21 17:43:40.565 +05:30 [INF] Executing endpoint 'API.Controllers.RoleController.GetAllRole (API)'
+2025-01-21 17:43:40.566 +05:30 [INF] Route matched with {action = "GetAllRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRole() on controller API.Controllers.RoleController (API).
+2025-01-21 17:43:40.576 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+2025-01-21 17:43:40.580 +05:30 [INF] Get All Roles
+2025-01-21 17:43:40.581 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 17:43:40.582 +05:30 [INF] Executed action API.Controllers.RoleController.GetAllRole (API) in 12.7375ms
+2025-01-21 17:43:40.584 +05:30 [INF] Executed endpoint 'API.Controllers.RoleController.GetAllRole (API)'
+2025-01-21 17:43:40.586 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/api/Role - 200 null application/json; charset=utf-8 26.8719ms
+2025-01-21 17:51:40.846 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 17:51:40.877 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 17:51:40.917 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:51:40.920 +05:30 [INF] Hosting environment: Development
+2025-01-21 17:51:40.920 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 17:51:41.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 17:51:41.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 158.0788ms
+2025-01-21 17:51:41.678 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 17:51:41.687 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 9.4711ms
+2025-01-21 17:51:41.747 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 17:51:41.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.0789ms
+2025-01-21 17:51:41.943 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 17:51:42.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.2512ms
+2025-01-21 17:52:34.602 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/AddUser - application/json 143
+2025-01-21 17:52:34.613 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.AddUser (API)'
+2025-01-21 17:52:34.637 +05:30 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(App.Core.Dto.registerDto) on controller API.Controllers.UserController (API).
+2025-01-21 17:52:35.816 +05:30 [INF] Executed DbCommand (54ms) [Parameters=[@__request_registerDto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DateOfBirth], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsDeleted], [u].[LastName], [u].[Password], [u].[RoleId], [u].[UdatedOn], [u].[UpdatedBy], [u].[UserName], [u].[id]
+FROM [User] AS [u]
+WHERE [u].[Email] = @__request_registerDto_Email_0
+2025-01-21 17:52:36.386 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime2), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([CreatedBy], [CreatedOn], [DateOfBirth], [Email], [FirstName], [IsActive], [IsDeleted], [LastName], [Password], [RoleId], [UdatedOn], [UpdatedBy], [UserName], [id])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-01-21 17:52:36.415 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Password', table 'MovieAssesment.dbo.User'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8ab62f7f-46bf-410f-ada3-2a6abe12b50f
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Password', table 'MovieAssesment.dbo.User'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8ab62f7f-46bf-410f-ada3-2a6abe12b50f
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-21 17:52:36.443 +05:30 [ERR]    at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at App.Core.App.User.Command.RegisterUserCommandHandller.Handle(RegisterUserCommand request, CancellationToken cancellationToken) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\App.Core\App\User\Command\RegisterUserCommand.cs:line 79
+   at API.Controllers.UserController.AddUser(registerDto registerDto) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API\Controllers\UserController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Password', table 'MovieAssesment.dbo.User'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8ab62f7f-46bf-410f-ada3-2a6abe12b50f
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at App.Core.App.User.Command.RegisterUserCommandHandller.Handle(RegisterUserCommand request, CancellationToken cancellationToken) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\App.Core\App\User\Command\RegisterUserCommand.cs:line 79
+   at API.Controllers.UserController.AddUser(registerDto registerDto) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API\Controllers\UserController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-01-21 17:52:36.471 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-21 17:52:36.479 +05:30 [INF] Executed action API.Controllers.UserController.AddUser (API) in 1834.6244ms
+2025-01-21 17:52:36.482 +05:30 [INF] Executed endpoint 'API.Controllers.UserController.AddUser (API)'
+2025-01-21 17:52:36.488 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/User/AddUser - 500 null application/json; charset=utf-8 1885.9945ms
+2025-01-21 17:53:16.361 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 17:53:16.406 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 17:53:16.464 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:53:16.467 +05:30 [INF] Hosting environment: Development
+2025-01-21 17:53:16.467 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 17:53:17.830 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 17:53:18.091 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 267.7131ms
+2025-01-21 17:53:18.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 17:53:18.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 17:53:18.222 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 18.5273ms
+2025-01-21 17:53:18.250 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.3158ms
+2025-01-21 17:53:18.359 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 17:53:18.480 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.0942ms
+2025-01-21 17:53:51.978 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 17:53:52.000 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 20.5394ms
+2025-01-21 17:53:52.017 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 17:53:52.021 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 17:53:52.029 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 7.8872ms
+2025-01-21 17:53:52.043 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.0602ms
+2025-01-21 17:53:52.119 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 17:53:52.137 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.5658ms
+2025-01-21 17:54:25.919 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/AddUser - application/json 147
+2025-01-21 17:54:25.930 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.AddUser (API)'
+2025-01-21 17:54:25.970 +05:30 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(App.Core.Dto.registerDto) on controller API.Controllers.UserController (API).
+2025-01-21 17:54:55.118 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[@__request_registerDto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DateOfBirth], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsDeleted], [u].[LastName], [u].[Password], [u].[RoleId], [u].[UdatedOn], [u].[UpdatedBy], [u].[UserName], [u].[id]
+FROM [User] AS [u]
+WHERE [u].[Email] = @__request_registerDto_Email_0
+2025-01-21 17:56:53.938 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime2), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([CreatedBy], [CreatedOn], [DateOfBirth], [Email], [FirstName], [IsActive], [IsDeleted], [LastName], [Password], [RoleId], [UdatedOn], [UpdatedBy], [UserName], [id])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-01-21 17:56:54.021 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Password', table 'MovieAssesment.dbo.User'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:76794090-6d7d-4361-840d-5ef0af547321
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Password', table 'MovieAssesment.dbo.User'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:76794090-6d7d-4361-840d-5ef0af547321
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-21 17:57:01.410 +05:30 [ERR]    at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at App.Core.App.User.Command.RegisterUserCommandHandller.Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+   at API.Controllers.UserController.AddUser(registerDto registerDto) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API\Controllers\UserController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Password', table 'MovieAssesment.dbo.User'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:76794090-6d7d-4361-840d-5ef0af547321
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at App.Core.App.User.Command.RegisterUserCommandHandller.Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+   at API.Controllers.UserController.AddUser(registerDto registerDto) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API\Controllers\UserController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-01-21 17:57:11.495 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-21 17:57:11.857 +05:30 [INF] Executed action API.Controllers.UserController.AddUser (API) in 165685.3372ms
+2025-01-21 17:57:11.859 +05:30 [INF] Executed endpoint 'API.Controllers.UserController.AddUser (API)'
+2025-01-21 17:57:11.868 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/User/AddUser - 500 null application/json; charset=utf-8 165949.4333ms
+2025-01-21 17:58:46.122 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 17:58:46.161 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 17:58:46.223 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 17:58:46.225 +05:30 [INF] Hosting environment: Development
+2025-01-21 17:58:46.227 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 17:58:47.576 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 17:58:47.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 279.67ms
+2025-01-21 17:58:47.864 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 17:58:47.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 16.2403ms
+2025-01-21 17:58:47.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 17:58:48.029 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.7515ms
+2025-01-21 17:58:48.140 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 17:58:48.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.3951ms
+2025-01-21 17:58:59.642 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/AddUser - application/json 147
+2025-01-21 17:58:59.654 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.AddUser (API)'
+2025-01-21 17:58:59.683 +05:30 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(App.Core.Dto.registerDto) on controller API.Controllers.UserController (API).
+2025-01-21 17:59:04.618 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[@__request_registerDto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DateOfBirth], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsDeleted], [u].[LastName], [u].[Password], [u].[RoleId], [u].[UdatedOn], [u].[UpdatedBy], [u].[UserName], [u].[id]
+FROM [User] AS [u]
+WHERE [u].[Email] = @__request_registerDto_Email_0
+2025-01-21 17:59:33.417 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime2), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([CreatedBy], [CreatedOn], [DateOfBirth], [Email], [FirstName], [IsActive], [IsDeleted], [LastName], [Password], [RoleId], [UdatedOn], [UpdatedBy], [UserName], [id])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-01-21 18:02:18.600 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 18:02:18.652 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 18:02:18.728 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 18:02:18.729 +05:30 [INF] Hosting environment: Development
+2025-01-21 18:02:18.730 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 18:02:20.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 18:02:20.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 395.5765ms
+2025-01-21 18:02:20.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 18:02:20.774 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 20.6184ms
+2025-01-21 18:02:20.807 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 18:02:20.862 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.2675ms
+2025-01-21 18:02:21.004 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 18:02:21.165 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.9781ms
+2025-01-21 18:03:10.474 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/LoginUser - application/json 68
+2025-01-21 18:03:10.499 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.LoginUser (API)'
+2025-01-21 18:03:10.526 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(App.Core.Dto.loginDto) on controller API.Controllers.UserController (API).
+2025-01-21 18:03:11.903 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[@__request_LoginDto_UserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DateOfBirth], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsDeleted], [u].[LastName], [u].[Password], [u].[RoleId], [u].[UdatedOn], [u].[UpdatedBy], [u].[UserName], [u].[id]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__request_LoginDto_UserName_0
+2025-01-21 18:03:12.803 +05:30 [ERR]    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at App.Core.App.User.Command.LoginUserCommandHandller.Handle(LoginUserCommand request, CancellationToken cancellationToken) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\App.Core\App\User\Command\LoginUserCommand.cs:line 51
+   at API.Controllers.UserController.LoginUser(loginDto loginDto) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API\Controllers\UserController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Cannot create a DbSet for 'Otp' because this type is not included in the model for the context.
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at App.Core.App.User.Command.LoginUserCommandHandller.Handle(LoginUserCommand request, CancellationToken cancellationToken) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\App.Core\App\User\Command\LoginUserCommand.cs:line 51
+   at API.Controllers.UserController.LoginUser(loginDto loginDto) in C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API\Controllers\UserController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-01-21 18:03:12.821 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-21 18:03:12.830 +05:30 [INF] Executed action API.Controllers.UserController.LoginUser (API) in 2295.8054ms
+2025-01-21 18:03:12.833 +05:30 [INF] Executed endpoint 'API.Controllers.UserController.LoginUser (API)'
+2025-01-21 18:03:12.842 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/User/LoginUser - 500 null application/json; charset=utf-8 2368.391ms
+2025-01-21 18:05:21.590 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 18:05:21.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 21.0978ms
+2025-01-21 18:05:21.631 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 18:05:21.634 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 18:05:21.640 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 8.302ms
+2025-01-21 18:05:21.671 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.9724ms
+2025-01-21 18:05:21.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 18:05:21.796 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.0646ms
+2025-01-21 18:07:05.024 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 18:07:05.079 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 18:07:05.081 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 18:07:05.081 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 18:07:05.098 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-21 18:07:05.108 +05:30 [INF] Applying migration '20250121123559_Init4'.
+2025-01-21 18:07:05.136 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121123559_Init4', N'8.0.12');
+2025-01-21 18:07:05.143 +05:30 [INF] Applying migration '20250121123643_Init6'.
+2025-01-21 18:07:05.148 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121123643_Init6', N'8.0.12');
+2025-01-21 18:09:34.809 +05:30 [INF] Executed DbCommand (406ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [MovieAssesment];
+2025-01-21 18:09:35.041 +05:30 [INF] Executed DbCommand (173ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [MovieAssesment] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-21 18:09:35.065 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 18:09:35.150 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-01-21 18:09:35.151 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 18:09:35.163 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 18:09:35.175 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-21 18:09:35.189 +05:30 [INF] Applying migration '20250121123821_Init'.
+2025-01-21 18:09:35.226 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MovieDetails] (
+    [id] int NOT NULL IDENTITY,
+    [MovieId] int NOT NULL,
+    [MoviTitle] nvarchar(max) NOT NULL,
+    [ReleaseDate] int NOT NULL,
+    [UserId] int NOT NULL,
+    [Posterimage] nvarchar(max) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] nvarchar(max) NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [UpdatedBy] nvarchar(max) NOT NULL,
+    [UdatedOn] datetime2 NOT NULL,
+    CONSTRAINT [PK_MovieDetails] PRIMARY KEY ([id])
+);
+2025-01-21 18:09:35.230 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Role] (
+    [RoleId] int NOT NULL IDENTITY,
+    [RoleName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Role] PRIMARY KEY ([RoleId])
+);
+2025-01-21 18:09:35.239 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [UserId] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [UserName] nvarchar(max) NOT NULL,
+    [RoleId] int NOT NULL,
+    [DateOfBirth] datetime2 NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [id] int NOT NULL,
+    [IsActive] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] nvarchar(max) NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [UpdatedBy] nvarchar(max) NOT NULL,
+    [UdatedOn] datetime2 NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([UserId])
+);
+2025-01-21 18:09:35.242 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121123821_Init', N'8.0.12');
+2025-01-21 18:09:35.247 +05:30 [INF] Applying migration '20250121123919_Init1'.
+2025-01-21 18:09:35.256 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OTP] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] nvarchar(max) NOT NULL,
+    [Username] nvarchar(max) NOT NULL,
+    [Code] nvarchar(max) NOT NULL,
+    [Expiration] datetime2 NOT NULL,
+    CONSTRAINT [PK_OTP] PRIMARY KEY ([Id])
+);
+2025-01-21 18:09:35.256 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121123919_Init1', N'8.0.12');
+2025-01-21 18:09:45.458 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 18:09:45.493 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 18:09:45.545 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 18:09:45.548 +05:30 [INF] Hosting environment: Development
+2025-01-21 18:09:45.549 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 18:09:47.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 18:09:47.362 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 244.9187ms
+2025-01-21 18:09:47.478 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 18:09:47.478 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 18:09:47.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 14.3282ms
+2025-01-21 18:09:47.536 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.3106ms
+2025-01-21 18:09:47.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 18:09:47.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 273.2688ms
+2025-01-21 18:09:55.997 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/Role - application/json 40
+2025-01-21 18:09:56.008 +05:30 [INF] Executing endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 18:09:56.036 +05:30 [INF] Route matched with {action = "AddRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRole(App.Core.Dto.RoleDto) on controller API.Controllers.RoleController (API).
+2025-01-21 18:09:57.758 +05:30 [INF] Executed DbCommand (70ms) [Parameters=[@__request_RoleDto_RoleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[RoleId] = @__request_RoleDto_RoleId_0
+2025-01-21 18:09:57.914 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Role] ([RoleName])
+OUTPUT INSERTED.[RoleId]
+VALUES (@p0);
+2025-01-21 18:09:57.941 +05:30 [INF] Role Added successfully
+2025-01-21 18:09:57.953 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 18:09:57.963 +05:30 [INF] Executed action API.Controllers.RoleController.AddRole (API) in 1920.9208ms
+2025-01-21 18:09:57.966 +05:30 [INF] Executed endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 18:09:57.974 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/Role - 200 null application/json; charset=utf-8 1977.5064ms
+2025-01-21 18:10:05.141 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/Role - application/json 39
+2025-01-21 18:10:05.154 +05:30 [INF] Executing endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 18:10:05.157 +05:30 [INF] Route matched with {action = "AddRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRole(App.Core.Dto.RoleDto) on controller API.Controllers.RoleController (API).
+2025-01-21 18:10:05.210 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_RoleDto_RoleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[RoleId] = @__request_RoleDto_RoleId_0
+2025-01-21 18:10:05.219 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Role] ([RoleName])
+OUTPUT INSERTED.[RoleId]
+VALUES (@p0);
+2025-01-21 18:10:05.222 +05:30 [INF] Role Added successfully
+2025-01-21 18:10:05.223 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 18:10:05.224 +05:30 [INF] Executed action API.Controllers.RoleController.AddRole (API) in 63.4677ms
+2025-01-21 18:10:05.227 +05:30 [INF] Executed endpoint 'API.Controllers.RoleController.AddRole (API)'
+2025-01-21 18:10:05.229 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/Role - 200 null application/json; charset=utf-8 88.6184ms
+2025-01-21 18:10:24.849 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/AddUser - application/json 143
+2025-01-21 18:10:24.855 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.AddUser (API)'
+2025-01-21 18:10:24.861 +05:30 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(App.Core.Dto.registerDto) on controller API.Controllers.UserController (API).
+2025-01-21 18:10:28.245 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__request_registerDto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DateOfBirth], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsDeleted], [u].[LastName], [u].[Password], [u].[RoleId], [u].[UdatedOn], [u].[UpdatedBy], [u].[UserName], [u].[id]
+FROM [User] AS [u]
+WHERE [u].[Email] = @__request_registerDto_Email_0
+2025-01-21 18:10:28.732 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime2), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([CreatedBy], [CreatedOn], [DateOfBirth], [Email], [FirstName], [IsActive], [IsDeleted], [LastName], [Password], [RoleId], [UdatedOn], [UpdatedBy], [UserName], [id])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-01-21 18:10:32.476 +05:30 [INF] Email sent successfully to zuser_1231@yopmail.com
+2025-01-21 18:10:32.478 +05:30 [INF] User created successfully
+2025-01-21 18:10:32.481 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 18:10:32.487 +05:30 [INF] Executed action API.Controllers.UserController.AddUser (API) in 7622.448ms
+2025-01-21 18:10:32.489 +05:30 [INF] Executed endpoint 'API.Controllers.UserController.AddUser (API)'
+2025-01-21 18:10:32.492 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/User/AddUser - 200 null application/json; charset=utf-8 7643.0119ms
+2025-01-21 18:11:43.560 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/LoginUser - application/json 65
+2025-01-21 18:11:43.570 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.LoginUser (API)'
+2025-01-21 18:11:43.576 +05:30 [INF] Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginUser(App.Core.Dto.loginDto) on controller API.Controllers.UserController (API).
+2025-01-21 18:11:43.598 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__request_LoginDto_UserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DateOfBirth], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsDeleted], [u].[LastName], [u].[Password], [u].[RoleId], [u].[UdatedOn], [u].[UpdatedBy], [u].[UserName], [u].[id]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__request_LoginDto_UserName_0
+2025-01-21 18:11:43.808 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[Code], [o].[Email], [o].[Expiration], [o].[Username]
+FROM [OTP] AS [o]
+WHERE LOWER([o].[Username]) = @__ToLower_0
+2025-01-21 18:11:47.795 +05:30 [INF] Email sent successfully to zuser_1231@yopmail.com
+2025-01-21 18:11:47.797 +05:30 [INF] Otp is Send Successfully
+2025-01-21 18:11:47.800 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.JsonModal'.
+2025-01-21 18:11:47.801 +05:30 [INF] Executed action API.Controllers.UserController.LoginUser (API) in 4221.2574ms
+2025-01-21 18:11:47.802 +05:30 [INF] Executed endpoint 'API.Controllers.UserController.LoginUser (API)'
+2025-01-21 18:11:47.804 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/User/LoginUser - 200 null application/json; charset=utf-8 4244.5733ms
+2025-01-21 18:12:21.390 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/VerifyOTP - application/json 52
+2025-01-21 18:12:21.397 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.VerifyOTP (API)'
+2025-01-21 18:12:21.402 +05:30 [INF] Route matched with {action = "VerifyOTP", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOTP(App.Core.Dto.VerifyOtpDto) on controller API.Controllers.UserController (API).
+2025-01-21 18:12:21.476 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__request_VerifyOtp_Username_0='?' (Size = 4000), @__verifyOtp_Otp_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Code], [o].[Email], [o].[Expiration], [o].[Username]
+FROM [OTP] AS [o]
+WHERE [o].[Username] = @__request_VerifyOtp_Username_0 AND [o].[Code] = @__verifyOtp_Otp_1
+2025-01-21 18:12:21.479 +05:30 [ERR] Invalid OTP
+2025-01-21 18:12:21.481 +05:30 [INF] Executing OkObjectResult, writing value of type 'Doamin.ResponseModal.UserResponeModal'.
+2025-01-21 18:12:21.483 +05:30 [INF] Executed action API.Controllers.UserController.VerifyOTP (API) in 77.47ms
+2025-01-21 18:12:21.484 +05:30 [INF] Executed endpoint 'API.Controllers.UserController.VerifyOTP (API)'
+2025-01-21 18:12:21.485 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7206/api/User/VerifyOTP - 200 null application/json; charset=utf-8 97.4686ms
+2025-01-21 18:14:06.503 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7206/api/User/VerifyOTP - application/json 52
+2025-01-21 18:14:06.511 +05:30 [INF] Executing endpoint 'API.Controllers.UserController.VerifyOTP (API)'
+2025-01-21 18:14:06.512 +05:30 [INF] Route matched with {action = "VerifyOTP", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOTP(App.Core.Dto.VerifyOtpDto) on controller API.Controllers.UserController (API).
+2025-01-21 18:14:15.699 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@__request_VerifyOtp_Username_0='?' (Size = 4000), @__verifyOtp_Otp_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Code], [o].[Email], [o].[Expiration], [o].[Username]
+FROM [OTP] AS [o]
+WHERE [o].[Username] = @__request_VerifyOtp_Username_0 AND [o].[Code] = @__verifyOtp_Otp_1
+2025-01-21 18:15:23.874 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 18:15:23.930 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 18:15:24.020 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 18:15:24.021 +05:30 [INF] Hosting environment: Development
+2025-01-21 18:15:24.023 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 18:15:25.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 18:15:25.707 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 231.6405ms
+2025-01-21 18:15:25.722 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 18:15:25.735 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 13.0304ms
+2025-01-21 18:15:25.814 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 18:15:25.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.6652ms
+2025-01-21 18:15:26.060 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 18:15:26.314 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 255.2414ms
+2025-01-21 18:15:41.292 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 18:15:41.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 19.9062ms
+2025-01-21 18:15:41.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 18:15:41.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 18:15:41.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 10.9263ms
+2025-01-21 18:15:41.365 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.2097ms
+2025-01-21 18:15:41.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 18:15:41.448 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.2849ms
+2025-01-21 18:16:11.143 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 18:16:11.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 14.7741ms
+2025-01-21 18:16:11.176 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 18:16:11.181 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 18:16:11.187 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 6.6037ms
+2025-01-21 18:16:11.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.709ms
+2025-01-21 18:16:11.271 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 18:16:11.287 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.2211ms
+2025-01-21 18:16:25.405 +05:30 [INF] Now listening on: https://localhost:7206
+2025-01-21 18:16:25.448 +05:30 [INF] Now listening on: http://localhost:5218
+2025-01-21 18:16:25.529 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 18:16:25.531 +05:30 [INF] Hosting environment: Development
+2025-01-21 18:16:25.533 +05:30 [INF] Content root path: C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\API
+2025-01-21 18:16:26.416 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2025-01-21 18:16:26.741 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 331.3361ms
+2025-01-21 18:16:26.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 18:16:26.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2025-01-21 18:16:26.882 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 9.272ms
+2025-01-21 18:16:26.916 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2802ms
+2025-01-21 18:16:27.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2025-01-21 18:16:27.122 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.8065ms

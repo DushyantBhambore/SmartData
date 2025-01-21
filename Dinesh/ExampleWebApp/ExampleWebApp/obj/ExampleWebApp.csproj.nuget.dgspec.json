@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {}
+    "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {}
   },
   "projects": {
-    "D:\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj": {
+    "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
+        "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
         "projectName": "App.Core",
-        "projectPath": "D:\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
+        "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
         "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
-        "outputPath": "D:\\Dinesh\\ExampleWebApp\\App.Core\\obj\\",
+        "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj"
+              "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
+    "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
-        "outputPath": "D:\\Dinesh\\ExampleWebApp\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,14 +144,14 @@
         }
       }
     },
-    "D:\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {
+    "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
         "projectName": "ExampleWebApp",
-        "projectPath": "D:\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
+        "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\ExampleWebApp\\ExampleWebApp.csproj",
         "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
-        "outputPath": "D:\\Dinesh\\ExampleWebApp\\ExampleWebApp\\obj\\",
+        "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\ExampleWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,8 +169,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -256,14 +256,14 @@
         }
       }
     },
-    "D:\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
-        "outputPath": "D:\\Dinesh\\ExampleWebApp\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -281,11 +281,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj": {
-                "projectPath": "D:\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj"
+              "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj": {
+                "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj"
               },
-              "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj"
+              "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj"
               }
             }
           }

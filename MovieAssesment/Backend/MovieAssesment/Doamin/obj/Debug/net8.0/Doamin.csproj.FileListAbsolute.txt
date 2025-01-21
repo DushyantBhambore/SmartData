@@ -1,0 +1,12 @@
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\bin\Debug\net8.0\Doamin.deps.json
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\bin\Debug\net8.0\Doamin.dll
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\bin\Debug\net8.0\Doamin.pdb
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\Doamin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\Doamin.AssemblyInfoInputs.cache
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\Doamin.AssemblyInfo.cs
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\Doamin.csproj.CoreCompileInputs.cache
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\Doamin.sourcelink.json
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\Doamin.dll
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\refint\Doamin.dll
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\Doamin.pdb
+C:\Users\dushyantbhambore\Desktop\smartData\MovieAssesment\Backend\MovieAssesment\Doamin\obj\Debug\net8.0\ref\Doamin.dll

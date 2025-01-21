@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
+      "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
       "projectName": "App.Core",
-      "projectPath": "D:\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
+      "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\App.Core.csproj",
       "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
-      "outputPath": "D:\\Dinesh\\ExampleWebApp\\App.Core\\obj\\",
+      "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\App.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -716,8 +716,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj"
+            "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj"
             }
           }
         }

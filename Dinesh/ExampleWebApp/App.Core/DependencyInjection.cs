@@ -14,6 +14,8 @@ namespace App.Core
                 cfg.RegisterServicesFromAssemblyContaining<CreateStudentCommand>();
             });
 
+            
+
             return services;
         }
     }

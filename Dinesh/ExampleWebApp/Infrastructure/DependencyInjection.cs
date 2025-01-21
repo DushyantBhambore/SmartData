@@ -13,7 +13,6 @@ namespace Infrastructure
         {
             services.AddScoped<IAppDbContext, AppDbContext>();
             services.AddTransient<IStudentService, StudentService>();
-
             services.AddDbContext<AppDbContext>((provider, options) =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),

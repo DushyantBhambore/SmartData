@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C230458E-0379-44C1-87AE-9E566B1C1C54}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C230458E-0379-44C1-87AE-9E566B1C1C54}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\apps\\user\\command\\addregistercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\addregistercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\apps\\user\\command\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\webapi\\wwwroot\\uploads\\009252db-2c21-4304-bb41-aea0e4fb8d5b.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{FBE3287D-546C-4031-BE2E-4B36B4867F96}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\wwwroot\\uploads\\009252db-2c21-4304-bb41-aea0e4fb8d5b.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C230458E-0379-44C1-87AE-9E566B1C1C54}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C230458E-0379-44C1-87AE-9E566B1C1C54}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,20 +83,12 @@
       "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\apps\\state\\command\\addstatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\state\\command\\addstatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\dtos\\statedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dtos\\statedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AEAB925-CB0B-42F3-BFA6-C4248436376F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D170D2E-A706-49F6-9478-C6737B8BC65A}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\mega assesment\\backend\\mega assesment\\app.core\\apps\\user\\command\\verifyotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,11 +150,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\EmailService.cs",
+              "RelativeDocumentMoniker": "App.Core\\EmailService.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\EmailService.cs",
+              "RelativeToolTip": "App.Core\\EmailService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:25:54.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T06:13:05.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.Core",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-21T06:00:07.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:59:21.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "App.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:54:42.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -147,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "009252db-2c21-4304-bb41-aea0e4fb8d5b.png",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\wwwroot\\Uploads\\009252db-2c21-4304-bb41-aea0e4fb8d5b.png",
               "RelativeDocumentMoniker": "WebAPI\\wwwroot\\Uploads\\009252db-2c21-4304-bb41-aea0e4fb8d5b.png",
@@ -158,19 +242,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAhwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T12:26:41.775Z"
+              "WhenOpened": "2024-11-29T12:26:41.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dtos\\LoginDto.cs",
@@ -182,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "20241129120924_FinalMigration.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Migrations\\20241129120924_FinalMigration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241129120924_FinalMigration.cs",
@@ -194,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "20241129105936_FifthMigration.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Migrations\\20241129105936_FifthMigration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241129105936_FifthMigration.cs",
@@ -206,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "StateDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Dtos\\StateDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dtos\\StateDto.cs",
@@ -218,15 +303,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\DependencyInjection.cs",
               "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T09:16:57.609Z"
+              "WhenOpened": "2024-11-29T09:16:57.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -236,13 +322,14 @@
               "RelativeDocumentMoniker": "App.Core\\FileService.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\FileService.cs",
               "RelativeToolTip": "App.Core\\FileService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T09:10:31.943Z"
+              "WhenOpened": "2024-11-29T09:10:31.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\IFileService.cs",
               "RelativeDocumentMoniker": "App.Core\\IFileService.cs",
@@ -250,11 +337,12 @@
               "RelativeToolTip": "App.Core\\IFileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T09:09:48.859Z"
+              "WhenOpened": "2024-11-29T09:09:48.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "LoginUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\User\\Command\\LoginUserCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\LoginUserCommand.cs",
@@ -266,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\WeatherForecastController.cs",
@@ -278,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "20241129062440_FourthMigration.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Migrations\\20241129062440_FourthMigration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241129062440_FourthMigration.cs",
@@ -290,19 +378,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Domain\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Domain\\User.cs",
               "RelativeToolTip": "Domain\\User.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T06:22:36.38Z"
+              "WhenOpened": "2024-11-29T06:22:36.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Dtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dtos\\RegisterDto.cs",
@@ -314,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "20241129061842_ThirdMigration.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\Migrations\\20241129061842_ThirdMigration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241129061842_ThirdMigration.cs",
@@ -326,19 +415,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\Infrastructure\\AppDbContext.cs",
               "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T06:17:35.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "UpdateRoleCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\Role\\Command\\UpdateRoleCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Role\\Command\\UpdateRoleCommand.cs",
@@ -350,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "DeleteRoleCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\Role\\Command\\DeleteRoleCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Role\\Command\\DeleteRoleCommand.cs",
@@ -362,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "AddRoleCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\Role\\Command\\AddRoleCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Role\\Command\\AddRoleCommand.cs",
@@ -374,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "RoleDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Dtos\\RoleDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dtos\\RoleDto.cs",
@@ -386,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "VerifyOtpDto.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Dtos\\VerifyOtpDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dtos\\VerifyOtpDto.cs",
@@ -398,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "VerifyOtpCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\User\\Command\\VerifyOtpCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\VerifyOtpCommand.cs",
@@ -410,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "AddRegisterCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\User\\Command\\AddRegisterCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\AddRegisterCommand.cs",
@@ -422,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\UserController.cs",
@@ -434,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "GetRoleByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\State\\Query\\GetRoleByIdQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\State\\Query\\GetRoleByIdQuery.cs",
@@ -446,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "AddStateCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\State\\Command\\AddStateCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\State\\Command\\AddStateCommand.cs",
@@ -458,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "StateController.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\Controllers\\StateController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\StateController.cs",
@@ -470,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "CountryController.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\WebAPI\\Controllers\\CountryController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\CountryController.cs",
@@ -482,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "AddCountryCommand.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Mega Assesment\\Backend\\Mega Assesment\\App.Core\\Apps\\Country\\Command\\AddCountryCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Country\\Command\\AddCountryCommand.cs",

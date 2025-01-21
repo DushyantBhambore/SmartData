@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\PracticeAssesment\\Backend\\WebApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD7FF00-8F58-4328-BAFD-2BA00DF6FEC5}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\practiceassesment\\backend\\webapplication\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD7FF00-8F58-4328-BAFD-2BA00DF6FEC5}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852D9AFC-438F-4E24-9A95-736D95A6A951}|Infrastruture\\Infrastruture.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\practiceassesment\\backend\\webapplication\\infrastruture\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{852D9AFC-438F-4E24-9A95-736D95A6A951}|Infrastruture\\Infrastruture.csproj|solutionrelative:infrastruture\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58228B30-CFD6-4A82-BF0B-AA318592BBFC}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\smartdata\\practiceassesment\\backend\\webapplication\\app.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58228B30-CFD6-4A82-BF0B-AA318592BBFC}|App.Core\\App.Core.csproj|solutionrelative:app.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\PracticeAssesment\\Backend\\WebApplication\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\PracticeAssesment\\Backend\\WebApplication\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:21:15.774Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\PracticeAssesment\\Backend\\WebApplication\\Infrastruture\\Class1.cs",
+              "RelativeDocumentMoniker": "Infrastruture\\Class1.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\PracticeAssesment\\Backend\\WebApplication\\Infrastruture\\Class1.cs",
+              "RelativeToolTip": "Infrastruture\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:20:58.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\PracticeAssesment\\Backend\\WebApplication\\App.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "App.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\PracticeAssesment\\Backend\\WebApplication\\App.Core\\Class1.cs",
+              "RelativeToolTip": "App.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:20:14.744Z",
+              "EditorCaption": ""
             }
           ]
         }

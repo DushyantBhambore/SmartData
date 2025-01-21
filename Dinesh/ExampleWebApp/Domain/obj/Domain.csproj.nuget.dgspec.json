@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {}
+    "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
+    "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
-        "outputPath": "D:\\Dinesh\\ExampleWebApp\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\smartData\\Dinesh\\ExampleWebApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",

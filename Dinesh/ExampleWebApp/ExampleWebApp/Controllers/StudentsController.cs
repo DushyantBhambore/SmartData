@@ -17,7 +17,6 @@ namespace ExampleWebApp.Controllers
         {
             _studentService = studentService;
         }
-
         [HttpPost]
         public async Task<IActionResult> Post(StudentDto model)
         {
