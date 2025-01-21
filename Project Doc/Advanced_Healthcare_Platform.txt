@@ -1,0 +1,151 @@
+## **Advanced Healthcare Platform Design Document**
+
+### **1. Project Overview**
+
+**Objective**: Develop a comprehensive healthcare platform with functionalities for patient and provider management, telemedicine, appointment scheduling, and AI-driven diagnostics. The application will enhance the efficiency of healthcare services and improve patient care.
+
+### **2. Main Features**
+
+1. **User Management**
+   - **Registration and Login**
+     - **User Table**: Stores user information (Id, FirstName, LastName, DateOfBirth, UserName, Email, PhoneNumber, PasswordHash, PasswordSalt).
+     - Username generated automatically: Combination of first name, last initial, and unique identifier.
+   - **Forgot Password**
+     - Email validation, generate and send 8-digit random password.
+   - **Two-Factor Authentication (2FA)**
+     - After successful login, send 6-digit OTP to the registered mobile number.
+     - Validate OTP before granting access.
+
+2. **Patient Portal**
+   - View and manage personal health records.
+   - Schedule and manage appointments.
+   - View prescription history and medical records.
+   - Secure messaging with healthcare providers.
+   - Telemedicine consultations via video calls.
+
+3. **Provider Portal**
+   - Manage patient records and appointment schedules.
+   - Access to diagnostic tools and patient history.
+   - Telemedicine consultations via video calls.
+   - Secure messaging with patients.
+   - Generate and manage prescriptions.
+
+4. **Appointment Management**
+   - **Patient View**: View and manage appointments.
+   - **Add Appointment Form**: Speciality dropdown, Provider dropdown (filtered by Speciality), Date Picker, Time Picker, Chief Complaint textbox, payment integration.
+   - Appointment status: "Scheduled", "Completed".
+   - Email notifications for both Patients and Providers.
+
+5. **Telemedicine**
+   - Secure video consultations between patients and providers.
+   - Real-time chat during consultations.
+   - Share medical records and prescriptions during consultations.
+
+6. **AI-Driven Diagnostics**
+   - Integrate AI models for diagnostic support.
+   - Provide predictive analytics and health insights.
+   - Utilize machine learning for improving diagnostics accuracy.
+
+7. **Reports and Analytics**
+   - Generate reports for patient health records and appointments.
+   - Provide visualizations such as charts and graphs for better insights.
+   - AI-based analytics for predictive health trends.
+
+8. **Security**
+   - Encrypt sensitive data.
+   - Implement JWT for secure authentication.
+   - Ensure secure communication with telemedicine and diagnostic APIs.
+
+### **3. Database Schema**
+
+**Users Table**:
+- Id (PK)
+- FirstName
+- LastName
+- DateOfBirth
+- UserName (unique)
+- Email (unique)
+- PhoneNumber (unique)
+- PasswordHash
+- PasswordSalt
+
+**Appointments Table**:
+- Id (PK)
+- PatientId (FK)
+- ProviderId (FK)
+- AppointmentDate
+- AppointmentTime
+- ChiefComplaint
+- AppointmentStatus (Scheduled, Completed)
+- Fee
+
+**MedicalRecords Table**:
+- Id (PK)
+- PatientId (FK)
+- RecordDate
+- Diagnosis
+- Treatment
+- Prescriptions
+
+**OTPs Table**:
+- Id (PK)
+- UserId (FK)
+- OTP
+- ExpiryDateTime
+
+### **4. Functionality Details**
+
+**User Registration**:
+- Fields: FirstName, LastName, DateOfBirth, Email, PhoneNumber, Password.
+- Username format: "FirstNameLastInitial_Identifier".
+- Encrypt and store password.
+
+**Login & 2FA**:
+- Validate username and password.
+- Generate and send OTP.
+- Validate OTP.
+
+**Patient Portal**:
+- Manage health records, appointments, and prescriptions.
+- Secure messaging and telemedicine consultations.
+
+**Provider Portal**:
+- Manage patient records, appointments, and prescriptions.
+- Access diagnostic tools and telemedicine consultations.
+
+**Appointment Scheduling**:
+- **Patient**: Select Speciality and Provider, pick date and time, add Chief Complaint, complete payment.
+- **Provider**: Manage appointment schedules and patient details.
+
+**Telemedicine**:
+- Secure video consultations and real-time chat.
+- Share medical records during consultations.
+
+**AI-Driven Diagnostics**:
+- Integrate AI models for diagnostics support.
+- Provide health insights and predictive analytics.
+
+**Reports and Analytics**:
+- Generate health records and appointment reports.
+- Visualizations for better insights and AI-based analytics.
+
+### **5. Implementation Steps**
+
+1. **Set up Backend (.NET Core Web API)**
+   - Create API endpoints for user management, patient and provider portals, appointment management, telemedicine, and AI-driven diagnostics.
+   - Configure JWT authentication and 2FA.
+   - Integrate with telemedicine and diagnostic APIs for real-time data.
+
+2. **Set up Frontend (Angular)**
+   - Design user interfaces for registration, login, patient and provider portals, appointment management, telemedicine, and AI-driven diagnostics.
+   - Implement service calls to the backend API.
+
+3. **Testing and Deployment**
+   - Test all functionalities thoroughly.
+   - Deploy the application to a suitable environment.
+
+### **6. Additional Notes**
+
+- **Security**: Ensure all sensitive data is encrypted and follow best practices for authentication and authorization.
+- **Scalability**: Design the application with scalability in mind to handle a growing number of users and health data.
+- **User Experience**: Focus on creating a user-friendly interface and seamless user experience.

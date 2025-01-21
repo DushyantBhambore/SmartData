@@ -1,0 +1,10 @@
+SET NOCOUNT ON and SET NOCOUNT OFF will show the status of Transact-SQL statement
+
+DeScription
+What is SET NOCOUNT ON and SET NOCOUNT OFF, Using Stored Procedure In SQL Server ?
+
+SET NOCOUNT ON- It will show "Command(s) completed successfully" .
+SET NOCOUNT OFF- it will show "(No. Of row(s) affected)" .
+
+
+In real time, always use SET NOCOUNT ON; 

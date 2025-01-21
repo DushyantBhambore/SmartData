@@ -1,0 +1,162 @@
+## **Advanced Fintech Application Design Document**
+
+### **1. Project Overview**
+
+**Objective**: Develop a comprehensive Fintech application with functionalities for personal finance management, 
+budgeting, investment tracking, and real-time financial analytics. The application will provide users with tools
+to manage their finances effectively and make informed investment decisions.
+
+### **2. Main Features**
+
+1. **User Management**
+   - **Registration and Login**
+     - **User Table**: Stores user information (Id, FirstName, LastName, DateOfBirth, UserName, Email, PhoneNumber, PasswordHash, PasswordSalt).
+     - Username generated automatically: Combination of first name, last initial, and unique identifier.
+   - **Forgot Password**
+     - Email validation, generate and send 8-digit random password.
+   - **Two-Factor Authentication (2FA)**
+     - After successful login, send 6-digit OTP to the registered mobile number.
+     - Validate OTP before granting access.
+
+2. **Dashboard**
+   - Overview of personal finance including account balances, recent transactions, budget summary, and investment portfolio performance.
+   - Real-time financial analytics and visualizations.
+
+3. **Accounts Management**
+   - Add, edit, and delete various types of accounts (e.g., checking, savings, credit card, investment).
+   - Display account details and transaction history.
+
+4. **Budgeting**
+   - Create and manage budgets for different categories (e.g., groceries, entertainment, bills).
+   - Track spending against budgets and provide alerts for budget limits.
+
+5. **Transaction Management**
+   - Add, edit, and delete transactions.
+   - Categorize transactions for better tracking and analysis.
+   - Import transactions from bank statements.
+
+6. **Investment Tracking**
+   - Add, edit, and delete investment accounts.
+   - Track portfolio performance and individual investments.
+   - Real-time updates on stock prices and investment values.
+   - Financial projections and analytics.
+
+7. **Reports and Analytics**
+   - Generate financial reports (e.g., monthly spending, budget performance, investment performance).
+   - Provide visualizations such as charts and graphs for better insights.
+
+8. **Security**
+   - Encrypt sensitive data.
+   - Implement JWT for secure authentication.
+   - Ensure secure communication with financial APIs.
+
+### **3. Database Schema**
+
+**Users Table**:
+- Id (PK)
+- FirstName
+- LastName
+- DateOfBirth
+- UserName (unique)
+- Email (unique)
+- PhoneNumber (unique)
+- PasswordHash
+- PasswordSalt
+
+**Accounts Table**:
+- Id (PK)
+- UserId (FK)
+- AccountName
+- AccountType (e.g., Checking, Savings, Credit Card, Investment)
+- Balance
+
+**Transactions Table**:
+- Id (PK)
+- AccountId (FK)
+- TransactionDate
+- Amount
+- Description
+- Category
+
+**Budgets Table**:
+- Id (PK)
+- UserId (FK)
+- Category
+- BudgetAmount
+- StartDate
+- EndDate
+
+**Investments Table**:
+- Id (PK)
+- UserId (FK)
+- InvestmentName
+- InvestmentType (e.g., Stock, Bond, Mutual Fund)
+- PurchaseDate
+- PurchaseAmount
+- CurrentValue
+
+**OTPs Table**:
+- Id (PK)
+- UserId (FK)
+- OTP
+- ExpiryDateTime
+
+### **4. Functionality Details**
+
+**User Registration**:
+- Fields: FirstName, LastName, DateOfBirth, Email, PhoneNumber, Password.
+- Username format: "FirstNameLastInitial_Identifier".
+- Encrypt and store password.
+
+**Login & 2FA**:
+- Validate username and password.
+- Generate and send OTP.
+- Validate OTP.
+
+**Dashboard**:
+- Display overview of personal finance.
+- Real-time analytics and visualizations.
+
+**Accounts Management**:
+- Add, edit, delete accounts.
+- Display account details and transaction history.
+
+**Budgeting**:
+- Create and manage budgets.
+- Track spending against budgets.
+- Alerts for budget limits.
+
+**Transaction Management**:
+- Add, edit, delete transactions.
+- Categorize transactions.
+- Import transactions from bank statements.
+
+**Investment Tracking**:
+- Add, edit, delete investment accounts.
+- Track portfolio performance.
+- Real-time stock prices and investment values.
+
+**Reports and Analytics**:
+- Generate financial reports.
+- Visualizations for better insights.
+
+### **5. Implementation Steps**
+
+1. **Set up Backend (.NET Core Web API)**
+   - Create API endpoints for user management, account management, transaction management, budgeting, investment tracking, and reporting.
+   - Configure JWT authentication and 2FA.
+   - Integrate with financial APIs for real-time data.
+
+2. **Set up Frontend (Angular)**
+   - Design user interfaces for registration, login, dashboard, account management, transaction management, budgeting, investment tracking, and reporting.
+   - Implement service calls to the backend API.
+
+3. **Testing and Deployment**
+   - Test all functionalities thoroughly.
+   - Deploy the application to a suitable environment.
+
+### **6. Additional Notes**
+
+- **Security**: Ensure all sensitive data is encrypted and follow best practices for authentication and authorization.
+- **Scalability**: Design the application with scalability in mind to handle a growing number of users and financial data.
+- **User Experience**: Focus on creating a user-friendly interface and seamless user experience.
